@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/Bag.cpp
+Bag.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/Bag.h
+BagIterator.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/BagIterator.h
+iostream
+-
+exception
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/Bag.h
+utility
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/BagIterator.cpp
+exception
+-
+BagIterator.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/BagIterator.h
+Bag.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/Bag.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/BagIterator.h
+Bag.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/Bag.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/ExtendedTest.cpp
+assert.h
+-
+Bag.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/Bag.h
+ExtendedTest.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/ExtendedTest.h
+BagIterator.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/BagIterator.h
+iostream
+-
+vector
+-
+exception
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/ExtendedTest.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/ShortTest.cpp
+ShortTest.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/ShortTest.h
+assert.h
+-
+Bag.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/Bag.h
+BagIterator.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/BagIterator.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/ShortTest.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/app.cpp
+Bag.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/Bag.h
+ShortTest.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/ShortTest.h
+ExtendedTest.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 1/Assignment 1 DSA/ExtendedTest.h
+iostream
+-
+

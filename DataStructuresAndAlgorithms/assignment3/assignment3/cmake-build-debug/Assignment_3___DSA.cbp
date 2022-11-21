@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment_3___DSA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_3___DSA">
+				<Option output="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/cmake-build-debug/Assignment_3___DSA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_3___DSA"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_3___DSA/fast">
+				<Option output="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/cmake-build-debug/Assignment_3___DSA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_3___DSA/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab\ 3/Assignment\ 3\ DSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/App.cpp">
+			<Option target="Assignment_3___DSA"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ExtendedTest.cpp">
+			<Option target="Assignment_3___DSA"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ExtendedTest.h">
+			<Option target="Assignment_3___DSA"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/Node.cpp">
+			<Option target="Assignment_3___DSA"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/Node.h">
+			<Option target="Assignment_3___DSA"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ShortTest.cpp">
+			<Option target="Assignment_3___DSA"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ShortTest.h">
+			<Option target="Assignment_3___DSA"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSet.cpp">
+			<Option target="Assignment_3___DSA"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSet.h">
+			<Option target="Assignment_3___DSA"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSetIterator.cpp">
+			<Option target="Assignment_3___DSA"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSetIterator.h">
+			<Option target="Assignment_3___DSA"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/App.cpp
+ShortTest.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ShortTest.h
+ExtendedTest.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ExtendedTest.h
+SortedSet.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSet.h
+SortedSetIterator.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSetIterator.h
+iostream
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ExtendedTest.cpp
+SortedSet.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSet.h
+assert.h
+-
+SortedSetIterator.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSetIterator.h
+exception
+-
+ExtendedTest.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ExtendedTest.h
+iostream
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ExtendedTest.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/Node.cpp
+Node.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/Node.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/Node.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ShortTest.cpp
+ShortTest.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ShortTest.h
+SortedSet.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSet.h
+SortedSetIterator.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSetIterator.h
+assert.h
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/ShortTest.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSet.cpp
+SortedSet.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSet.h
+SortedSetIterator.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSetIterator.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSet.h
+Node.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/Node.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSetIterator.cpp
+SortedSetIterator.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSetIterator.h
+exception
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSetIterator.h
+SortedSet.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 3/Assignment 3 DSA/SortedSet.h
+

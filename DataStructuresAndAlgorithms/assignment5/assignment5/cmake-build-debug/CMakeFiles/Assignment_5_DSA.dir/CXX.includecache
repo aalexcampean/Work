@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/App.cpp
+iostream
+-
+ShortTest.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/ShortTest.h
+ExtendedTest.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/ExtendedTest.h
+ListIterator.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/ListIterator.h
+SortedIndexedList.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/SortedIndexedList.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/ExtendedTest.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/ListIterator.cpp
+ListIterator.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/ListIterator.h
+SortedIndexedList.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/SortedIndexedList.h
+iostream
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/ListIterator.h
+SortedIndexedList.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/SortedIndexedList.h
+stack
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/Node.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/ShortTest.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/SortedIndexedList.h
+Node.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/DSA/Labs/Lab 5/Assignment 5 DSA/Node.h
+
