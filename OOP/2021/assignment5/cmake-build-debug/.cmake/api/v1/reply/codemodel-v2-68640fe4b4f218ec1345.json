@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "a89_912_Campean_Catalin",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "a89_912_Campean_Catalin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a89_912_Campean_Catalin-Debug-5282893604846f46c5b9.json",
+					"name" : "a89_912_Campean_Catalin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "a89_912_Campean_Catalin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a89_912_Campean_Catalin_autogen-Debug-5f086eb6989870040241.json",
+					"name" : "a89_912_Campean_Catalin_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/a89-912-Campean-Catalin/cmake-build-debug",
+		"source" : "/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/a89-912-Campean-Catalin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

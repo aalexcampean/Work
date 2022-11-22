@@ -1,0 +1,7 @@
+10,An incredible idea,Accepted,Alex,1
+11,An incredible idea2,Accepted,Alexandra,2
+12,An incredible idea3,Accepted,Florin,2
+13,An incredible idea4,proposed,Alex,3
+0,New Idea,proposed,Florin Ciocan,3
+0,New New,proposed,Florin Ciocan,2
+0,ertghjhgrewertyu,proposed,Alexandra Gog,3

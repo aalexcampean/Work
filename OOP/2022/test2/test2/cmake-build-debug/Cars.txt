@@ -1,0 +1,4 @@
+4 | | Electric Engine | Fuel Type: electricity | Base Price: 3000.000000 | Autonomy: 500
+4 | | Turbo Engine | Fuel Type: diesel | Base Price: 3000.000000
+2 | | Electric Engine | Fuel Type: electricity | Base Price: 3000.000000 | Autonomy: 150
+4 | | Turbo Engine | Fuel Type: gasoline | Base Price: 3000.000000

@@ -1,0 +1,27 @@
+ 1) cat last.fake | grep -E "economica" last.fake | grep -E "Sun" | sort | awk -F' '  '{print $1}' | uniq
+2)  cat last.fake | awk -F' ' '{print $1, $7}' | sed -E "y/:/ /" | awk -F' ' '$2 >= 23 {print $1}' | head -6 | sort | uniq
+3) grep -E "^m" file | awk -F: '$3 % 7 == 0 {print $5}'
+4)  cat ps.fake | grep -E "^root" |awk -F' ' '{print $6}'|sort|uniq
+5)  grep -E "^[a-z][a-z][a-z][a-z][0-9][0-9]88:" file | awk -F: '{print $5}'
+6) grep -E "^[a-z0-9]{8}:x:23[0-9]" file | awk -F: '{print $5}'
+7)  cat last.fake | grep -E "^t[a-z0-9]{7} pts/9" | awk -F' ' '{print $1}' | sort | uniq
+8) cat ps.fake | grep -E "^r" |awk -F' ' '{print $1}'| sort | uniq | sed -E "s/([aeiou])/\1\1/gi"
+9) sed -E "s/([a-z0-9 ])//gi" file |sort |uniq
+10)  sed -E "s/([^r])//gi" file | sort | uniq
+11)cat ps.fake | awk -F' ' -f prog.awk
+prog.awk :  
+   	BEGIN{
+	sum=0
+	}
+
+	{
+	sum+=$2
+	}
+
+	END{
+	sum/=NR
+	print sum
+	}
+
+
+

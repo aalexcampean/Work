@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "t2_912_Campean_Catalin_1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "t2_912_Campean_Catalin_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t2_912_Campean_Catalin_1-Debug-1b069b3a2fda6d742c7c.json",
+					"name" : "t2_912_Campean_Catalin_1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/cmake-build-debug",
+		"source" : "/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,5 @@
+/Users/alexcampean/Documents/GitHub/exam-practice-quiz/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alexcampean/Documents/GitHub/exam-practice-quiz/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alexcampean/Documents/GitHub/exam-practice-quiz/cmake-build-debug/CMakeFiles/exam-practice-quiz.dir
+/Users/alexcampean/Documents/GitHub/exam-practice-quiz/cmake-build-debug/CMakeFiles/exam-practice-quiz_autogen_timestamp_deps.dir
+/Users/alexcampean/Documents/GitHub/exam-practice-quiz/cmake-build-debug/CMakeFiles/exam-practice-quiz_autogen.dir

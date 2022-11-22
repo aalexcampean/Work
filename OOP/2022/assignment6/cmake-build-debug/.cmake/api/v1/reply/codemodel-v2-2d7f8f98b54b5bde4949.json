@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "a14_aalexcampean",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "a14_aalexcampean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a14_aalexcampean-Debug-b0fb615e9f32a12c8af2.json",
+					"name" : "a14_aalexcampean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "a14_aalexcampean_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a14_aalexcampean_autogen-Debug-e665f3009f4d2f03e192.json",
+					"name" : "a14_aalexcampean_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "a14_aalexcampean_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a14_aalexcampean_autogen_timestamp_deps-Debug-00a149108a54dde6a65d.json",
+					"name" : "a14_aalexcampean_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alexcampean/Documents/GitHub/a14-aalexcampean/cmake-build-debug",
+		"source" : "/Users/alexcampean/Documents/GitHub/a14-aalexcampean"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

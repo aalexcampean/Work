@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/a89_912_Campean_Catalin_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/a89_912_Campean_Catalin_autogen.dir/ParseCache.txt"
+  "a89_912_Campean_Catalin_autogen"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/CsvRepository/CsvRepo.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/CsvRepository/CsvRepo.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Domain/Movie.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Domain/Movie.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Exception/CustomException.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Exception/CustomException.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/HtmlRepository/HtmlRepo.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/HtmlRepository/HtmlRepo.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/MemoryRepository/MemoryRepo.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/MemoryRepository/MemoryRepo.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Service/AdminService.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Service/AdminService.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Service/UserService.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Service/UserService.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Start.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Start.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Tests/Tests.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Tests/Tests.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/TextRepository/TextRepo.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/TextRepository/TextRepo.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/UserInterface/Ui.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/UserInterface/Ui.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Validator/EntityValidator.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/Validator/EntityValidator.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/a89_912_Campean_Catalin_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/a89_912_Campean_Catalin_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/gui.cpp.o"
+  "CMakeFiles/a89_912_Campean_Catalin.dir/gui.cpp.o.d"
+  "a89_912_Campean_Catalin"
+  "a89_912_Campean_Catalin.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/a89_912_Campean_Catalin.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

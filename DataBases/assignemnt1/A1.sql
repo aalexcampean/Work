@@ -1,0 +1,186 @@
+CREATE DATABASE CampeonPhotography;
+USE CampeonPhotography
+
+-- CREATE THE TABLES
+
+CREATE TABLE Photographer(
+    id INT NOT NULL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    surname VARCHAR(50) NOT NULL,
+    phoneNumber VARCHAR(15) NOT NULL,
+    email VARCHAR(50) NOT NULL
+);
+GO
+
+CREATE TABLE Camera(
+    id INT NOT NULL PRIMARY KEY,
+    model VARCHAR(50) NOT NULL,
+    dateOfPurchase DATE NOT NULL
+);
+GO
+
+CREATE TABLE Client(
+    id INT NOT NULL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    surname VARCHAR(50) NOT NULL,
+    phoneNumber VARCHAR(15) NOT NULL,
+    email VARCHAR(50) NOT NULL
+);
+GO
+
+CREATE TABLE Groups(
+    id INT NOT NULL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL
+);
+GO
+
+CREATE TABLE Deadline(
+    id INT NOT NULL PRIMARY KEY,
+    date DATE NOT NULL
+);
+GO
+
+CREATE TABLE Location(
+  id INT NOT NULL PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  address VARCHAR(50) NOT NULL
+);
+GO
+
+CREATE TABLE GroupsMember(
+    id INT NOT NULL PRIMARY KEY,
+    groupsId INT NOT NULL FOREIGN KEY REFERENCES Groups(id),
+    clientId INT NOT NULL FOREIGN KEY REFERENCES Client(id)
+);
+GO
+
+CREATE TABLE PhotoShootBatch(
+    id INT NOT NULL PRIMARY KEY,
+    cameraId INT NOT NULL FOREIGN KEY REFERENCES Camera(id),
+    deadlineID INT NOT NULL FOREIGN KEY REFERENCES Deadline(id)
+);
+GO
+
+CREATE TABLE PhotoShoot(
+    id INT NOT NULL PRIMARY KEY,
+    photographerId INT NOT NULL FOREIGN KEY REFERENCES Photographer(id),
+    photoShootBatchId INT NOT NULL FOREIGN KEY REFERENCES PhotoShootBatch(id),
+    groupsId INT NOT NULL FOREIGN KEY REFERENCES Groups(id)
+);
+GO
+
+CREATE TABLE PhotoShootLocation(
+  id INT NOT NULL PRIMARY KEY,
+  photoShootId INT NOT NULL FOREIGN KEY REFERENCES PhotoShoot(id),
+  locationId INT NOT NULL FOREIGN KEY REFERENCES Location(id)
+);
+GO
+
+-- DROP EVERYTHING
+
+DROP TABLE PhotoShootLocation;
+GO
+
+DROP TABLE PhotoShoot;
+GO
+
+DROP TABLE PhotoShootBatch;
+GO
+
+DROP TABLE GroupsMember;
+GO
+
+DROP TABLE Location;
+GO
+
+DROP TABLE Deadline;
+GO
+
+DROP TABLE Groups;
+GO
+
+DROP TABLE Client;
+GO
+
+DROP TABLE Camera;
+GO
+
+DROP TABLE Photographer;
+GO
+
+
+
+-- CREATE BACK THE TABLES
+
+CREATE TABLE Photographer(
+    id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    name VARCHAR(50) NOT NULL,
+    surname VARCHAR(50) NOT NULL,
+    phoneNumber VARCHAR(15) NOT NULL,
+    email VARCHAR(50) NOT NULL
+);
+GO
+
+CREATE TABLE Camera(
+    id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    model VARCHAR(50) NOT NULL,
+    dateOfPurchase DATE NOT NULL
+);
+GO
+
+CREATE TABLE Client(
+    id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    name VARCHAR(50) NOT NULL,
+    surname VARCHAR(50) NOT NULL,
+    phoneNumber VARCHAR(15) NOT NULL,
+    email VARCHAR(50) NOT NULL
+);
+GO
+
+CREATE TABLE Groups(
+    id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    name VARCHAR(50) NOT NULL
+);
+GO
+
+CREATE TABLE Location(
+  id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+  name VARCHAR(50) NOT NULL,
+  address VARCHAR(50) NOT NULL
+);
+GO
+
+CREATE TABLE Deadline(
+    id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    date DATE NOT NULL
+);
+GO
+
+CREATE TABLE GroupsMember(
+    id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    groupsId INT NOT NULL FOREIGN KEY REFERENCES Groups(id),
+    clientId INT NOT NULL FOREIGN KEY REFERENCES Client(id)
+);
+GO
+
+CREATE TABLE PhotoShootBatch(
+    id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    cameraId INT NOT NULL FOREIGN KEY REFERENCES Camera(id),
+    deadlineID INT NOT NULL FOREIGN KEY REFERENCES Deadline(id)
+);
+GO
+
+CREATE TABLE PhotoShoot(
+    id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    photographerId INT NOT NULL FOREIGN KEY REFERENCES Photographer(id),
+    photoShootBatchId INT NOT NULL FOREIGN KEY REFERENCES PhotoShootBatch(id),
+    groupsId INT NOT NULL FOREIGN KEY REFERENCES Groups(id)
+);
+GO
+
+CREATE TABLE PhotoShootLocation(
+  id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+  photoShootId INT NOT NULL FOREIGN KEY REFERENCES PhotoShoot(id),
+  locationId INT NOT NULL FOREIGN KEY REFERENCES Location(id)
+);
+GO

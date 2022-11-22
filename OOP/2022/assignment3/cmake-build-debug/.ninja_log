@@ -1,0 +1,7 @@
+# ninja log v5
+3	106	1648998970893458337	CMakeFiles/a5_6_aalexcampean.dir/Start.cpp.o	9e55c9aff147a78
+3	700	1649002875511784827	CMakeFiles/a5_6_aalexcampean.dir/Domain/Dog.cpp.o	653fcfb07f26717f
+5	705	1649002875520703881	CMakeFiles/a5_6_aalexcampean.dir/Tests/Tests.cpp.o	8c740a4dbf865c80
+5	701	1649002875509290800	CMakeFiles/a5_6_aalexcampean.dir/Repository/AdminRepository.cpp.o	647eef3379d94fdb
+4	701	1649002875508840546	CMakeFiles/a5_6_aalexcampean.dir/Repository/UserRepository.cpp.o	b3348dd7f3094999
+705	772	1649002875589470824	a5_6_aalexcampean	acf1da5d2c1ac1ab

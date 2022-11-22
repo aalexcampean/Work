@@ -1,0 +1,5 @@
+/Users/alexcampean/Documents/GitHub/a11-12-aalexcampean/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alexcampean/Documents/GitHub/a11-12-aalexcampean/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alexcampean/Documents/GitHub/a11-12-aalexcampean/cmake-build-debug/CMakeFiles/a11_12_aalexcampean.dir
+/Users/alexcampean/Documents/GitHub/a11-12-aalexcampean/cmake-build-debug/CMakeFiles/a11_12_aalexcampean_autogen_timestamp_deps.dir
+/Users/alexcampean/Documents/GitHub/a11-12-aalexcampean/cmake-build-debug/CMakeFiles/a11_12_aalexcampean_autogen.dir

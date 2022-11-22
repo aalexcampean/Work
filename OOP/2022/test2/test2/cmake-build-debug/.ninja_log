@@ -1,0 +1,11 @@
+# ninja log v5
+0	485	1651757030145108463	CMakeFiles/t2_aalexcampean.dir/Domain/ElectricEngine.cpp.o	f2ba7e29bdb62698
+1	486	1651757030145003713	CMakeFiles/t2_aalexcampean.dir/Domain/Engine.cpp.o	774543f13f12a25b
+1	486	1651757030145636296	CMakeFiles/t2_aalexcampean.dir/Domain/TurboEngine.cpp.o	3babdd28f31d6797
+0	510	1651757030175537675	CMakeFiles/t2_aalexcampean.dir/Domain/Car.cpp.o	3848183feeaf5050
+2	515	1651757030179988294	CMakeFiles/t2_aalexcampean.dir/Start.cpp.o	ed25dd763970b12c
+2	533	1651757030199061437	CMakeFiles/t2_aalexcampean.dir/UI/UI.cpp.o	b13314870e7ee73
+1	593	1651757030259265986	CMakeFiles/t2_aalexcampean.dir/Service/Service.cpp.o	cd01338191a46306
+594	636	1651757030303751680	t2_aalexcampean	30e68d0d341eb1a7
+2	365	1651757560738719822	CMakeFiles/t2_aalexcampean.dir/Service/Service.cpp.o	cd01338191a46306
+365	411	1651757560787070220	t2_aalexcampean	30e68d0d341eb1a7

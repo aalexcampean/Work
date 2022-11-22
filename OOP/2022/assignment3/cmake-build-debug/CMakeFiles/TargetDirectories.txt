@@ -1,0 +1,3 @@
+/Users/alexcampean/Documents/GitHub/a5-6-aalexcampean/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alexcampean/Documents/GitHub/a5-6-aalexcampean/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alexcampean/Documents/GitHub/a5-6-aalexcampean/cmake-build-debug/CMakeFiles/a5_6_aalexcampean.dir

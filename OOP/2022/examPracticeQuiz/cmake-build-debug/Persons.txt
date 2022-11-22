@@ -1,0 +1,4 @@
+Alex,0
+Maria,0
+Robert,0
+Niki,0

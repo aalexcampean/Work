@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Domain/Gene.h
+string
+-
+
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/DynamicArray/Da.h
+string
+-
+iostream
+-
+
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/Repository/Repository.cpp
+Repository.h
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/Repository/Repository.h
+
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/Repository/Repository.h
+Gene.h
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/Repository/Gene.h
+../DynamicArray/Da.h
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/DynamicArray/Da.h
+
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/Service/Service.cpp
+Service.h
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/Service/Service.h
+
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/Service/Service.h
+../Repository/Repository.h
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/Repository/Repository.h
+
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/Start.cpp
+iostream
+-
+User_Interface/Ui.h
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/User_Interface/Ui.h
+
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/User_Interface/Ui.cpp
+Ui.h
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/User_Interface/Ui.h
+iostream
+-
+string
+-
+
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/User_Interface/Ui.h
+../Service/Service.h
+/Users/alexcampean/Documents/GitHub/code folder/OOP/t1-912-Campean-Catalin-1/Service/Service.h
+

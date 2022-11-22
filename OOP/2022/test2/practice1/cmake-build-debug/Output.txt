@@ -1,0 +1,3 @@
+| Dishwasher | ID: 1 | Weight: 28.000000 | Washing Cycle Length: 2.000000 | Hourly Consumed Energy: 50.000000
+| Refrigerator | ID: 3 | Weight: 80.000000 | Electricity Class: A++ | Freezer: yes
+| Refrigerator | ID: 4 | Weight: 75.000000 | Electricity Class: A | Freezer: no

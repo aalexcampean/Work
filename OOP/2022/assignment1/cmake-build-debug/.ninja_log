@@ -1,0 +1,8 @@
+# ninja log v5
+29	73	1647372921885534251	a1_aalexcampean	54bd7eb58d21f709
+0	29	1647372921840548191	CMakeFiles/a1_aalexcampean.dir/Main.cpp.o	194a58fcb197f90b
+0	45	1647383123510751726	build.ninja	76fea6d20086e631
+0	70	1647383128621743581	CMakeFiles/a1_aalexcampean.dir/Main.c.o	d94c26fdfbd6c380
+70	109	1647383128661429065	a1_aalexcampean	ba5bd40f18b9a9af
+0	42	1647391549218314963	CMakeFiles/a1_aalexcampean.dir/Main.c.o	d94c26fdfbd6c380
+43	75	1647391549251768766	a1_aalexcampean	ba5bd40f18b9a9af

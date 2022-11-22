@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="t2_912_Campean_Catalin_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t2_912_Campean_Catalin_1">
+				<Option output="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/cmake-build-debug/t2_912_Campean_Catalin_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Domain"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 t2_912_Campean_Catalin_1"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t2_912_Campean_Catalin_1/fast">
+				<Option output="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/cmake-build-debug/t2_912_Campean_Catalin_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Domain"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 t2_912_Campean_Catalin_1/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs\ Code/t2-912-Campean-Catalin-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Domain/BMI.cpp">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Domain/BMI.h">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Domain/BP.cpp">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Domain/BP.h">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Domain/Measurement.cpp">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Domain/Measurement.h">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Exception/CustomException.cpp">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Exception/CustomException.h">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Person/Person.cpp">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/Person/Person.h">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/UserInterface/Ui.cpp">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/UserInterface/Ui.h">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/main.cpp">
+			<Option target="t2_912_Campean_Catalin_1"/>
+		</Unit>
+		<Unit filename="/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/t2-912-Campean-Catalin-1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

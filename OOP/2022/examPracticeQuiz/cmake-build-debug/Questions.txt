@@ -1,0 +1,9 @@
+1,How are you?,Ok,5
+2,Where have you been?,Bali,4
+3,What day is today?,Wednesday,3
+4,Are you vegan?,Yes,5
+5,Do you like Balenciaga?,Yes,5
+6,haha,yes,10
+11,New Question,Yes,9
+12,dfgh,sdf,10
+13,xcvbnm,dd,2

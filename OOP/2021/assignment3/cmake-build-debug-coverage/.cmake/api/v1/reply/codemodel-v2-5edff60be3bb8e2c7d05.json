@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "a45_912_Campean_Catalin",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "a45_912_Campean_Catalin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a45_912_Campean_Catalin-Debug-e00c22faaebcf0f7aa6a.json",
+					"name" : "a45_912_Campean_Catalin",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/a45-912-Campean-Catalin/cmake-build-debug-coverage",
+		"source" : "/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/a45-912-Campean-Catalin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

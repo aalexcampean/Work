@@ -1,0 +1,67 @@
+CREATE DATABASE CampeonPhotography;
+
+CREATE TABLE Photographer(
+    id INT NOT NULL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    surname VARCHAR(50) NOT NULL,
+    phoneNumber VARCHAR(15) NOT NULL,
+    email VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Camera(
+    id INT NOT NULL PRIMARY KEY,
+    model VARCHAR(50) NOT NULL,
+    dateOfPurchase DATE NOT NULL
+)
+
+CREATE TABLE Client(
+    id INT NOT NULL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    surname VARCHAR(50) NOT NULL,
+    phoneNumber VARCHAR(15) NOT NULL,
+    email VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Groups(
+    id INT NOT NULL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE GroupsMember(
+    id INT NOT NULL PRIMARY KEY,
+    groupsId INT NOT NULL FOREIGN KEY REFERENCES Groups(id),
+    clientId INT NOT NULL FOREIGN KEY REFERENCES Client(id)
+);
+
+CREATE TABLE PhotoShoot(
+    id INT NOT NULL PRIMARY KEY,
+    photographerId INT NOT NULL FOREIGN KEY REFERENCES Photographer(id),
+    photoShootBatchId INT NOT NULL FOREIGN KEY REFERENCES PhotoShootBatch(id),
+    groupsId INT NOT NULL FOREIGN KEY REFERENCES Groups(id)
+);
+
+CREATE TABLE PhotoShootLocation(
+  id INT NOT NULL PRIMARY KEY,
+  photoShootId INT NOT NULL FOREIGN KEY REFERENCES PhotoShoot(id),
+  locationId INT NOT NULL FOREIGN KEY REFERENCES Location(id)
+);
+
+CREATE TABLE Location(
+  id INT NOT NULL PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  address VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE PhotoShootBatch(
+    id INT NOT NULL PRIMARY KEY,
+    cameraId INT NOT NULL FOREIGN KEY REFERENCES Camera(id),
+    deadlineID INT NOT NULL FOREIGN KEY REFERENCES Deadline(id)
+);
+
+CREATE TABLE Deadline(
+    id INT NOT NULL PRIMARY KEY,
+    date DATE NOT NULL
+);
+
+
+

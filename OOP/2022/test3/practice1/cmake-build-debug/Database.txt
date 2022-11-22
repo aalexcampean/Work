@@ -1,0 +1,5 @@
+shoppingList: Drinks,Orange Juice,2
+Drinks,Water,6
+Dairy,Yogurt,4
+Dairy,Milk,1
+Sweets,Chocolate,3

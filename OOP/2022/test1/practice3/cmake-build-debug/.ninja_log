@@ -1,0 +1,15 @@
+# ninja log v5
+3	450	1649243228591242609	CMakeFiles/t1_practice3.dir/Tests/Tests.cpp.o	b90fc421cccec85e
+3	459	1649243113168971617	CMakeFiles/t1_practice3.dir/Domain/Task.cpp.o	120fd17487a3aa6
+9	244	1649243007367436319	CMakeFiles/t1_practice3.dir/Start.cpp.o	dbab41d4afa7bbb
+3	498	1649243113209509560	CMakeFiles/t1_practice3.dir/Repository/Repository.cpp.o	a9f2802a4e8e0134
+3	745	1649243258246605562	CMakeFiles/t1_practice3.dir/Service/Service.cpp.o	8c81485868400915
+745	808	1649243258313559337	t1_practice3	f52cb3577e27322e
+4	233	1649244514961341148	CMakeFiles/t1_practice3.dir/Start.cpp.o	dbab41d4afa7bbb
+6	788	1649244515519174252	CMakeFiles/t1_practice3.dir/UserInterface/Ui.cpp.o	c23dd6dade9350b6
+3	790	1649244515520452418	CMakeFiles/t1_practice3.dir/Service/Service.cpp.o	8c81485868400915
+4	705	1649244530770369001	CMakeFiles/t1_practice3.dir/Tests/Tests.cpp.o	b90fc421cccec85e
+3	732	1649244530801543574	CMakeFiles/t1_practice3.dir/Service/Service.cpp.o	8c81485868400915
+732	800	1649244530871135551	t1_practice3	af2d8d5a92e8e8f
+3	668	1649244571498051063	CMakeFiles/t1_practice3.dir/Start.cpp.o	dbab41d4afa7bbb
+668	735	1649244571570715663	t1_practice3	af2d8d5a92e8e8f

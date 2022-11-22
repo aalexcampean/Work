@@ -1,0 +1,27 @@
+# ninja log v5
+824	898	1654853967246985331	exam-practice1	659a8bc267296e84
+5	29	1654853966378789207	exam-practice1_autogen/mocs_compilation.cpp	1ea3d9138e59fab7
+4	183	1654696795629353000	exam_practice1_autogen/timestamp	18f9326df9197a91
+5	29	1654853966378789207	exam-practice1_autogen/timestamp	1ea3d9138e59fab7
+4	183	1654696795629353000	exam_practice1_autogen/mocs_compilation.cpp	18f9326df9197a91
+0	230	1654855642183086810	exam-practice-quiz_autogen/timestamp	8532b3666ad5afc3
+0	230	1654855642183086810	exam-practice-quiz_autogen/mocs_compilation.cpp	8532b3666ad5afc3
+0	230	1654855642183086810	/Users/alexcampean/Documents/GitHub/exam-practice-quiz/cmake-build-debug/exam-practice-quiz_autogen/timestamp	8532b3666ad5afc3
+0	230	1654855642183086810	/Users/alexcampean/Documents/GitHub/exam-practice-quiz/cmake-build-debug/exam-practice-quiz_autogen/mocs_compilation.cpp	8532b3666ad5afc3
+231	560	1654855642515290449	CMakeFiles/exam-practice-quiz.dir/Observer.cpp.o	f641655e7e698bbe
+230	572	1654855642529298151	CMakeFiles/exam-practice-quiz.dir/Exception/CustomException.cpp.o	203935abeb7a5170
+230	584	1654855642539360717	CMakeFiles/exam-practice-quiz.dir/Domain/Question.cpp.o	52bb08c59f31ea5a
+230	710	1654855642652674272	CMakeFiles/exam-practice-quiz.dir/Domain/Person.cpp.o	e4a7b651293e8b6e
+231	780	1654855642736369326	CMakeFiles/exam-practice-quiz.dir/Repository/PersonsRepo.cpp.o	1e130914004ee72b
+231	818	1654855642774604836	CMakeFiles/exam-practice-quiz.dir/Repository/QuestionRepo.cpp.o	238fad512e359021
+231	1191	1654855643146168713	CMakeFiles/exam-practice-quiz.dir/Widgets/PresenterWidget.cpp.o	efd30edaf7ac090a
+231	1201	1654855643155313213	CMakeFiles/exam-practice-quiz.dir/Widgets/ParticipantWidget.cpp.o	443ff8a9d7a0d37d
+230	1228	1654855643182428009	CMakeFiles/exam-practice-quiz.dir/exam-practice-quiz_autogen/mocs_compilation.cpp.o	62ddcf26140be93b
+233	1267	1654855643221570627	CMakeFiles/exam-practice-quiz.dir/main.cpp.o	8c2dedaa950b4bb6
+1268	1347	1654855643305850337	exam-practice-quiz	bc981a5c6d1c95f2
+5	39	1654865358356504295	exam-practice-quiz_autogen/timestamp	8532b3666ad5afc3
+5	39	1654865358356504295	exam-practice-quiz_autogen/mocs_compilation.cpp	8532b3666ad5afc3
+5	39	1654865358356504295	/Users/alexcampean/Documents/GitHub/exam-practice-quiz/cmake-build-debug/exam-practice-quiz_autogen/timestamp	8532b3666ad5afc3
+5	39	1654865358356504295	/Users/alexcampean/Documents/GitHub/exam-practice-quiz/cmake-build-debug/exam-practice-quiz_autogen/mocs_compilation.cpp	8532b3666ad5afc3
+42	1083	1654865359393881206	CMakeFiles/exam-practice-quiz.dir/Widgets/PresenterWidget.cpp.o	efd30edaf7ac090a
+1083	1182	1654865359499397071	exam-practice-quiz	bc981a5c6d1c95f2

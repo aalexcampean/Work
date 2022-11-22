@@ -1,0 +1,3 @@
+/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/a67-912-Campean-Catalin/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
+/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/a67-912-Campean-Catalin/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+/Users/alexcampean/Documents/university/sem_2/OOP/Labs/Labs Code/a67-912-Campean-Catalin/cmake-build-debug-coverage/CMakeFiles/a67_912_Campean_Catalin.dir

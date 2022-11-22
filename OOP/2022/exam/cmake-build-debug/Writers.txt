@@ -1,0 +1,3 @@
+1,Alexandra Gog,Junior
+2,Alex Campean,Junior
+3,Florin Ciocan,Senior

@@ -1,0 +1,25 @@
+# ninja log v5
+8	1139	1649853104182044885	CMakeFiles/a8_9_aalexcampean.dir/Validator/DogValidator.cpp.o	894e4ac6151ad712
+24	1621	1649834155622242355	CMakeFiles/a8_9_aalexcampean.dir/Repository/BaseRepository.cpp.o	27a691e12e000f80
+5	818	1649864046442102397	CMakeFiles/a8_9_aalexcampean.dir/Repository/CSV/CSVRepository.cpp.o	a270ca81eca58ac7
+23	1480	1649834155484314821	CMakeFiles/a8_9_aalexcampean.dir/Repository/AdminRepository.cpp.o	8cf3dcd13acdd9dc
+5	650	1649834897648330009	CMakeFiles/a8_9_aalexcampean.dir/Service/BaseService/BaseService.cpp.o	f5e7bf087aba61ad
+25	1490	1649834155430791979	CMakeFiles/a8_9_aalexcampean.dir/Repository/UserRepository.cpp.o	638658c3f066fc3d
+5	1181	1649853104223093646	CMakeFiles/a8_9_aalexcampean.dir/Repository/InMemory/InMemoryRepository.cpp.o	ba8184e4926b712
+3	939	1649844751488642235	CMakeFiles/a8_9_aalexcampean.dir/Domain/Dog.cpp.o	191e6200b0c21ccd
+14	1005	1649850403789500050	CMakeFiles/a8_9_aalexcampean.dir/Repository/TextFile/TextFileRepository.cpp.o	293f9cfeed2a8a1b
+6	375	1649809827474508559	CMakeFiles/a8_9_aalexcampean.dir/Tests/Tests.cpp.o	474af47f773cd18a
+27	1372	1649834155371043309	CMakeFiles/a8_9_aalexcampean.dir/Service/BaseService.cpp.o	fff2a23ab6b37d55
+5	1000	1649855013054315008	CMakeFiles/a8_9_aalexcampean.dir/Start.cpp.o	44d6b0f941953dee
+5	820	1649864046445757653	CMakeFiles/a8_9_aalexcampean.dir/Repository/HTML/HTMLRepository.cpp.o	6673ec152dd0f9d3
+4	1133	1649855013190633776	CMakeFiles/a8_9_aalexcampean.dir/Service/AdminService.cpp.o	6cbce2ea00750532
+820	898	1649864046526184241	a8_9_aalexcampean	43b0f4ea6df4ef6a
+4	767	1649864046387723892	CMakeFiles/a8_9_aalexcampean.dir/Service/UserService.cpp.o	15e8c895fe74cca0
+4	749	1649855423134294121	CMakeFiles/a8_9_aalexcampean.dir/UserInterface/Ui.cpp.o	546dd727b761f90a
+8	991	1649853104016868708	CMakeFiles/a8_9_aalexcampean.dir/Exception/CustomException.cpp.o	1f18d58bdcea95e0
+0	53	1652951327677034788	build.ninja	d8dec39cf202877e
+1	513	1652951328195137137	CMakeFiles/a8_9_aalexcampean.dir/Domain/Validator/DogValidator.cpp.o	65a979a62ae2de1
+2	275	1652951337660582579	CMakeFiles/a8_9_aalexcampean.dir/Service/AdminService.cpp.o	6cbce2ea00750532
+2	256	1652951345608024032	CMakeFiles/a8_9_aalexcampean.dir/Service/UserService.cpp.o	15e8c895fe74cca0
+5	306	1652951353317601659	CMakeFiles/a8_9_aalexcampean.dir/UserInterface/Ui.cpp.o	546dd727b761f90a
+306	359	1652951353372309850	a8_9_aalexcampean	c0d52fa21989f434

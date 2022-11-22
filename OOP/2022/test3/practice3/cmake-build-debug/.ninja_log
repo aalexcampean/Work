@@ -1,0 +1,15 @@
+# ninja log v5
+1	479	1651749157801809287	CMakeFiles/t3_practice3.dir/Domain/Building.cpp.o	4f77d2f92d2d52e0
+0	480	1651749157802105452	CMakeFiles/t3_practice3.dir/Domain/Block.cpp.o	57e4efcd8a969252
+1	480	1651749157802143577	CMakeFiles/t3_practice3.dir/Domain/House.cpp.o	de11e073631b8094
+2	481	1651749157801865829	CMakeFiles/t3_practice3.dir/Start.cpp.o	c79b098495653b7c
+1	487	1651749157813235281	CMakeFiles/t3_practice3.dir/Repository/Repository.cpp.o	d299ee8b91f5193c
+2	541	1651749157866788280	CMakeFiles/t3_practice3.dir/UI/UI.cpp.o	e74995b990d3910b
+5	482	1651749180894761418	CMakeFiles/t3_practice3.dir/Domain/House.cpp.o	de11e073631b8094
+5	482	1651749180894788292	CMakeFiles/t3_practice3.dir/Domain/Block.cpp.o	57e4efcd8a969252
+5	482	1651749180894328838	CMakeFiles/t3_practice3.dir/Domain/Building.cpp.o	4f77d2f92d2d52e0
+6	482	1651749180894903083	CMakeFiles/t3_practice3.dir/Start.cpp.o	c79b098495653b7c
+5	493	1651749180913460480	CMakeFiles/t3_practice3.dir/Repository/Repository.cpp.o	d299ee8b91f5193c
+6	548	1651749180968030595	CMakeFiles/t3_practice3.dir/UI/UI.cpp.o	e74995b990d3910b
+6	603	1651749181023290997	CMakeFiles/t3_practice3.dir/Service/Service.cpp.o	19d7102642523f38
+604	653	1651749181075323424	t3_practice3	19d67b5f41d71b0b
