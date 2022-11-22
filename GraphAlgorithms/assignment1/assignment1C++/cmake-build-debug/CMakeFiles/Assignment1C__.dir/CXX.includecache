@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alexcampean/Desktop/Facultate/SEM 2/GA/Lab/Assignment 1/Assignment1C++/Graph.cpp
+Graph.h
+/Users/alexcampean/Desktop/Facultate/SEM 2/GA/Lab/Assignment 1/Assignment1C++/Graph.h
+
+/Users/alexcampean/Desktop/Facultate/SEM 2/GA/Lab/Assignment 1/Assignment1C++/Graph.h
+map
+-
+vector
+-
+string
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM 2/GA/Lab/Assignment 1/Assignment1C++/Start.cpp
+Ui.h
+/Users/alexcampean/Desktop/Facultate/SEM 2/GA/Lab/Assignment 1/Assignment1C++/Ui.h
+
+/Users/alexcampean/Desktop/Facultate/SEM 2/GA/Lab/Assignment 1/Assignment1C++/Ui.cpp
+Ui.h
+/Users/alexcampean/Desktop/Facultate/SEM 2/GA/Lab/Assignment 1/Assignment1C++/Ui.h
+fstream
+-
+string
+-
+iostream
+-
+iomanip
+-
+sstream
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM 2/GA/Lab/Assignment 1/Assignment1C++/Ui.h
+Graph.h
+/Users/alexcampean/Desktop/Facultate/SEM 2/GA/Lab/Assignment 1/Assignment1C++/Graph.h
+
