@@ -1,0 +1,10 @@
+1;Campean Alexandru
+2;Pop Sofia
+3;Armasu Darius
+4;Crisan Maria
+5;Gutiu Serban
+6;Chirtes Iulia
+7;Gherman Serban
+8;Mitrea Sandra
+9;Bob Robert
+10;Chetan Anca

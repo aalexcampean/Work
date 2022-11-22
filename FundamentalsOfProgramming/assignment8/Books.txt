@@ -1,0 +1,10 @@
+2;Ulysses;James Joyce
+3;Don Quixote;Miguel De Cervantes
+4;The Great Gatsby;F. Scott Fitzgerald
+5;One Hundred Years Of Solitude;Gabriel Garcia Marquez
+6;Moby Dick;Herman Melville
+7;War And Peace;Leo Tolstoy
+8;Lolita;Vladimir Nabokov
+9;Hamlet;William Shakespeare
+10;The Catcher In The Rye;J. D. Salinger
+1;In Search Of Lost Time;Marcel Proust

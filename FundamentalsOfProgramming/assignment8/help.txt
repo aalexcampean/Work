@@ -1,0 +1,17 @@
+repository = binfiles
+clients = Clients.bin
+books = Books.bin
+rentals = Rentals.bin
+
+repository = inmemory
+clients = ''
+books = ''
+rentals = ''
+
+repository = textfiles
+clients = Clients.txt
+books = Books.txt
+rentals = Rentals.txt
+
+
+
