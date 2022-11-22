@@ -1,0 +1,63 @@
+<div class="container">
+  <div>
+    <div class="row marg-20">
+      <div class="col">
+        <h1 class="custom-table-title">Vets</h1>
+      </div>
+    </div>
+    <div class="row marg-20">
+      <div class="col button-container">
+        <button type="button" class="btn btn-primary custom-button full-with-button" (click)="openModalForAdd()">
+          Add New Vet
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="row marg-20">
+    <div class="col">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">First Name</th>
+          <th scope="col">Last Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Phone Number</th>
+          <th scope="col">Date of Birth</th>
+          <th scope="col">Rating</th>
+          <th scope="col">Salary/Month</th>
+          <th scope="col">Patients | Appointments</th>
+          <th scope="col">Modify</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let vet of vets | paginate : {itemsPerPage: pageSize, currentPage: pageNumber, totalItems: count};">
+          <td>{{vet.firstName}}</td>
+          <td>{{vet.lastName}}</td>
+          <td>{{vet.email}}</td>
+          <td>{{vet.phoneNumber}}</td>
+          <td>{{vet.dateOfBirth}}</td>
+          <td>{{vet.rating}}/5</td>
+          <td>${{vet.salary}}</td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button"
+                    (click)="openPatientsModal(vet.id)">Patients
+            </button>
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button"
+                    (click)="openAppointmentsModal(vet.id)">Appointments
+            </button>
+          </td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button"
+                    (click)="openModalForUpdate(vet)">Update
+            </button>
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button"
+                    (click)="deleteVet(vet.id)">X
+            </button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <pagination-controls previousLabel="Previous" nextLabel="Next" [responsive]=true (pageChange)="handlePageChange($event)"></pagination-controls>
+</div>

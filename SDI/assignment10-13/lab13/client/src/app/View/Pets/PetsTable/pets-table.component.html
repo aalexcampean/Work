@@ -1,0 +1,63 @@
+<div class="container">
+  <div>
+    <div class="row marg-20">
+      <div class="col">
+        <h1 class="custom-table-title">Pets</h1>
+      </div>
+    </div>
+    <div class="row marg-20">
+      <div class="col button-container">
+        <button type="button" class="btn btn-primary custom-button full-with-button" (click)="openModalForAdd()">
+          Add New Pet
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row marg-20">
+    <div class="col">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Species</th>
+          <th scope="col">Breed</th>
+          <th scope="col">Enrolled on</th>
+          <th scope="col">Owner | Appointment</th>
+          <th scope="col">Birth Certificates</th>
+          <th scope="col">Modify</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let pet of pets | paginate : {itemsPerPage: pageSize, currentPage: pageNumber, totalItems: count};">
+          <td>{{pet.name}}</td>
+          <td>{{pet.species}}</td>
+          <td>{{pet.breed}}</td>
+          <td>{{pet.dateOfEnrolment}}</td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openOwnerModal(pet.id)">Owner</button>
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openAppointmentsModal(pet.id)">Appointments</button>
+          </td>
+          <td *ngIf="getBirthCertificateByPetId(pet.id) != null; then thenBlock else elseBlock"></td>
+            <ng-template #thenBlock>
+              <td class="button-container">
+                <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openBirthCertificateModalForUpdate(pet.id)">Certificate</button>
+                <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="deleteBirthCertificate(pet.id)">X</button>
+              </td>
+            </ng-template>
+            <ng-template #elseBlock>
+              <td class="button-container">
+                <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openBirthCertificateModalForAdd(pet.id)">+</button>
+              </td>
+            </ng-template>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openModalForUpdate(pet)">Update</button>
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="deletePet(pet.id)">X</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <pagination-controls previousLabel="Previous" nextLabel="Next" [responsive]=true (pageChange)="handlePageChange($event)"></pagination-controls>
+</div>

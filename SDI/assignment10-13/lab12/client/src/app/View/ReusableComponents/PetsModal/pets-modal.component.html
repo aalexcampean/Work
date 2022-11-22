@@ -1,0 +1,31 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="modal-title">Pets</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
+</div>
+<div class="modal-body">
+  <div *ngIf="pets.length != 0; then thenBlock else elseBlock"></div>
+  <ng-template #thenBlock>
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col">Species</th>
+        <th scope="col">Breed</th>
+        <th scope="col">Name</th>
+        <th scope="col">Enrolled on</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let pet of pets">
+        <td>{{pet.species}}</td>
+        <td>{{pet.breed}}</td>
+        <td>{{pet.name}}</td>
+        <td>{{pet.dateOfEnrolment}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </ng-template>
+  <ng-template #elseBlock>There are no existing pets</ng-template>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary custom-button" (click)="modalRef.close()">Close</button>
+</div>

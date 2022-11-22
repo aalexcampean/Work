@@ -1,0 +1,13 @@
+<div class="add-owner-header">
+  <h5 class="modal-title" id="modal-title">Owner information</h5>
+</div>
+<div class="add-owner-body">
+  <div class="row form-floating mb-3">
+    <textarea class="form-control" [(ngModel)]="inputFirstName" [ngModelOptions]="{standalone: true}"
+              id="inputFirstName" required></textarea>
+    <label for="inputFirstName">First Name</label>
+  </div>
+</div>
+<div class="add-owner-footer">
+  <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="deleteOwnerByFirstName()">Delete by name</button>
+</div>

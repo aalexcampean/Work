@@ -1,0 +1,11 @@
+int max
+int 1var1
+int var2
+
+var1 = 20
+var2 = 30
+
+if var1 > var2:
+    max = var1
+else:
+    max = var2

@@ -1,0 +1,14 @@
+<repository>
+    <employeePet id="1">
+        <employeeId>1</employeeId>
+        <petId>1</petId>
+        <typeOfAction>feed</typeOfAction>
+        <date>21-01-2022</date>
+    </employeePet>
+    <employeePet id="2">
+        <employeeId>1</employeeId>
+        <petId>2</petId>
+        <typeOfAction>clean</typeOfAction>
+        <date>21-10-2021</date>
+    </employeePet>
+</repository>

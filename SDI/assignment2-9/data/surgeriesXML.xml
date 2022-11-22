@@ -1,0 +1,14 @@
+<repository>
+    <surgery id="1">
+        <petId>1</petId>
+        <vetId>1</vetId>
+        <surgeryDate>20-12-2021</surgeryDate>
+        <surgeryType>tumor</surgeryType>
+    </surgery>
+    <surgery id="2">
+        <petId>1</petId>
+        <vetId>2</vetId>
+        <surgeryDate>21-10-2021</surgeryDate>
+        <surgeryType>dental</surgeryType>
+    </surgery>
+</repository>

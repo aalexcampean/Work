@@ -1,0 +1,154 @@
+ro/ubb/catalog/Service/SurgeryService.java
+ ro.ubb.catalog.Service.SurgeryService
+ro/ubb/catalog/UI/OwnerConsole.java
+ ro.ubb.catalog.UI.OwnerConsole
+ro/ubb/catalog/UI/VetConsole.java
+ ro.ubb.catalog.UI.VetConsole
+ro/ubb/catalog/Service/EmployeeContractService.java
+ ro.ubb.catalog.Service.EmployeeContractService
+ro/ubb/catalog/Service/PetService.java
+ ro.ubb.catalog.Service.PetService
+ro/ubb/catalog/Domain/Validators/EmployeePetValidator.java
+ ro.ubb.catalog.Domain.Validators.EmployeePetValidator
+ro/ubb/catalog/Repository/TextFile/ClinicFileRepository.java
+ ro.ubb.catalog.Repository.TextFile.ClinicFileRepository
+ro/ubb/catalog/Repository/XMLFile/ClinicXMLRepository.java
+ ro.ubb.catalog.Repository.XMLFile.ClinicXMLRepository
+ro/ubb/catalog/Domain/Example/Student.java
+ ro.ubb.catalog.Domain.Example.Student
+ro/ubb/catalog/Service/EmployeePetService.java
+ ro.ubb.catalog.Service.EmployeePetService
+ro/ubb/catalog/Repository/TextFile/FileRepository.java
+ ro.ubb.catalog.Repository.TextFile.FileRepository
+ro/ubb/catalog/Domain/Pet.java
+ ro.ubb.catalog.Domain.Pet
+ro/ubb/catalog/Domain/Validators/ValidatorException.java
+ ro.ubb.catalog.Domain.Validators.ValidatorException
+ro/ubb/catalog/Domain/Employee.java
+ ro.ubb.catalog.Domain.Employee
+ro/ubb/catalog/Repository/TextFile/OwnerFileRepository.java
+ ro.ubb.catalog.Repository.TextFile.OwnerFileRepository
+ro/ubb/catalog/UI/EmployeeConsole.java
+ ro.ubb.catalog.UI.EmployeeConsole
+ro/ubb/catalog/Service/VetService.java
+ ro.ubb.catalog.Service.VetService
+ro/ubb/catalog/Domain/Vet.java
+ ro.ubb.catalog.Domain.Vet
+ro/ubb/catalog/Repository/Database/EmployeeDbRepository.java
+ ro.ubb.catalog.Repository.Database.EmployeeDbRepository
+ro/ubb/catalog/Repository/Database/ClinicDbRepo.java
+ ro.ubb.catalog.Repository.Database.ClinicDbRepo
+ro/ubb/catalog/Main.java
+ ro.ubb.catalog.Main
+ro/ubb/catalog/Repository/Database/EmployeeContractDbRepo.java
+ ro.ubb.catalog.Repository.Database.EmployeeContractDbRepo
+ro/ubb/catalog/Repository/TextFile/EmployeeFileRepository.java
+ ro.ubb.catalog.Repository.TextFile.EmployeeFileRepository
+ro/ubb/catalog/Domain/Surgery.java
+ ro.ubb.catalog.Domain.Surgery
+ro/ubb/catalog/UI/EmployeeContractConsole.java
+ ro.ubb.catalog.UI.EmployeeContractConsole
+ro/ubb/catalog/Domain/BaseEntity.java
+ ro.ubb.catalog.Domain.BaseEntity
+ro/ubb/catalog/Domain/Validators/CatalogException.java
+ ro.ubb.catalog.Domain.Validators.CatalogException
+ro/ubb/catalog/Repository/XMLFile/EmployeeXMLRepository.java
+ ro.ubb.catalog.Repository.XMLFile.EmployeeXMLRepository
+ro/ubb/catalog/Repository/XMLFile/VetXMLRepo.java
+ ro.ubb.catalog.Repository.XMLFile.VetXMLRepo
+ro/ubb/catalog/Repository/XMLFile/SurgeryXMLRepository.java
+ ro.ubb.catalog.Repository.XMLFile.SurgeryXMLRepository
+ro/ubb/catalog/UI/VetContractConsole.java
+ ro.ubb.catalog.UI.VetContractConsole
+ro/ubb/catalog/Service/OwnerService.java
+ ro.ubb.catalog.Service.OwnerService
+ro/ubb/catalog/Repository/Database/EmployeePetDbRepository.java
+ ro.ubb.catalog.Repository.Database.EmployeePetDbRepository
+ro/ubb/catalog/Repository/XMLFile/EmployeeContractXMLRepository.java
+ ro.ubb.catalog.Repository.XMLFile.EmployeeContractXMLRepository
+ro/ubb/catalog/Repository/TextFile/SurgeryFileRepository.java
+ ro.ubb.catalog.Repository.TextFile.SurgeryFileRepository
+ro/ubb/catalog/Repository/TextFile/PetFileRepository.java
+ ro.ubb.catalog.Repository.TextFile.PetFileRepository
+ro/ubb/catalog/UI/MainConsole.java
+ ro.ubb.catalog.UI.MainConsole
+ro/ubb/catalog/Domain/Validators/VetContractValidator.java
+ ro.ubb.catalog.Domain.Validators.VetContractValidator
+ro/ubb/catalog/Repository/XMLFile/PetXMLRepo.java
+ ro.ubb.catalog.Repository.XMLFile.PetXMLRepo
+ro/ubb/catalog/Repository/Example/StudentFileRepository.java
+ ro.ubb.catalog.Repository.Example.StudentFileRepository
+ro/ubb/catalog/Domain/Validators/Validator.java
+ ro.ubb.catalog.Domain.Validators.Validator
+ro/ubb/catalog/UI/ClinicConsole.java
+ ro.ubb.catalog.UI.ClinicConsole
+ro/ubb/catalog/Repository/TextFile/VetContractFileRepository.java
+ ro.ubb.catalog.Repository.TextFile.VetContractFileRepository
+ro/ubb/catalog/Domain/EmployeeContract.java
+ ro.ubb.catalog.Domain.EmployeeContract
+ro/ubb/catalog/Repository/TextFile/EmployeePetFileRepository.java
+ ro.ubb.catalog.Repository.TextFile.EmployeePetFileRepository
+ro/ubb/catalog/Repository/TextFile/EmployeeContractFileRepository.java
+ ro.ubb.catalog.Repository.TextFile.EmployeeContractFileRepository
+ro/ubb/catalog/Repository/Database/PetDbRepo.java
+ ro.ubb.catalog.Repository.Database.PetDbRepo
+ro/ubb/catalog/Domain/Validators/OwnerValidator.java
+ ro.ubb.catalog.Domain.Validators.OwnerValidator
+ro/ubb/catalog/Service/EmployeeService.java
+ ro.ubb.catalog.Service.EmployeeService
+ro/ubb/catalog/Repository/Database/VetContractDbRepo.java
+ ro.ubb.catalog.Repository.Database.VetContractDbRepo
+ro/ubb/catalog/Domain/Validators/EmployeeContractValidator.java
+ ro.ubb.catalog.Domain.Validators.EmployeeContractValidator
+ro/ubb/catalog/Domain/Clinic.java
+ ro.ubb.catalog.Domain.Clinic
+ro/ubb/catalog/Domain/EmployeePet.java
+ ro.ubb.catalog.Domain.EmployeePet
+ro/ubb/catalog/Service/VetContractService.java
+ ro.ubb.catalog.Service.VetContractService
+ro/ubb/catalog/Service/ClinicService.java
+ ro.ubb.catalog.Service.ClinicService
+ro/ubb/catalog/UI/PetConsole.java
+ ro.ubb.catalog.UI.PetConsole
+ro/ubb/catalog/Domain/Validators/SurgeryValidator.java
+ ro.ubb.catalog.Domain.Validators.SurgeryValidator
+ro/ubb/catalog/Domain/Validators/EmployeeValidator.java
+ ro.ubb.catalog.Domain.Validators.EmployeeValidator
+ro/ubb/catalog/UI/Example/ConsoleStudent.java
+ ro.ubb.catalog.UI.Example.ConsoleStudent
+ro/ubb/catalog/Service/Example/StudentService.java
+ ro.ubb.catalog.Service.Example.StudentService
+ro/ubb/catalog/UI/SurgeryConsole.java
+ ro.ubb.catalog.UI.SurgeryConsole
+ro/ubb/catalog/Repository/InMemory/InMemoryRepository.java
+ ro.ubb.catalog.Repository.InMemory.InMemoryRepository
+ro/ubb/catalog/Repository/TextFile/VetFileRepo.java
+ ro.ubb.catalog.Repository.TextFile.VetFileRepo
+ro/ubb/catalog/Repository/XMLFile/OwnerXMLRepo.java
+ ro.ubb.catalog.Repository.XMLFile.OwnerXMLRepo
+ro/ubb/catalog/Domain/Validators/PetValidator.java
+ ro.ubb.catalog.Domain.Validators.PetValidator
+ro/ubb/catalog/Repository/Repository.java
+ ro.ubb.catalog.Repository.Repository
+ro/ubb/catalog/Repository/Database/SurgeryDbRepository.java
+ ro.ubb.catalog.Repository.Database.SurgeryDbRepository
+ro/ubb/catalog/UI/EmployeePetConsole.java
+ ro.ubb.catalog.UI.EmployeePetConsole
+ro/ubb/catalog/Repository/XMLFile/EmployeePetXMLRepository.java
+ ro.ubb.catalog.Repository.XMLFile.EmployeePetXMLRepository
+ro/ubb/catalog/Repository/Database/DbRepository.java
+ ro.ubb.catalog.Repository.Database.DbRepository
+ro/ubb/catalog/Domain/Owner.java
+ ro.ubb.catalog.Domain.Owner
+ro/ubb/catalog/Repository/Database/OwnerDbRepo.java
+ ro.ubb.catalog.Repository.Database.OwnerDbRepo
+ro/ubb/catalog/Domain/Validators/VetValidator.java
+ ro.ubb.catalog.Domain.Validators.VetValidator
+ro/ubb/catalog/Repository/XMLFile/XMLRepo.java
+ ro.ubb.catalog.Repository.XMLFile.XMLRepo
+ro/ubb/catalog/Repository/Database/VetDbRepo.java
+ ro.ubb.catalog.Repository.Database.VetDbRepo
+ro/ubb/catalog/Domain/VetContract.java
+ ro.ubb.catalog.Domain.VetContract
+ro/ubb/catalog/Domain/Validators/ClinicValidator.java
+ ro.ubb.catalog.Domain.Validators.ClinicValidator

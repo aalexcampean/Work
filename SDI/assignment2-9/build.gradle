@@ -1,0 +1,16 @@
+group 'ro.ubb.catalog'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = JavaVersion.VERSION_15
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.postgresql', name: 'postgresql', version: '42.3.3'
+}
+targetCompatibility = JavaVersion.VERSION_15

@@ -1,0 +1,52 @@
+.landing-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+
+  padding: 0 30px 0 30px;
+}
+
+.landing-photo {
+  flex: 1;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+}
+
+.landing-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.landing-text h1 {
+  font-size: 30pt;
+  font-weight: bold;
+  color: #e68049;
+}
+
+.landing-text p {
+  font-size: 15pt;
+  color: #e283b6;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.marg-20 {
+  margin-bottom: 40px;
+}

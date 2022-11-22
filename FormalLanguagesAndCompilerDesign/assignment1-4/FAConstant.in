@@ -1,0 +1,39 @@
+p z s n
+0 1 2 3 4 5 6 7 8 9 + -
+p
+z n
+p 0 z
+p - s
+p + s
+s 1 n
+p 0 z
+p - s
+p + s
+s 1 n
+s 2 n
+s 3 n
+s 4 n
+s 5 n
+s 6 n
+s 7 n
+s 8 n
+s 9 n
+p 1 n
+p 2 n
+p 3 n
+p 4 n
+p 5 n
+p 6 n
+p 7 n
+p 8 n
+p 9 n
+n 0 n
+n 1 n
+n 2 n
+n 3 n
+n 4 n
+n 5 n
+n 6 n
+n 7 n
+n 8 n
+n 9 n

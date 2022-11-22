@@ -1,0 +1,61 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="modal-title">Vet information</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
+</div>
+<div class="modal-body">
+  <form method="post">
+    <input type="hidden" id="hiddenFileId">
+    <div class="row form-floating mb-3">
+      <textarea class="form-control" [(ngModel)]="inputFirstName" [ngModelOptions]="{standalone: true}"
+                id="inputFirstName" required></textarea>
+      <label for="inputFirstName">First Name</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+      <textarea class="form-control" [(ngModel)]="inputLastName" [ngModelOptions]="{standalone: true}"
+                id="inputLastName" required></textarea>
+      <label for="inputLastName">Last Name</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputEmail" [ngModelOptions]="{standalone: true}" id="inputEmail"
+                  required></textarea>
+      <label for="inputEmail">Email</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+      <div class="col form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputPhoneNumber" [ngModelOptions]="{standalone: true}"
+                  id="inputPhoneNumber" required></textarea>
+        <label for="inputPhoneNumber">Phone Number</label>
+      </div>
+
+      <div class="col form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputDateOfBirth" [ngModelOptions]="{standalone: true}"
+                  id="inputDateOfBirth" required></textarea>
+        <label for="inputDateOfBirth">Date of Birth (yyyy/mm/dd)</label>
+      </div>
+    </div>
+
+    <div class="row form-floating mb-3">
+      <div class="col form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputSalary" [ngModelOptions]="{standalone: true}"
+                  id="inputSalary" required></textarea>
+        <label for="inputSalary">Salary</label>
+      </div>
+
+      <div class="col form-floating mb-3">
+        <select class="form-select" id="inputRating" [(ngModel)]="inputRating" [ngModelOptions]="{standalone: true}"
+                aria-label="Floating label select example">
+          <option *ngFor="let option of ratingOption">
+            {{option}}
+          </option>
+        </select>
+        <label for="inputRating">Rating</label>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary custom-button" (click)="submitInformation()">Submit</button>
+</div>

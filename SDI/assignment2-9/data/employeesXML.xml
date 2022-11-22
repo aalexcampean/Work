@@ -1,0 +1,9 @@
+<repository>
+    <employee id="1">
+        <firstName>fN1</firstName>
+        <lastName>lN1</lastName>
+        <salary>1000</salary>
+        <rating>10</rating>
+        <date>10-10-1000</date>
+    </employee>
+</repository>

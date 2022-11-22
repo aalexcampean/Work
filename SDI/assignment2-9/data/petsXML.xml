@@ -1,0 +1,20 @@
+<repository>
+    <pet id="1">
+        <species>s1</species>
+        <breed>b1</breed>
+        <petName>Pn1</petName>
+        <personId>1</personId>
+    </pet>
+    <pet id="2">
+        <species>s2</species>
+        <breed>b2</breed>
+        <petName>Pn2</petName>
+        <personId>2</personId>
+    </pet>
+    <pet id="3">
+        <species>s3</species>
+        <breed>b3</breed>
+        <petName>Pn3</petName>
+        <personId>3</personId>
+    </pet>
+</repository>

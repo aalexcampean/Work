@@ -1,0 +1,12 @@
+<repository>
+    <employeeContract id="1">
+        <date>2001-11-25</date>
+        <employeeID>5</employeeID>
+        <clinicID>6</clinicID>
+    </employeeContract>
+    <employeeContract id="2">
+        <date>2006-11-22</date>
+        <employeeID>2</employeeID>
+        <clinicID>2</clinicID>
+    </employeeContract>
+</repository>

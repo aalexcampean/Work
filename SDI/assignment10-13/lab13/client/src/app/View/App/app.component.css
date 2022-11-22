@@ -1,0 +1,6 @@
+#main-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  gap: 50px;
+}

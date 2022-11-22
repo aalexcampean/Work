@@ -1,0 +1,9 @@
+<repository>
+    <vet id="1">
+        <firstName>fn1</firstName>
+        <lastName>n1</lastName>
+        <salary>100</salary>
+        <rating>10</rating>
+        <date>20-12-2020</date>
+    </vet>
+</repository>

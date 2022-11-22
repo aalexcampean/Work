@@ -1,0 +1,5 @@
+rootProject.name = 'lab11-final-try'
+include 'core'
+include 'web'
+include 'client'
+

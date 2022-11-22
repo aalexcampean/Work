@@ -1,0 +1,51 @@
+<div class="container">
+  <div>
+    <div class="row marg-20">
+      <div class="col">
+        <h1 class="custom-table-title">Pets</h1>
+      </div>
+    </div>
+    <div class="row marg-20">
+      <div class="col button-container">
+        <button type="button" class="btn btn-primary custom-button full-with-button" (click)="openModalForAdd()">
+          Add New Pet
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row marg-20">
+    <div class="col">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Species</th>
+          <th scope="col">Breed</th>
+          <th scope="col">Name</th>
+          <th scope="col">Enrolled on</th>
+          <th scope="col">Modify</th>
+          <th scope="col">Owner | Appointment</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let pet of pets">
+          <td>{{pet.id}}</td>
+          <td>{{pet.species}}</td>
+          <td>{{pet.breed}}</td>
+          <td>{{pet.name}}</td>
+          <td>{{pet.dateOfEnrolment}}</td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openModalForUpdate(pet)">Update</button>
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="deletePet(pet.id)">Delete</button>
+          </td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openOwnerModal(pet.id)">Owner</button>
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openAppointmentsModal(pet.id)">Appointments</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

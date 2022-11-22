@@ -1,0 +1,20 @@
+catalog/Repository/InMemoryRepositoryTest.java
+ catalog.Repository.InMemoryRepositoryTest
+catalog/Domain/EmployeePetTest.java
+ catalog.Domain.EmployeePetTest
+catalog/Domain/VetContractTest.java
+ catalog.Domain.VetContractTest
+catalog/Domain/EmployeeContractTest.java
+ catalog.Domain.EmployeeContractTest
+catalog/Domain/VetTest.java
+ catalog.Domain.VetTest
+catalog/Domain/PetTest.java
+ catalog.Domain.PetTest
+catalog/Domain/ClinicTest.java
+ catalog.Domain.ClinicTest
+catalog/Repository/ClinicFileRepositoryTest.java
+ catalog.Repository.ClinicFileRepositoryTest
+catalog/Domain/SurgeryTest.java
+ catalog.Domain.SurgeryTest
+catalog/Domain/OwnerTest.java
+ catalog.Domain.OwnerTest

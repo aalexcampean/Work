@@ -1,0 +1,56 @@
+<div class="container">
+  <div>
+    <div class="row marg-20">
+      <div class="col">
+        <h1 class="custom-table-title">Owners</h1>
+      </div>
+    </div>
+    <div class="row marg-20">
+      <div class="col">
+        <a class="navigation-link" routerLink="add-owners">
+          <button type="button" class="btn btn-primary custom-button">Add New Owner</button>
+        </a>
+<!--        <button type="button" class="btn btn-primary custom-button" (click)="openModalForAdd()">-->
+<!--          Add New Owner-->
+<!--        </button>-->
+      </div>
+    </div>
+  </div>
+
+  <div class="row marg-20">
+    <div class="col">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">First Name</th>
+          <th scope="col">Last Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Phone Number</th>
+          <th scope="col">Date of Birth</th>
+          <th scope="col">Pets</th>
+          <th scope="col">Modify</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let owner of owners | paginate : {itemsPerPage: pageSize, currentPage: pageNumber, totalItems: count};">
+          <td>{{owner.firstName}}</td>
+          <td>{{owner.lastName}}</td>
+          <td>{{owner.email}}</td>
+          <td>{{owner.phoneNumber}}</td>
+          <td>{{owner.dateOfBirth}}</td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openPetsModal(owner.id)">Pets</button>
+          </td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openModalForUpdate(owner)">Update</button>
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="deleteOwner(owner.id)">X</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <pagination-controls previousLabel="Previous" nextLabel="Next" [responsive]=true (pageChange)="handlePageChange($event)"></pagination-controls>
+  <button type="button" class="btn btn-primary custom-button" (click)="goToDelete()">Delete by Name</button>
+
+</div>

@@ -1,0 +1,45 @@
+<div class="container">
+  <div>
+    <div class="row marg-20">
+      <div class="col">
+        <h1 class="custom-table-title">Appointments</h1>
+      </div>
+    </div>
+    <div class="row marg-20">
+      <div class="col button-container">
+        <button type="button" class="btn btn-primary custom-button full-with-button" (click)="openModalForAdd()">
+          Add New Appointment
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="row marg-20">
+    <div class="col">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Pet id</th>
+          <th scope="col">Vet id</th>
+          <th scope="col">Type</th>
+          <th scope="col">Date</th>
+          <th scope="col">Modify</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let appointment of appointments">
+          <td>{{appointment.id}}</td>
+          <td>{{appointment.petId}}</td>
+          <td>{{appointment.vetId}}</td>
+          <td>{{appointment.type}}</td>
+          <td>{{appointment.date}}</td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openModalForUpdate(appointment)">Update</button>
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="deleteOwner(appointment.id)">Delete</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="catalog.Repository.ClinicFileRepositoryTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2022-04-11T20:24:37" hostname="Alex-MacBook-Pro.local" time="0.0">
+  <properties/>
+  <testcase name="testSave" classname="catalog.Repository.ClinicFileRepositoryTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

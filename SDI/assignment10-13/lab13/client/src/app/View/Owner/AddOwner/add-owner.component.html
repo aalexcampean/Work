@@ -1,0 +1,45 @@
+<div class="add-owner-header">
+  <h5 class="modal-title" id="modal-title">Owner information</h5>
+</div>
+<div class="add-owner-body">
+  <form method="post">
+    <input type="hidden" id="hiddenFileId">
+    <div class="row form-floating mb-3">
+      <textarea class="form-control" [(ngModel)]="inputFirstName" [ngModelOptions]="{standalone: true}"
+                id="inputFirstName" required></textarea>
+      <label for="inputFirstName">First Name</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+      <textarea class="form-control" [(ngModel)]="inputLastName" [ngModelOptions]="{standalone: true}"
+                id="inputLastName" required></textarea>
+      <label for="inputLastName">Last Name</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputEmail" [ngModelOptions]="{standalone: true}" id="inputEmail"
+                  required></textarea>
+      <label for="inputEmail">Email</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+      <div class="col form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputPhoneNumber" [ngModelOptions]="{standalone: true}"
+                  id="inputPhoneNumber" required></textarea>
+        <label for="inputPhoneNumber">Phone Number</label>
+      </div>
+
+      <div class="col form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputDateOfBirth" [ngModelOptions]="{standalone: true}"
+                  id="inputDateOfBirth" required></textarea>
+        <label for="inputDateOfBirth">Date of Birth (yyyy/mm/dd)</label>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="add-owner-footer">
+  <button type="button" class="btn btn-primary custom-button" (click)="addOwner()">Submit</button>
+<!--  <a class="navigation-link" routerLink="owners">-->
+<!--    <button type="button" class="btn btn-primary custom-button" (click)="addOwner()">Submit</button>-->
+<!--  </a>-->
+</div>

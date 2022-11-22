@@ -1,0 +1,27 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="modal-title">Appointments</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
+</div>
+<div class="modal-body">
+  <div *ngIf="appointments.length != 0; then thenBlock else elseBlock"></div>
+  <ng-template #thenBlock>
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col">Type</th>
+        <th scope="col">Date</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let appointment of appointments">
+        <td>{{appointment.type}}</td>
+        <td>{{appointment.date}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </ng-template>
+  <ng-template #elseBlock>There are no existing appointments</ng-template>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary custom-button" (click)="modalRef.close()">Close</button>
+</div>

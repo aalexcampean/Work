@@ -1,0 +1,48 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="modal-title">Pet information</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
+</div>
+<div class="modal-body">
+  <form method="post">
+    <input type="hidden" id="hiddenFileId">
+    <div class="row form-floating mb-3">
+      <textarea class="form-control" [(ngModel)]="inputSpecies" [ngModelOptions]="{standalone: true}"
+                id="inputSpecies" required></textarea>
+      <label for="inputSpecies">Species</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+      <textarea class="form-control" [(ngModel)]="inputBreed" [ngModelOptions]="{standalone: true}"
+                id="inputBreed" required></textarea>
+      <label for="inputBreed">Breed</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputName" [ngModelOptions]="{standalone: true}" id="inputName"
+                  required></textarea>
+      <label for="inputName">Name</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+      <div class="col form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputDateOfEnrolment" [ngModelOptions]="{standalone: true}"
+                  id="inputDateOfBirth" required></textarea>
+        <label for="inputDateOfBirth">Enrolled on (yyyy/mm/dd)</label>
+      </div>
+
+      <div class="col form-floating mb-3">
+        <select class="form-select" id="inputOwner" [(ngModel)]="inputOwnerId" [ngModelOptions]="{standalone: true}"
+                aria-label="Floating label select example">
+          <option *ngFor="let owner of owners"
+                  value="{{owner.id}}">
+            {{owner.firstName + " " + owner.lastName}}
+          </option>
+        </select>
+        <label for="inputOwner">Owner</label>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary custom-button" (click)="submitInformation()">Submit</button>
+</div>

@@ -1,0 +1,17 @@
+#modal-title {
+  font-weight: bold;
+  color: #f4f6fb;
+}
+
+.modal-header, .modal-body, .modal-footer, .form-control, .form-select {
+  background-color: #e283b6;
+}
+
+label {
+  color: #ffffff;
+}
+
+th {
+  color: #f4f6fb;
+}
+

@@ -1,0 +1,52 @@
+<div class="container">
+  <div>
+    <div class="row marg-20">
+      <div class="col">
+        <h1 class="custom-table-title">Owners</h1>
+      </div>
+    </div>
+    <div class="row marg-20">
+      <div class="col">
+        <button type="button" class="btn btn-primary custom-button" (click)="openModalForAdd()">
+          Add New Owner
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row marg-20">
+    <div class="col">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">First Name</th>
+          <th scope="col">Last Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Phone Number</th>
+          <th scope="col">Date of Birth</th>
+          <th scope="col">Modify</th>
+          <th scope="col">Pets</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let owner of owners">
+          <td>{{owner.id}}</td>
+          <td>{{owner.firstName}}</td>
+          <td>{{owner.lastName}}</td>
+          <td>{{owner.email}}</td>
+          <td>{{owner.phoneNumber}}</td>
+          <td>{{owner.dateOfBirth}}</td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openModalForUpdate(owner)">Update</button>
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="deleteOwner(owner.id)">Delete</button>
+          </td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary btn-sm custom-button2 full-with-button" (click)="openPetsModal(owner.id)">Pets</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

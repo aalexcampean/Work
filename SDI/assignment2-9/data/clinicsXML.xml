@@ -1,0 +1,22 @@
+<repository>
+    <clinic id="1">
+        <name>eeeee</name>
+        <location>eeee</location>
+        <yearFounded>2010</yearFounded>
+    </clinic>
+    <clinic id="2">
+        <name>clinic2</name>
+        <location>location2</location>
+        <yearFounded>2005</yearFounded>
+    </clinic>
+    <clinic id="3">
+        <name>clinic3</name>
+        <location>location3</location>
+        <yearFounded>2010</yearFounded>
+    </clinic>
+    <clinic id="4">
+        <name>clinic4</name>
+        <location>location4</location>
+        <yearFounded>2013</yearFounded>
+    </clinic>
+</repository>

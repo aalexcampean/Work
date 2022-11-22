@@ -1,0 +1,49 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="modal-title">Owner information</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
+</div>
+<div class="modal-body">
+  <form method="post">
+    <input type="hidden" id="hiddenFileId">
+    <div class="row form-floating mb-3">
+      <div class="col form-floating mb-3">
+        <select class="form-select" id="inputPet" [(ngModel)]="inputPetId" [ngModelOptions]="{standalone: true}"
+                aria-label="Floating label select example">
+          <option *ngFor="let pet of pets"
+                  value="{{pet.id}}">
+            {{pet.name + " - " + pet.breed}}
+          </option>
+        </select>
+        <label for="inputPet">Pet</label>
+      </div>
+
+      <div class="col form-floating mb-3">
+        <select class="form-select" id="inputVet" [(ngModel)]="inputVetId" [ngModelOptions]="{standalone: true}"
+                aria-label="Floating label select example">
+          <option *ngFor="let vet of vets"
+                  value="{{vet.id}}">
+            {{vet.firstName + " " + vet.lastName}}
+          </option>
+        </select>
+        <label for="inputVet">Vet</label>
+      </div>
+    </div>
+
+    <div class="row form-floating mb-3">
+      <div class="col form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputType" [ngModelOptions]="{standalone: true}" id="inputEmail"
+                  required></textarea>
+        <label for="inputEmail">Type</label>
+      </div>
+
+      <div class="col form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputDate" [ngModelOptions]="{standalone: true}"
+                  id="inputDateOfBirth" required></textarea>
+        <label for="inputDateOfBirth">Date (yyyy/mm/dd)</label>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary custom-button" (click)="submitInformation()">Submit</button>
+</div>

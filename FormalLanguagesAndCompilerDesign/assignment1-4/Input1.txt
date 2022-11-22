@@ -1,0 +1,8 @@
+int a
+int b
+
+a = 10
+b = a * 3
+
+if a < b:
+    write(a)

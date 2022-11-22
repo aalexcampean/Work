@@ -1,0 +1,31 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="modal-title">Owner</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
+</div>
+<div class="modal-body">
+  <div *ngIf="owner === null; then thenBlock else elseBlock"></div>
+  <ng-template #thenBlock>This pet doesn't have an owner registered yet</ng-template>
+  <ng-template #elseBlock>
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Phone Number</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td *ngIf="owner!== null">{{owner.firstName}}</td>
+        <td *ngIf="owner!== null">{{owner.lastName}}</td>
+        <td *ngIf="owner!== null">{{owner.email}}</td>
+        <td *ngIf="owner!== null">{{owner.phoneNumber}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </ng-template>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary custom-button" (click)="modalRef.close()">Close</button>
+</div>

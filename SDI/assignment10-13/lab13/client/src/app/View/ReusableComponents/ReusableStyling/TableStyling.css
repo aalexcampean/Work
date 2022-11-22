@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 50px;
+  align-content: flex-start;
+}
+
+.custom-table-title {
+  font-weight: bold;
+}
+
+.custom-button {
+  font-size: 15pt;
+  font-weight: bold;
+
+  background: #cc2027;
+  color: #f4f6fb;
+  border: #cc2027;
+  border-radius: 10px;
+}
+
+.custom-button:hover {
+  background: #e283b6;
+  border: #e283b6;
+}
+
+.custom-button2 {
+  font-size: 12pt;
+  font-weight: bold;
+
+  background: #e68049;
+  color: #f4f6fb;
+  border: #e68049;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.custom-button2:hover {
+  background: #e283b6;
+  border: #e283b6;
+}
+
+pagination-controls {
+  color: #cc2027;
+  font-weight: bold;
+}
