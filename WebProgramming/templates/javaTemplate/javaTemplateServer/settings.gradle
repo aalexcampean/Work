@@ -1,0 +1,4 @@
+rootProject.name = 'javaTemplateServer'
+include 'core'
+include 'web'
+

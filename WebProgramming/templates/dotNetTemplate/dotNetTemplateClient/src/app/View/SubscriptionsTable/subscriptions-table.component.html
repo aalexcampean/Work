@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="row marg-20">
+    <div class="col form-floating mb-3">
+      <textarea class="form-control" placeholder="Author" [(ngModel)]="ownerNameInput" id="inputOwnerName" required
+                (input)="getChannelsByOwnerName()"></textarea>
+      <label for="inputOwnerName">See Channels of Owner</label>
+    </div>
+    <div class="col form-floating mb-3">
+      <h1>My Subscriptions</h1>
+    </div>
+  </div>
+  <div class="row marg-20">
+    <div class="col">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">OwnerID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+          <th scope="col">Subscribers</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let channel of ownerChannels">
+          <th scope="row">{{channel.id}}</th>
+          <td>{{channel.ownerId}}</td>
+          <td>{{channel.name}}</td>
+          <td>{{channel.description}}</td>
+          <td>{{channel.subscribers}}</td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary custom-button2 full-with-button" (click)="subscribeToChannel(channel)">Subscribe</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let channel of userChannels">
+          <td>{{channel.name}}</td>
+          <td>{{channel.description}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="modal-title">Add Member</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
+</div>
+<div class="modal-body">
+  <form method="post">
+    <input type="hidden" id="hiddenFileId">
+    <div class="row form-floating mb-3">
+      <textarea class="form-control" [(ngModel)]="inputMemberName" [ngModelOptions]="{standalone: true}"
+                id="inputMemberName" required></textarea>
+      <label for="inputMemberName">Member Name</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+      <textarea class="form-control" [(ngModel)]="inputProjectNames" [ngModelOptions]="{standalone: true}"
+                id="inputProjectNames" required></textarea>
+      <label for="inputProjectNames">Project Names (project1,project2,...)</label>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary custom-button" (click)="submitInformation()">Submit</button>
+</div>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TextSite</title>
+    <link rel="stylesheet" href="TestSite.css">
+</head>
+<body>
+
+<header id="page-header">
+    <div id="header-title"><h1>Text Styling</h1></div>
+    <div id="header-text"><h4>This page presents 4 ways of stylizing text</h4></div>
+</header>
+
+<section>
+    <table>
+        <tr>
+            <td>
+                <section>
+                    <div><p>1. Glowing text</p></div>
+                    <div class="text-styles-black"><h2 id="glowing-text">Icy blue</h2></div>
+                    <svg></svg>
+                </section>
+            </td>
+
+            <td>
+                <section>
+                    <div class="right-div-text"><p>2. Text on fire</p></div>
+                    <div class="text-styles-black"><h2 id="text-on-fire">Flaming yellow</h2></div>
+                    <svg>
+                        <filter id="fire">
+                            <feTurbulence id="fire-turbulence" baseFrequency="0.1 0.1" numOctaves="2" seed="3">
+                                <animate attributeName="baseFrequency" dur="10s" values="0.1 0.1; 0.15 0.2" repeatCount="indefinite"></animate>
+                            </feTurbulence>
+                            <feDisplacementMap in="SourceGraphic" scale="5"></feDisplacementMap>
+                        </filter>
+                    </svg>
+                </section>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <section>
+                    <div><p>3. Shadow text</p></div>
+                    <div class="text-styles-white"><h2 id="shadow-text">Eerie purple</h2></div>
+                </section>
+            </td>
+
+            <td>
+                <section>
+                    <div class="right-div-text"><p>4. Underlined text</p></div>
+                    <div class="text-styles-white"><h2 id="underlined-text"><a href=''>Borderline green</a></h2></div>
+                </section>
+            </td>
+        </tr>
+    </table>
+</section>
+
+</body>
+</html>

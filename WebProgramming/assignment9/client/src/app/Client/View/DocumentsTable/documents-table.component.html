@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="row marg-20">
+    <div class="col">
+      <h1>Your Documents</h1>
+    </div>
+  </div>
+  <div class="row marg-20">
+    <div class="col button-container">
+      <button type="button" class="btn btn-primary custom-button full-with-button" (click)="openModalForAdd()">
+        Add New Document
+      </button>
+    </div>
+    <div class="col form-floating mb-3">
+      <textarea class="form-control" placeholder="Author" [(ngModel)]="typeInput" id="inputTypeFilter" required
+                (input)="getDocumentsByType()"></textarea>
+      <label for="inputTypeFilter">Filter by Type</label>
+    </div>
+    <div class="col form-floating mb-3">
+      <select class="form-select" id="inputFormatFilter" [(ngModel)]="formatInput" aria-label="Floating label select example" (change)="getDocumentsByFormat()">
+        <option selected>ALL</option>
+        <option *ngFor="let option of formatOptions">
+          {{option.name}}
+        </option>
+      </select>
+      <label for="inputFormatFilter">Filter by Format</label>
+    </div>
+  </div>
+  <div class="row marg-20">
+    <div class="col">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Title</th>
+          <th scope="col">Author</th>
+          <th scope="col">Nr. Of Pages</th>
+          <th scope="col">Type</th>
+          <th scope="col">Format</th>
+          <th scope="col">Modify</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let doc of documents">
+          <th scope="row">{{doc.id}}</th>
+          <td>{{doc.title}}</td>
+          <td>{{doc.author}}</td>
+          <td>{{doc.numberOfPages}}</td>
+          <td>{{doc.type}}</td>
+          <td>{{doc.format}}</td>
+          <td class="button-container">
+            <button type="button" class="btn btn-primary custom-button2 full-with-button" (click)="openModalForUpdate(doc)">Update</button>
+            <button type="button" class="btn btn-primary custom-button2 full-with-button" (click)="deleteDocument(doc.id)">Delete</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

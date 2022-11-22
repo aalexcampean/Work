@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="login-title">
+        <h5 class="modal-title" id="exampleModalLabel">Welcome</h5>
+    </div>
+
+    <div class="login-input">
+        <form method="post">
+            <input type="hidden" id="hiddenFileId">
+            <div class="row form-floating mb-3">
+                <textarea class="form-control" [(ngModel)]="userNameInput" [ngModelOptions]="{standalone: true}" id="inputTitle" required></textarea>
+                <label for="inputTitle">Username</label>
+            </div>
+        </form>
+        <button type="button" class="btn btn-primary custom-button full-with-button" (click)="handleLogin()">
+            Login
+        </button>
+    </div>
+</div>
+

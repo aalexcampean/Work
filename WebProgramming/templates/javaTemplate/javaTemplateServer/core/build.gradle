@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    testCompileOnly 'org.projectlombok:lombok:1.18.24'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.13.3'
+    implementation 'javax.xml.bind:jaxb-api:2.3.1'
+    implementation 'com.zaxxer:HikariCP:5.0.1'
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+    implementation 'org.hibernate:hibernate-core:5.2.6.Final'
+    implementation 'org.springframework.data:spring-data-jpa:2.7.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.postgresql:postgresql:42.3.4'
+    implementation 'org.apache.commons:commons-dbcp2:2.9.0'
+}
+
+test {
+    useJUnitPlatform()
+}

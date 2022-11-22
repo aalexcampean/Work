@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="row marg-20">
+    <div class="col form-floating mb-3">
+      <h1>All Projects</h1>
+    </div>
+    <div class="col form-floating mb-3">
+      <h1>My Projects</h1>
+    </div>
+  </div>
+  <div class="row marg-20">
+    <div class="col">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">OwnerID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+          <th scope="col">Subscribers</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let project of allProjects">
+          <th scope="row">{{project.id}}</th>
+          <td>{{project.projectManagerId}}</td>
+          <td>{{project.name}}</td>
+          <td>{{project.description}}</td>
+          <td>{{project.members}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">Name</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let project of userProjects">
+          <td>{{project.name}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="row marg-20">
+  <button type="button" class="btn btn-primary custom-button" (click)="openModalForAdd()">Add Member to Projects</button>
+</div>

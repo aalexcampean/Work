@@ -1,0 +1,43 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLabel">Document information</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
+</div>
+<div class="modal-body">
+  <form method="post">
+    <input type="hidden" id="hiddenFileId">
+    <div class="row form-floating mb-3">
+      <textarea class="form-control" [(ngModel)]="inputTitle" [ngModelOptions]="{standalone: true}" id="inputTitle" required></textarea>
+      <label for="inputTitle">Title</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+      <textarea class="form-control" [(ngModel)]="inputAuthor" [ngModelOptions]="{standalone: true}" id="inputAuthor" required></textarea>
+      <label for="inputAuthor">Author</label>
+    </div>
+
+    <div class="row form-floating mb-3">
+      <div class="col form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputNoPages" [ngModelOptions]="{standalone: true}" id="inputNoPages" required></textarea>
+        <label for="inputNoPages">Number Of Pages</label>
+      </div>
+
+      <div class="col form-floating mb-3">
+        <textarea class="form-control" [(ngModel)]="inputType" [ngModelOptions]="{standalone: true}" id="inputType" required></textarea>
+        <label for="inputType">Type</label>
+      </div>
+
+      <div class="col form-floating mb-3">
+        <select class="form-select" id="inputFormatFilter" [(ngModel)]="inputFormat" [ngModelOptions]="{standalone: true}"
+                aria-label="Floating label select example">
+          <option *ngFor="let option of formatOptions">
+            {{option.name}}
+          </option>
+        </select>
+        <label for="inputFormatFilter">Format</label>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary" (click)="submitInformation()">Submit</button>
+</div>

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1eeea;
+    font-family: Futura;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: Futura, sans-serif;
+    color: darkolivegreen;
+
+    background-color: #fff;
+    padding: 30px 50px;
+}
+
+#enclosing-section {
+    margin-top: 400px;
+    width: 100%;
+    padding: 50px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#section1 {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 50px;
+}
+
+#section2 {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+}
+
+.button-design {
+    height: 100px;
+    width: 500px;
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    background-color: #fff;
+    border: solid 2px darkolivegreen;
+}
+
+.title {
+    color: darkolivegreen;
+}
+
+.links ul{
+    list-style: none;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: #fff;
+}

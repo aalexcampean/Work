@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F2F2F2;
+}
+header{
+    /*position: fixed;*/
+    background: #F2F2F2;
+    width: 100%;
+    margin-top: 0;
+}
+.menu-flex-dropdown{
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    /*border: 2px solid coral;*/
+    padding: 40px 20px 20px 20px;
+}
+.dropdown-menu{
+    /*border: 2px solid saddlebrown;*/
+}
+#header-menu-icon{
+    height: 40px;
+}
+.dropdown-menu li {
+    /*background: #3b3f41;*/
+    position: relative;
+    list-style: none;
+    display: block;
+}
+.dropdown-menu li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: Futura;
+}
+.dropdown-menu ul li{
+    background: #F2F2F2;
+}
+.dropdown-menu ul li a:hover{
+    color: #ce9fc9;
+}
+.dropdown-menu ul {
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+.dropdown-menu li:hover > ul{
+    display: block;
+}
+.dropdown-menu ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+.dropdown-menu ul ul li{
+    position: relative;
+    top: -50px;
+    left: 150px;
+}
+
+
+#header-flex-container{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    /*border: 2px solid saddlebrown;*/
+}
+#header-flex-child-blank{
+    flex: 10%;
+    /*border: 2px solid saddlebrown;*/
+}
+#header-flex-child-title{
+    flex: 90%;
+    /*border: 2px solid saddlebrown;*/
+    margin: auto;
+    text-align: left;
+}
+#header-title{
+    font-family: Pilowlava;
+    font-size: 65px;
+    color: #ce9fc9;
+}
+
+#section-flex-container{
+    display: flex;
+    padding: 20px;
+}
+#section-flex-child-image{
+    flex: 50%;
+    /*border: 2px solid saddlebrown;*/
+    margin-right: 100px;
+    padding-left: 4px;
+}
+#section-flex-child-text{
+    flex: 50%;
+    /*border: 2px solid saddlebrown;*/
+    margin: auto;
+    text-align: left;
+}
+#landing-image{
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+#landing-title{
+    font-family: Futura;
+    font-size: 50px;
+    color: mediumpurple;
+    margin: 0;
+}
+#landing-text{
+    font-family: Futura;
+    font-size: 20px;
+    margin: 0;
+}

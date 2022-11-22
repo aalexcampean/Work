@@ -1,0 +1,94 @@
+.landing-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+
+  padding: 0 30px 0 30px;
+}
+
+.landing-photo {
+  flex: 1;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+
+.landing-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.landing-text h1 {
+  font-size: 30pt;
+  color: #0101fc;
+}
+
+.landing-text p {
+  font-size: 20pt;
+  color: #99a5f9;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.custom-button {
+  background: #0101fc;
+
+  font-size: 20pt;
+  font-weight: bold;
+  color: #f4f6fb;
+
+  border: #0101fc;
+  border-radius: 12px;
+}
+
+.custom-button:hover {
+  background: #0101fc;
+  border: #0101fc;
+}
+
+.custom-button2 {
+  background: #99a5f9;
+
+  font-size: 20pt;
+  font-weight: bold;
+  color: #f4f6fb;
+
+  border: #99a5f9;
+  border-radius: 12px;
+}
+
+.custom-button2:hover {
+  background: #0101fc;
+  border: #0101fc;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.full-with-button {
+  flex: 1;
+}
+
+.marg-20 {
+  margin-bottom: 40px;
+}

@@ -1,0 +1,104 @@
+body{
+    background-color: #F2F2F2;
+    font-family: Courier;
+    font-size: 12pt;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#spacing{
+    height: 400px;
+}
+#page-header{
+    width: 100%;
+    text-align: center;
+    font-family: BigNoodleTitling;
+}
+header{
+    margin-bottom: 100px;
+}
+#header-title{
+    color: purple;
+    font-size: xx-large;
+}
+#header-text{
+    color: rebeccapurple;
+    font-size: large;
+}
+.right-div-text{
+    text-align: right;
+}
+.text-styles-black{
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    font-family: BigNoodleTitling;
+    font-size: xx-large;
+    background-color: #000;
+}
+.text-styles-white{
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    font-family: BigNoodleTitling;
+    font-size: xx-large;
+    background-color: lightpink;
+}
+#glowing-text{
+    color: #ffffff;
+    background-color: #000;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+        /* offset-x | offset-y | blur-radius | color */
+        /*text-shadow: 1px 1px 2px black;*/
+        text-shadow: 0 0 10px #ffffff, 0 0 10px #F5ECDFFF, 0 0 30px #6EC3FAFF, 0 0 40px #6EC3FAFF, 0 0 50px #6EC3FAFF, 0 0 60px #6EC3FAFF, 0 0 70px #6EC3FAFF;
+    }
+    to {
+        text-shadow: 0 0 20px #ffffff, 0 0 30px #6EC3FAFF, 0 0 40px #6EC3FAFF, 0 0 50px #6EC3FAFF, 0 0 60px #6EC3FAFF, 0 0 70px #6EC3FAFF, 0 0 80px #6EC3FAFF;
+    }
+}
+#shadow-text{
+    color: rebeccapurple;
+    text-shadow: 8px 5px 14px #1b073d;
+}
+#text-on-fire{
+    color: #ffeb3b;
+    /*background-color: #000;*/
+    text-shadow: 0 0 10px #ff8c3b,  0 0 40px #ff8c3b,  0 0 80px #ff8c3b,  0 0 160px #ff8c3b,  0 0 240px #ff8c3b;
+    filter: url(#fire);
+}
+*, *:after, *:before {
+    /*box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+}
+* {
+    margin:0;
+    padding:0;
+    border:0 none;
+    position: relative;
+}
+#underlined-text > a {
+    text-decoration: none;
+    color: palegreen;
+}
+#underlined-text > a:before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 5px;
+    bottom: 0;
+    background: #68a16f;
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .90s linear;
+}
+#underlined-text > a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
