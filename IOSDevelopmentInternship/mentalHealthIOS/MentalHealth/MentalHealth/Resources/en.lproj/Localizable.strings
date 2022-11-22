@@ -1,0 +1,45 @@
+/* 
+  Localizable.strings
+  MentalHealth
+
+  Created by Tarciziu Gologan on 25.03.2022.
+  Copyright © 2022 nexttech. All rights reserved.
+*/
+
+// MARK: - Daily Gratitude Strings
+
+"gratitudeJournal.list.title" = "Daily Gratitude";
+"gratitudeJournal.list.section.thisWeek" = "This week";
+"gratitudeJournal.list.section.thisMonth" = "This month";
+"gratitudeJournal.list.section.previous" = "Previous";
+"gratitudeJournal.list.emptyList.message" = "There are no messages added yet";
+"gratitudeJournal.add.newEntry.title" = "Add new entry";
+"gratitudeJournal.add.newEntry.textPrompt" = "Write down your feelings, thoughts about why are you grateful today";
+"gratitudeJournal.add.newEntry.buttonTitle" = "Save";
+
+"gratitudeJournal.list.error.title" = "Error";
+"gratitudeJournal.list.error.loading" = "There was an error while getting the list of messages";
+"gratitudeJournal.list.error.notFound" = "Message Not Found";
+"gratitudeJournal.list.error.noInternet" = "No Internet Connection";
+
+// MARK: - Support Groups Strings
+
+"supportGroups.tab.title" = "Support Groups";
+"supportGroups.list.title" = "Support Groups";
+"supportGroups.list.emptyList.message" = "There are no scheduled events.";
+"supportGroups.list.section.thisWeek" = "This week";
+"supportGroups.list.section.thisMonth" = "This month";
+"supportGroups.list.section.upcoming" = "Upcoming";
+"supportGroups.list.item.bookmarked" = "Bookmarked";
+"supportGroups.list.item.joined" = "Joined";
+"supportGroups.list.item.details.occurrence" = "Next occurrence";
+"supportGroups.list.item.about.title" = "About";
+"supportGroups.list.item.participants.title" = "Participants";
+"supportGroups.list.item.join" = "Join event";
+"supportGroups.list.item.unjoin" = "Un-join";
+"supportGroups.list.search.hintText" = "Search for support groups...";
+
+"supportGroups.list.error.loading" = "There was an error while getting the list of events.";
+"supportGroups.item.error.notFound" = "Event Not Found";
+"error.internalFailure" = "Internal Failure";
+"error.noInternet" = "No Internet Connection";

@@ -1,0 +1,45 @@
+/* 
+  Localizable.strings
+  MentalHealth
+
+  Created by Tarciziu Gologan on 25.03.2022.
+  Copyright © 2022 nexttech. All rights reserved.
+*/
+
+// MARK: - Daily Gratitude Strings
+
+"gratitudeJournal.list.title" = "Recunoștință zilnică";
+"gratitudeJournal.list.section.thisWeek" = "Saptămana curentă";
+"gratitudeJournal.list.section.thisMonth" = "Luna curentă";
+"gratitudeJournal.list.section.previous" = "Precedente";
+"gratitudeJournal.list.emptyList.message" = "Nu ai adăugat încă niciun mesaj";
+"gratitudeJournal.add.newEntry.title" = "Adaugă un mesaj nou";
+"gratitudeJournal.add.newEntry.textPrompt" = "Notează-ți sentimentele, gândurile pentru care ești recunoscător astăzi";
+"gratitudeJournal.add.newEntry.buttonTitle" = "Salvează";
+
+"gratitudeJournal.list.error.title" = "Eroare";
+"gratitudeJournal.list.error.loading" = "A apărut o eroare la obținerea listei de mesaje";
+"gratitudeJournal.list.error.notFound" = "Mesajul nu a fost găsit";
+"gratitudeJournal.list.error.noInternet" = "Fără conexiune la internet";
+
+// MARK: - Support Groups Strings
+
+"supportGroups.tab.title" = "Grupuri";
+"supportGroups.list.title" = "Grupuri de suport";
+"supportGroups.list.emptyList.message" = "Nu este nici un eveniment programat.";
+"supportGroups.list.section.thisWeek" = "Saptămana curentă";
+"supportGroups.list.section.thisMonth" = "Luna curentă";
+"supportGroups.list.section.upcoming" = "Viitoare";
+"supportGroups.list.item.bookmarked" = "Evidențiat";
+"supportGroups.list.item.joined" = "Înscris";
+"supportGroups.list.item.details.occurrence" = "Urmatorul eveniment";
+"supportGroups.list.item.about.title" = "Despre";
+"supportGroups.list.item.participants.title" = "Participanți";
+"supportGroups.list.item.join" = "Înscrie-te la eveniment";
+"supportGroups.list.item.unjoin" = "Anulează înscrierea";
+"supportGroups.list.search.hintText" = "Caută un grup...";
+
+"supportGroups.list.error.loading" = "A apărut o eroare la obținerea listei de evenimente.";
+"supportGroups.item.error.notFound" = "Evenimentul nu a fost găsit";
+"error.internalFailure" = "Eroare internă";
+"error.noInternet" = "Fără conexiune la internet";
