@@ -1,0 +1,1429 @@
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+string varf
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf))))))))))
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf)))))))))
+tring varf
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf)))))))))
+
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf))))))))
+arf = test.in
+
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf))))))))
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf)))))))
+penRFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf)))))))
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf))))))
+nt varc
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf))))))
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf)))))
+arc = 0
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf)))))
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf))))
+eadFile(varf,varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+readFile(varf,varc)
+(varc)
+loseFile(varf))))
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+loseFile(varf)))
+varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+loseFile(varf)))
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+loseFile(varf))
+eadFile(varf,varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+loseFile(varf))
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+loseFile(varf)
+varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+loseFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+50
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+50
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+string varfvarf = test.inopenRFile(varf)int varcvarc = 0readFile(varf,varc)(varc)readFile(varf,varc)(varc)closeFile(varf)
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varf = test.inopenRFile(varf)int varcvarc = 0readFile(varf,varc)(varc)readFile(varf,varc)(varc)closeFile(varf)string varf
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varf = test.inopenRFile(varf)int varcvarc = 0readFile(varf,varc)(varc)readFile(varf,varc)(varc)closeFile(varf)
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+openRFile(varf)int varcvarc = 0readFile(varf,varc)(varc)readFile(varf,varc)(varc)closeFile(varf)varf = test.in
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+openRFile(varf)int varcvarc = 0readFile(varf,varc)(varc)readFile(varf,varc)(varc)closeFile(varf)
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+int varcvarc = 0readFile(varf,varc)(varc)readFile(varf,varc)(varc)closeFile(varf)openRFile(varf)
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+int varcvarc = 0readFile(varf,varc)(varc)readFile(varf,varc)(varc)closeFile(varf)
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varc = 0readFile(varf,varc)(varc)readFile(varf,varc)(varc)closeFile(varf)int varc
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varc = 0readFile(varf,varc)(varc)readFile(varf,varc)(varc)closeFile(varf)
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)(varc)readFile(varf,varc)(varc)closeFile(varf)varc = 0
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)(varc)readFile(varf,varc)(varc)closeFile(varf)
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)readFile(varf,varc)(varc)closeFile(varf)readFile(varf,varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)readFile(varf,varc)(varc)closeFile(varf)
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)(varc)closeFile(varf)(varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)(varc)closeFile(varf)
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)closeFile(varf)readFile(varf,varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)closeFile(varf)
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+closeFile(varf)(varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+closeFile(varf)
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+50
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@37f8bb67
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+50
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+string varf
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+string varf
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+varf = test.in
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+openRFile(varf)
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+int varc
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+varc = 0
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+readFile(varf,varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+(varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+closeFile(varf)
+readFile(varf,varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+closeFile(varf)(varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+closeFile(varf)
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+50
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+50
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+string varf
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+string varf
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+varf = test.in
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+openRFile(varf)
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+int varc
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+int varc
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+varc = 0
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+varc = 0
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+readFile(varf,varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+(varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+readFile(varf,varc)
+(varc)
+closeFile(varf)
+
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+closeFile(varf)
+readFile(varf,varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+closeFile(varf)(varc)
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+closeFile(varf)
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+50
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@133314b
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+50
+
+------- FileTable: -------
+------------------------------------------------------------------------------------
+

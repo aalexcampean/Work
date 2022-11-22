@@ -1,0 +1,5243 @@
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v2
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v2
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v2
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v3
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v1 2)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v2 3)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v3 4)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+latch(cnt, rH(v2))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+countDown(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+wH(v2 rH(v2) * 10)
+print(rH(v2))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+print(rH(v2))
+countDown(cnt)
+wH(v2 rH(v2) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+print(rH(v2))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+wH(v3 rH(v3) * 10)
+print(rH(v3))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v2))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+print(rH(v3))
+countDown(cnt)
+wH(v3 rH(v3) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+print(rH(v3))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v3))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v2
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v2
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v2
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v3
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v1 2)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v2 3)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v3 4)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+latch(cnt, rH(v2))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+countDown(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+wH(v2 rH(v2) * 10)
+print(rH(v2))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+print(rH(v2))
+countDown(cnt)
+wH(v2 rH(v2) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+print(rH(v2))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+wH(v3 rH(v3) * 10)
+print(rH(v3))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v2))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+print(rH(v3))
+countDown(cnt)
+wH(v3 rH(v3) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+print(rH(v3))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v3))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(100)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v2
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v2
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v2
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v3
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v1 2)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v2 3)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v3 4)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+latch(cnt, rH(v2))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+countDown(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+wH(v2 rH(v2) * 10)
+print(rH(v2))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+print(rH(v2))
+countDown(cnt)
+wH(v2 rH(v2) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+print(rH(v2))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+wH(v3 rH(v3) * 10)
+print(rH(v3))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v2))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+print(rH(v3))
+countDown(cnt)
+wH(v3 rH(v3) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+print(rH(v3))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v3))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(100)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v2
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v2
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v2
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+Ref(int) v3
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+Ref(int) v3
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v1 2)
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v1 2)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v2 3)
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v2 3)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (0, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+(new v3 4)
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+(new v3 4)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+latch(cnt, rH(v2))
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+latch(cnt, rH(v2))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v1 rH(v1) * 10); (print(rH(v1)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v2 rH(v2) * 10); (print(rH(v2)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+countDown(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 2
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+wH(v2 rH(v2) * 10)
+print(rH(v2))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+fork((wH(v3 rH(v3) * 10); (print(rH(v3)); countDown(cnt))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+print(rH(v2))
+countDown(cnt)
+wH(v2 rH(v2) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 3
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+await(cnt)
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+print(rH(v2))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+wH(v3 rH(v3) * 10)
+print(rH(v3))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 16 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v2))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+print(rH(v3))
+countDown(cnt)
+wH(v3 rH(v3) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 4
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+print(rH(v3))
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 17 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(rH(v3))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+await(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 18 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(100)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+countDown(cnt)
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+countDown(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+print(100)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+
+
+------------------------------------------------------------------------------------
+------- Id: 15 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+v2 = (2, int)
+v3 = (3, int)
+
+------- Out: -------
+20 16 30 17 40 18 100 100 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 20
+2 = 30
+3 = 40
+

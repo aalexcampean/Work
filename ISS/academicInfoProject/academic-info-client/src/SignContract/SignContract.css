@@ -1,0 +1,11 @@
+.centered-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*gap: 50px;*/
+}
+
+#already-signed-message {
+    font-size: medium;
+    color: red;
+}

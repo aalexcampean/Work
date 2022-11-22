@@ -1,0 +1,42 @@
+.main-page {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-form {
+    flex: 1;
+}
+
+.information-form-content {
+    padding: 20px;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 50px;
+}
+
+.form-item {
+    width: 100%;
+}
+
+#form-button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+}
+
+.form-button {
+    flex: 1;
+}

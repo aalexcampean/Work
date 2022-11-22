@@ -1,0 +1,7870 @@
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+(new v1 1)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+createSemaphore(cnt, rH(v1))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1) - 1)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 2)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+(new v1 1)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+createSemaphore(cnt, rH(v1))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1) - 1)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 2)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+(new v1 1)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+createSemaphore(cnt, rH(v1))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 2)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1) - 1)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 199 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 199 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+(new v1 1)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+createSemaphore(cnt, rH(v1))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 2)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1) - 1)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 199 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 199 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+(new v1 1)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+createSemaphore(cnt, rH(v1))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1) - 1)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 2)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+(new v1 1)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+createSemaphore(cnt, rH(v1))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 2)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1) - 1)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 199 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 200 199 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+(new v1 1)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+createSemaphore(cnt, rH(v1))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1) - 1)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 2)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Ref(int) v1
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+int cnt
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+int cnt
+
+------- Symbol Table: -------
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+(new v1 1)
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+(new v1 1)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (0, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+createSemaphore(cnt, rH(v1))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+createSemaphore(cnt, rH(v1))
+
+------- Symbol Table: -------
+cnt = 0
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (print(rH(v1)); release(cnt)))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+fork((acquire(cnt); (wH(v1 rH(v1) * 10); (wH(v1 rH(v1) * 2); (print(rH(v1)); release(cnt))))))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+acquire(cnt)
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 1
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 2 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+print(rH(v1) - 1)
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1) - 1)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 1 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+acquire(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 10)
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 10)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 10
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+wH(v1 rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+wH(v1 rH(v1) * 2)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 100
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(rH(v1))
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+print(rH(v1))
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+release(cnt)
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+cnt = 1
+v1 = (1, int)
+
+------- Out: -------
+10 9 200 
+------- FileTable: -------
+
+------- Heap: -------
+1 = 200
+

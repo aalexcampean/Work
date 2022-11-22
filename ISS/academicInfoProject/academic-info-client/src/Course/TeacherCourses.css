@@ -1,0 +1,14 @@
+#courses-list {
+    padding: 0 20px 0 20px;
+    list-style: none;
+    width: 50%;
+}
+
+#course-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-item {
+    flex: 1;
+}

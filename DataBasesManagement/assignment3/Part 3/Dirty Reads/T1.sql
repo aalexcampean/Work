@@ -1,0 +1,10 @@
+USE CarService
+GO
+
+--part 1
+BEGIN TRAN
+UPDATE Car
+SET Name = 'nume' 
+WHERE Id = 3
+WAITFOR DELAY '00:00:05'
+ROLLBACK TRAN

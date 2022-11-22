@@ -1,0 +1,15 @@
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/bin/Debug/net6.0/AcademicInfoAPI.Business.deps.json
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/bin/Debug/net6.0/AcademicInfoAPI.Business.dll
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/bin/Debug/net6.0/AcademicInfoAPI.Business.pdb
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/bin/Debug/net6.0/AcademicInfoAPI.Data.dll
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/bin/Debug/net6.0/AcademicInfoAPI.Data.pdb
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/obj/Debug/net6.0/AcademicInfoAPI.Business.csproj.AssemblyReference.cache
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/obj/Debug/net6.0/AcademicInfoAPI.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/obj/Debug/net6.0/AcademicInfoAPI.Business.AssemblyInfoInputs.cache
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/obj/Debug/net6.0/AcademicInfoAPI.Business.AssemblyInfo.cs
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/obj/Debug/net6.0/AcademicInfoAPI.Business.csproj.CoreCompileInputs.cache
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/obj/Debug/net6.0/AcademicInfoAPI.Business.csproj.CopyComplete
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/obj/Debug/net6.0/AcademicInfoAPI.Business.dll
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/obj/Debug/net6.0/refint/AcademicInfoAPI.Business.dll
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/obj/Debug/net6.0/AcademicInfoAPI.Business.pdb
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Business/obj/Debug/net6.0/ref/AcademicInfoAPI.Business.dll

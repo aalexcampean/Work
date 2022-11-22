@@ -1,0 +1,14 @@
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/bin/Debug/net6.0/AcademicInfoAPI.Data.deps.json
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/bin/Debug/net6.0/AcademicInfoAPI.Data.runtimeconfig.json
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/bin/Debug/net6.0/AcademicInfoAPI.Data.dll
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/bin/Debug/net6.0/AcademicInfoAPI.Data.pdb
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/obj/Debug/net6.0/AcademicInfoAPI.Data.csproj.AssemblyReference.cache
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/obj/Debug/net6.0/AcademicInfoAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/obj/Debug/net6.0/AcademicInfoAPI.Data.AssemblyInfoInputs.cache
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/obj/Debug/net6.0/AcademicInfoAPI.Data.AssemblyInfo.cs
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/obj/Debug/net6.0/AcademicInfoAPI.Data.csproj.CoreCompileInputs.cache
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/obj/Debug/net6.0/AcademicInfoAPI.Data.dll
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/obj/Debug/net6.0/refint/AcademicInfoAPI.Data.dll
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/obj/Debug/net6.0/AcademicInfoAPI.Data.pdb
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/obj/Debug/net6.0/AcademicInfoAPI.Data.genruntimeconfig.cache
+/Users/alexcampean/Documents/GitHub/academicinfoproject/AcademicInfoAPI/AcademicInfoAPI.Data/obj/Debug/net6.0/ref/AcademicInfoAPI.Data.dll

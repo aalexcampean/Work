@@ -1,0 +1,972 @@
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+model.adtContainers.MyStack@2c2e8ba4
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+model.adtContainers.MyStack@2c2e8ba4
+------- Symbol Table: -------
+a = false
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+model.adtContainers.MyStack@2c2e8ba4
+------- Symbol Table: -------
+a = false
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+model.adtContainers.MyStack@2c2e8ba4
+------- Symbol Table: -------
+a = false
+v = 0
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+model.adtContainers.MyStack@2c2e8ba4
+------- Symbol Table: -------
+a = false
+v = 0
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+model.adtContainers.MyStack@2c2e8ba4
+------- Symbol Table: -------
+a = true
+v = 0
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+model.adtContainers.MyStack@2c2e8ba4
+------- Symbol Table: -------
+a = true
+v = 0
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+model.adtContainers.MyStack@2c2e8ba4
+------- Symbol Table: -------
+a = true
+v = 0
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+model.adtContainers.MyStack@2c2e8ba4
+------- Symbol Table: -------
+a = true
+v = 2
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+model.adtContainers.MyStack@2c2e8ba4
+------- Symbol Table: -------
+a = true
+v = 2
+
+------- Out: -------
+2 
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+string varf
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+varf = test.in
+
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+openRFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+int varc
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+varc = 0
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+readFile(varf,varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+print(varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15 
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(varc)
+closeFile(varf)
+readFile(varf,varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15 
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15 
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+closeFile(varf)
+print(varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15 
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15 50 
+------- FileTable: -------
+test.in = java.io.BufferedReader@bada3a9
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15 50 
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+string varf
+
+------- Symbol Table: -------
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+varf = test.in
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+varf = test.in
+
+------- Symbol Table: -------
+varf = 
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+openRFile(varf)
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+openRFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+int varc
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+int varc
+
+------- Symbol Table: -------
+varf = test.in
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+varc = 0
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+varc = 0
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+readFile(varf,varc)
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+readFile(varf,varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 0
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(varc)
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+print(varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+readFile(varf,varc)
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15 
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(varc)
+closeFile(varf)
+readFile(varf,varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 15
+
+------- Out: -------
+15 
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+print(varc)
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15 
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+closeFile(varf)
+print(varc)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15 
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+closeFile(varf)
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15 50 
+------- FileTable: -------
+test.in = java.io.BufferedReader@326058b3
+
+------- Heap: -------
+
+
+------------------------------------------------------------------------------------
+------- Id: 3 -------
+
+------- Execution Stack: -------
+
+------- Symbol Table: -------
+varf = test.in
+varc = 50
+
+------- Out: -------
+15 50 
+------- FileTable: -------
+
+------- Heap: -------
+
