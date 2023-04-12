@@ -73,7 +73,7 @@ void setup()
 
   lcd.clear();
   lcd.setCursor(1, 0);
-  lcd.print("SPANZURATOAREA");
+  lcd.print("HANGMAN");
   delay(2000);
 
   // pick a random word using analog 5 for random data
@@ -283,9 +283,9 @@ void gameOver(int whatToDo) {
     case 1:  // WINNER
       lcd.clear();
       lcd.setCursor(1, 0);
-      lcd.print("AI GHICIT");
+      lcd.print("YOU GUESSED");
       lcd.setCursor(1, 1);
-      lcd.print("CUVANTUL!");
+      lcd.print("THE WORD!");
 
       // buzzer sound
       buzz(ALOW, 150);
