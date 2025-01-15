@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9109893A298EE56400AAF655 /* GardenningAppExamPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91098939298EE56400AAF655 /* GardenningAppExamPracticeApp.swift */; };
+		9109893C298EE56400AAF655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109893B298EE56400AAF655 /* ContentView.swift */; };
+		9109893E298EE56500AAF655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9109893D298EE56500AAF655 /* Assets.xcassets */; };
+		91098941298EE56500AAF655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91098940298EE56500AAF655 /* Preview Assets.xcassets */; };
+		9109894B298EE56500AAF655 /* GardenningAppExamPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109894A298EE56500AAF655 /* GardenningAppExamPracticeTests.swift */; };
+		91098955298EE56500AAF655 /* GardenningAppExamPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91098954298EE56500AAF655 /* GardenningAppExamPracticeUITests.swift */; };
+		91098957298EE56500AAF655 /* GardenningAppExamPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91098956298EE56500AAF655 /* GardenningAppExamPracticeUITestsLaunchTests.swift */; };
+		91098965298EE5C000AAF655 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91098964298EE5C000AAF655 /* Category.swift */; };
+		91098967298EE5C800AAF655 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91098966298EE5C800AAF655 /* Tip.swift */; };
+		9109896A298EE68400AAF655 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 91098969298EE68400AAF655 /* Realm */; };
+		9109896C298EE68400AAF655 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9109896B298EE68400AAF655 /* RealmSwift */; };
+		9109896F298EEEF300AAF655 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109896E298EEEF300AAF655 /* Controller.swift */; };
+		91098974298F005100AAF655 /* ControllerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91098973298F005100AAF655 /* ControllerError.swift */; };
+		91098979298F18E200AAF655 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91098978298F18E200AAF655 /* CategoriesView.swift */; };
+		9109897B298F21D700AAF655 /* AddTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109897A298F21D700AAF655 /* AddTipView.swift */; };
+		9109897D298F32B100AAF655 /* EasiestTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109897C298F32B100AAF655 /* EasiestTipsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91098947298EE56500AAF655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9109892E298EE56400AAF655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91098935298EE56400AAF655;
+			remoteInfo = GardenningAppExamPractice;
+		};
+		91098951298EE56500AAF655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9109892E298EE56400AAF655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91098935298EE56400AAF655;
+			remoteInfo = GardenningAppExamPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91098936298EE56400AAF655 /* GardenningAppExamPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenningAppExamPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91098939298EE56400AAF655 /* GardenningAppExamPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenningAppExamPracticeApp.swift; sourceTree = "<group>"; };
+		9109893B298EE56400AAF655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9109893D298EE56500AAF655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91098940298EE56500AAF655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91098946298EE56500AAF655 /* GardenningAppExamPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenningAppExamPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9109894A298EE56500AAF655 /* GardenningAppExamPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenningAppExamPracticeTests.swift; sourceTree = "<group>"; };
+		91098950298EE56500AAF655 /* GardenningAppExamPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenningAppExamPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91098954298EE56500AAF655 /* GardenningAppExamPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenningAppExamPracticeUITests.swift; sourceTree = "<group>"; };
+		91098956298EE56500AAF655 /* GardenningAppExamPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenningAppExamPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91098964298EE5C000AAF655 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		91098966298EE5C800AAF655 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		9109896E298EEEF300AAF655 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		91098973298F005100AAF655 /* ControllerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerError.swift; sourceTree = "<group>"; };
+		91098978298F18E200AAF655 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		9109897A298F21D700AAF655 /* AddTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTipView.swift; sourceTree = "<group>"; };
+		9109897C298F32B100AAF655 /* EasiestTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasiestTipsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91098933298EE56400AAF655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9109896C298EE68400AAF655 /* RealmSwift in Frameworks */,
+				9109896A298EE68400AAF655 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91098943298EE56500AAF655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9109894D298EE56500AAF655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9109892D298EE56400AAF655 = {
+			isa = PBXGroup;
+			children = (
+				91098938298EE56400AAF655 /* GardenningAppExamPractice */,
+				91098949298EE56500AAF655 /* GardenningAppExamPracticeTests */,
+				91098953298EE56500AAF655 /* GardenningAppExamPracticeUITests */,
+				91098937298EE56400AAF655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91098937298EE56400AAF655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91098936298EE56400AAF655 /* GardenningAppExamPractice.app */,
+				91098946298EE56500AAF655 /* GardenningAppExamPracticeTests.xctest */,
+				91098950298EE56500AAF655 /* GardenningAppExamPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91098938298EE56400AAF655 /* GardenningAppExamPractice */ = {
+			isa = PBXGroup;
+			children = (
+				91098977298F186E00AAF655 /* Views */,
+				91098970298F000900AAF655 /* Utils */,
+				91098963298EE57400AAF655 /* Model */,
+				9109896D298EEED800AAF655 /* Controller */,
+				91098939298EE56400AAF655 /* GardenningAppExamPracticeApp.swift */,
+				9109893B298EE56400AAF655 /* ContentView.swift */,
+				9109893D298EE56500AAF655 /* Assets.xcassets */,
+				9109893F298EE56500AAF655 /* Preview Content */,
+			);
+			path = GardenningAppExamPractice;
+			sourceTree = "<group>";
+		};
+		9109893F298EE56500AAF655 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91098940298EE56500AAF655 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91098949298EE56500AAF655 /* GardenningAppExamPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9109894A298EE56500AAF655 /* GardenningAppExamPracticeTests.swift */,
+			);
+			path = GardenningAppExamPracticeTests;
+			sourceTree = "<group>";
+		};
+		91098953298EE56500AAF655 /* GardenningAppExamPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91098954298EE56500AAF655 /* GardenningAppExamPracticeUITests.swift */,
+				91098956298EE56500AAF655 /* GardenningAppExamPracticeUITestsLaunchTests.swift */,
+			);
+			path = GardenningAppExamPracticeUITests;
+			sourceTree = "<group>";
+		};
+		91098963298EE57400AAF655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91098964298EE5C000AAF655 /* Category.swift */,
+				91098966298EE5C800AAF655 /* Tip.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9109896D298EEED800AAF655 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9109896E298EEEF300AAF655 /* Controller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		91098970298F000900AAF655 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				91098973298F005100AAF655 /* ControllerError.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		91098977298F186E00AAF655 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91098978298F18E200AAF655 /* CategoriesView.swift */,
+				9109897A298F21D700AAF655 /* AddTipView.swift */,
+				9109897C298F32B100AAF655 /* EasiestTipsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91098935298EE56400AAF655 /* GardenningAppExamPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9109895A298EE56500AAF655 /* Build configuration list for PBXNativeTarget "GardenningAppExamPractice" */;
+			buildPhases = (
+				91098932298EE56400AAF655 /* Sources */,
+				91098933298EE56400AAF655 /* Frameworks */,
+				91098934298EE56400AAF655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GardenningAppExamPractice;
+			packageProductDependencies = (
+				91098969298EE68400AAF655 /* Realm */,
+				9109896B298EE68400AAF655 /* RealmSwift */,
+			);
+			productName = GardenningAppExamPractice;
+			productReference = 91098936298EE56400AAF655 /* GardenningAppExamPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91098945298EE56500AAF655 /* GardenningAppExamPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9109895D298EE56500AAF655 /* Build configuration list for PBXNativeTarget "GardenningAppExamPracticeTests" */;
+			buildPhases = (
+				91098942298EE56500AAF655 /* Sources */,
+				91098943298EE56500AAF655 /* Frameworks */,
+				91098944298EE56500AAF655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91098948298EE56500AAF655 /* PBXTargetDependency */,
+			);
+			name = GardenningAppExamPracticeTests;
+			productName = GardenningAppExamPracticeTests;
+			productReference = 91098946298EE56500AAF655 /* GardenningAppExamPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9109894F298EE56500AAF655 /* GardenningAppExamPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91098960298EE56500AAF655 /* Build configuration list for PBXNativeTarget "GardenningAppExamPracticeUITests" */;
+			buildPhases = (
+				9109894C298EE56500AAF655 /* Sources */,
+				9109894D298EE56500AAF655 /* Frameworks */,
+				9109894E298EE56500AAF655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91098952298EE56500AAF655 /* PBXTargetDependency */,
+			);
+			name = GardenningAppExamPracticeUITests;
+			productName = GardenningAppExamPracticeUITests;
+			productReference = 91098950298EE56500AAF655 /* GardenningAppExamPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9109892E298EE56400AAF655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					91098935298EE56400AAF655 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					91098945298EE56500AAF655 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 91098935298EE56400AAF655;
+					};
+					9109894F298EE56500AAF655 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 91098935298EE56400AAF655;
+					};
+				};
+			};
+			buildConfigurationList = 91098931298EE56400AAF655 /* Build configuration list for PBXProject "GardenningAppExamPractice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9109892D298EE56400AAF655;
+			packageReferences = (
+				91098968298EE68400AAF655 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 91098937298EE56400AAF655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91098935298EE56400AAF655 /* GardenningAppExamPractice */,
+				91098945298EE56500AAF655 /* GardenningAppExamPracticeTests */,
+				9109894F298EE56500AAF655 /* GardenningAppExamPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91098934298EE56400AAF655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91098941298EE56500AAF655 /* Preview Assets.xcassets in Resources */,
+				9109893E298EE56500AAF655 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91098944298EE56500AAF655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9109894E298EE56500AAF655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91098932298EE56400AAF655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9109896F298EEEF300AAF655 /* Controller.swift in Sources */,
+				91098979298F18E200AAF655 /* CategoriesView.swift in Sources */,
+				9109893C298EE56400AAF655 /* ContentView.swift in Sources */,
+				91098967298EE5C800AAF655 /* Tip.swift in Sources */,
+				9109897B298F21D700AAF655 /* AddTipView.swift in Sources */,
+				9109893A298EE56400AAF655 /* GardenningAppExamPracticeApp.swift in Sources */,
+				91098974298F005100AAF655 /* ControllerError.swift in Sources */,
+				9109897D298F32B100AAF655 /* EasiestTipsView.swift in Sources */,
+				91098965298EE5C000AAF655 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91098942298EE56500AAF655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9109894B298EE56500AAF655 /* GardenningAppExamPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9109894C298EE56500AAF655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91098955298EE56500AAF655 /* GardenningAppExamPracticeUITests.swift in Sources */,
+				91098957298EE56500AAF655 /* GardenningAppExamPracticeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91098948298EE56500AAF655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91098935298EE56400AAF655 /* GardenningAppExamPractice */;
+			targetProxy = 91098947298EE56500AAF655 /* PBXContainerItemProxy */;
+		};
+		91098952298EE56500AAF655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91098935298EE56400AAF655 /* GardenningAppExamPractice */;
+			targetProxy = 91098951298EE56500AAF655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91098958298EE56500AAF655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91098959298EE56500AAF655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9109895B298EE56500AAF655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GardenningAppExamPractice/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aalexcampean.GardenningAppExamPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9109895C298EE56500AAF655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GardenningAppExamPractice/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aalexcampean.GardenningAppExamPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9109895E298EE56500AAF655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aalexcampean.GardenningAppExamPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenningAppExamPractice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GardenningAppExamPractice";
+			};
+			name = Debug;
+		};
+		9109895F298EE56500AAF655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aalexcampean.GardenningAppExamPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenningAppExamPractice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GardenningAppExamPractice";
+			};
+			name = Release;
+		};
+		91098961298EE56500AAF655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aalexcampean.GardenningAppExamPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GardenningAppExamPractice;
+			};
+			name = Debug;
+		};
+		91098962298EE56500AAF655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aalexcampean.GardenningAppExamPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GardenningAppExamPractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91098931298EE56400AAF655 /* Build configuration list for PBXProject "GardenningAppExamPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91098958298EE56500AAF655 /* Debug */,
+				91098959298EE56500AAF655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9109895A298EE56500AAF655 /* Build configuration list for PBXNativeTarget "GardenningAppExamPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9109895B298EE56500AAF655 /* Debug */,
+				9109895C298EE56500AAF655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9109895D298EE56500AAF655 /* Build configuration list for PBXNativeTarget "GardenningAppExamPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9109895E298EE56500AAF655 /* Debug */,
+				9109895F298EE56500AAF655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91098960298EE56500AAF655 /* Build configuration list for PBXNativeTarget "GardenningAppExamPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91098961298EE56500AAF655 /* Debug */,
+				91098962298EE56500AAF655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		91098968298EE68400AAF655 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.33.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91098969298EE68400AAF655 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91098968298EE68400AAF655 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		9109896B298EE68400AAF655 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91098968298EE68400AAF655 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9109892E298EE56400AAF655 /* Project object */;
+}

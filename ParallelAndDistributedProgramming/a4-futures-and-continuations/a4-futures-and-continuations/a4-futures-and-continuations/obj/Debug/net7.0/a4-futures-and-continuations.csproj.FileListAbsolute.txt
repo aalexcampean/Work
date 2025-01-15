@@ -1,0 +1,15 @@
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/bin/Debug/net7.0/a4-futures-and-continuations
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/bin/Debug/net7.0/a4-futures-and-continuations.deps.json
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/bin/Debug/net7.0/a4-futures-and-continuations.runtimeconfig.json
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/bin/Debug/net7.0/a4-futures-and-continuations.dll
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/bin/Debug/net7.0/a4-futures-and-continuations.pdb
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/obj/Debug/net7.0/a4-futures-and-continuations.csproj.AssemblyReference.cache
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/obj/Debug/net7.0/a4-futures-and-continuations.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/obj/Debug/net7.0/a4-futures-and-continuations.AssemblyInfoInputs.cache
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/obj/Debug/net7.0/a4-futures-and-continuations.AssemblyInfo.cs
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/obj/Debug/net7.0/a4-futures-and-continuations.csproj.CoreCompileInputs.cache
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/obj/Debug/net7.0/a4-futures-and-continuations.dll
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/obj/Debug/net7.0/refint/a4-futures-and-continuations.dll
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/obj/Debug/net7.0/a4-futures-and-continuations.pdb
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/obj/Debug/net7.0/a4-futures-and-continuations.genruntimeconfig.cache
+/Users/alexcampean/Documents/university/sem_5/PDP/labs/a4-futures-and-continuations/a4-futures-and-continuations/a4-futures-and-continuations/obj/Debug/net7.0/ref/a4-futures-and-continuations.dll

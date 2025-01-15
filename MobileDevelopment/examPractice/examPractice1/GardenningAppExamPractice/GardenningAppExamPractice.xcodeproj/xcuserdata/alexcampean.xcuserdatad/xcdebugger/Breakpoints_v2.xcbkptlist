@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0D567CD6-56E4-483A-9774-5D1E6C62F661"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AEEF1D1-5FEF-4D6E-9033-3C35F28AC78D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GardenningAppExamPractice/Controller/Controller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "refresh()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1AEEF1D1-5FEF-4D6E-9033-3C35F28AC78D - 83a63f3bcc71b086"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in closure #1 @Swift.MainActor () -&gt; () in GardenningAppExamPractice.Controller.refresh() -&gt; ()"
+                  moduleName = "GardenningAppExamPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexcampean/Documents/university/sem_5/MOBILE/examPractice/examPractice1/GardenningAppExamPractice/GardenningAppExamPractice/Controller/Controller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "900">
+               </Location>
+               <Location
+                  uuid = "1AEEF1D1-5FEF-4D6E-9033-3C35F28AC78D - 4c842eaf12c1d20a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #1 @Sendable () async throws -&gt; () in closure #1 @Swift.MainActor () -&gt; () in GardenningAppExamPractice.Controller.refresh() -&gt; ()"
+                  moduleName = "GardenningAppExamPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexcampean/Documents/university/sem_5/MOBILE/examPractice/examPractice1/GardenningAppExamPractice/GardenningAppExamPractice/Controller/Controller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
