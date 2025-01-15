@@ -1,0 +1,1284 @@
+Terminals which are not used
+
+   NEQ
+
+
+State 70 conflicts: 5 shift/reduce
+State 78 conflicts: 5 shift/reduce
+
+
+Grammar
+
+    0 $accept: Program $end
+
+    1 Program: Statement SEMICOLON Program
+    2        | Statement SEMICOLON
+
+    3 Statement: VarStatement
+    4          | ArrStatement
+    5          | AssignStatement
+    6          | IfStatement
+    7          | WhileStatement
+    8          | ReturnStatement
+    9          | FunctionCallStatement
+
+   10 VarStatement: VAR IdentifierList
+
+   11 IdentifierList: MaybeEqualExpression
+   12               | MaybeEqualExpression COMMA IdentifierList
+
+   13 MaybeEqualExpression: IDENTIFIER
+   14                     | IDENTIFIER EQ Expression
+
+   15 Expression: IntExpression
+   16           | StringExpression
+
+   17 MathematicalOperator: PLUS
+   18                     | MINUS
+   19                     | TIMES
+   20                     | DIV
+   21                     | MOD
+
+   22 IntExpression: INTCONSTANT
+   23              | IDENTIFIER
+   24              | FunctionCallStatement
+   25              | IntExpression MathematicalOperator IntExpression
+   26              | OPEN IntExpression MathematicalOperator IntExpression CLOSE
+
+   27 StringExpression: STRINGCONSTANT
+
+   28 ExpressionList: Expression
+   29               | Expression COMMA ExpressionList
+
+   30 ArrStatement: ARR LESS INTCONSTANT BIGGER PureIdentifierList
+
+   31 PureIdentifierList: IDENTIFIER
+   32                   | IDENTIFIER COMMA PureIdentifierList
+
+   33 AssignStatement: IDENTIFIER EQ Expression
+
+   34 IfStatement: IF OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE
+   35            | IF OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE ELSE BRACKETOPEN Program BRACKETCLOSE
+
+   36 RelationalOperator: EQQ
+   37                   | LESS
+   38                   | LESSEQ
+   39                   | BIGGER
+   40                   | BIGGEREQ
+
+   41 Condition: Expression RelationalOperator Expression
+   42          | Expression RelationalOperator Expression AND Expression RelationalOperator Expression
+   43          | Expression RelationalOperator Expression OR Expression RelationalOperator Expression
+
+   44 WhileStatement: WHILE OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE
+
+   45 ReturnStatement: RETURN Expression
+
+   46 FunctionCallStatement: FunctionName OPEN ExpressionList CLOSE
+   47                      | FunctionName OPEN CLOSE
+
+   48 FunctionName: PRINT
+   49             | SETNTH
+   50             | GETNTH
+   51             | READINT
+   52             | READSTRING
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+error (256)
+ARR (258) 30
+VAR (259) 10
+IF (260) 34 35
+PRINT (261) 48
+READINT (262) 51
+READSTRING (263) 52
+ELSE (264) 35
+WHILE (265) 44
+SETNTH (266) 49
+GETNTH (267) 50
+RETURN (268) 45
+IDENTIFIER (269) 13 14 23 31 32 33
+INTCONSTANT (270) 22 30
+STRINGCONSTANT (271) 27
+PLUS (272) 17
+MINUS (273) 18
+TIMES (274) 19
+DIV (275) 20
+MOD (276) 21
+EQ (277) 14 33
+BIGGER (278) 30 39
+BIGGEREQ (279) 40
+LESS (280) 30 37
+LESSEQ (281) 38
+EQQ (282) 36
+NEQ (283)
+AND (284) 42
+OR (285) 43
+SEMICOLON (286) 1 2
+OPEN (287) 26 34 35 44 46 47
+CLOSE (288) 26 34 35 44 46 47
+BRACKETOPEN (289) 34 35 44
+BRACKETCLOSE (290) 34 35 44
+COMMA (291) 12 29 32
+
+
+Nonterminals, with rules where they appear
+
+$accept (37)
+    on left: 0
+Program (38)
+    on left: 1 2, on right: 0 1 34 35 44
+Statement (39)
+    on left: 3 4 5 6 7 8 9, on right: 1 2
+VarStatement (40)
+    on left: 10, on right: 3
+IdentifierList (41)
+    on left: 11 12, on right: 10 12
+MaybeEqualExpression (42)
+    on left: 13 14, on right: 11 12
+Expression (43)
+    on left: 15 16, on right: 14 28 29 33 41 42 43 45
+MathematicalOperator (44)
+    on left: 17 18 19 20 21, on right: 25 26
+IntExpression (45)
+    on left: 22 23 24 25 26, on right: 15 25 26
+StringExpression (46)
+    on left: 27, on right: 16
+ExpressionList (47)
+    on left: 28 29, on right: 29 46
+ArrStatement (48)
+    on left: 30, on right: 4
+PureIdentifierList (49)
+    on left: 31 32, on right: 30 32
+AssignStatement (50)
+    on left: 33, on right: 5
+IfStatement (51)
+    on left: 34 35, on right: 6
+RelationalOperator (52)
+    on left: 36 37 38 39 40, on right: 41 42 43
+Condition (53)
+    on left: 41 42 43, on right: 34 35 44
+WhileStatement (54)
+    on left: 44, on right: 7
+ReturnStatement (55)
+    on left: 45, on right: 8
+FunctionCallStatement (56)
+    on left: 46 47, on right: 9 24
+FunctionName (57)
+    on left: 48 49 50 51 52, on right: 46 47
+
+
+state 0
+
+    0 $accept: . Program $end
+
+    ARR         shift, and go to state 1
+    VAR         shift, and go to state 2
+    IF          shift, and go to state 3
+    PRINT       shift, and go to state 4
+    READINT     shift, and go to state 5
+    READSTRING  shift, and go to state 6
+    WHILE       shift, and go to state 7
+    SETNTH      shift, and go to state 8
+    GETNTH      shift, and go to state 9
+    RETURN      shift, and go to state 10
+    IDENTIFIER  shift, and go to state 11
+
+    Program                go to state 12
+    Statement              go to state 13
+    VarStatement           go to state 14
+    ArrStatement           go to state 15
+    AssignStatement        go to state 16
+    IfStatement            go to state 17
+    WhileStatement         go to state 18
+    ReturnStatement        go to state 19
+    FunctionCallStatement  go to state 20
+    FunctionName           go to state 21
+
+
+state 1
+
+   30 ArrStatement: ARR . LESS INTCONSTANT BIGGER PureIdentifierList
+
+    LESS  shift, and go to state 22
+
+
+state 2
+
+   10 VarStatement: VAR . IdentifierList
+
+    IDENTIFIER  shift, and go to state 23
+
+    IdentifierList        go to state 24
+    MaybeEqualExpression  go to state 25
+
+
+state 3
+
+   34 IfStatement: IF . OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE
+   35            | IF . OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE ELSE BRACKETOPEN Program BRACKETCLOSE
+
+    OPEN  shift, and go to state 26
+
+
+state 4
+
+   48 FunctionName: PRINT .
+
+    $default  reduce using rule 48 (FunctionName)
+
+
+state 5
+
+   51 FunctionName: READINT .
+
+    $default  reduce using rule 51 (FunctionName)
+
+
+state 6
+
+   52 FunctionName: READSTRING .
+
+    $default  reduce using rule 52 (FunctionName)
+
+
+state 7
+
+   44 WhileStatement: WHILE . OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE
+
+    OPEN  shift, and go to state 27
+
+
+state 8
+
+   49 FunctionName: SETNTH .
+
+    $default  reduce using rule 49 (FunctionName)
+
+
+state 9
+
+   50 FunctionName: GETNTH .
+
+    $default  reduce using rule 50 (FunctionName)
+
+
+state 10
+
+   45 ReturnStatement: RETURN . Expression
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+
+    Expression             go to state 32
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 11
+
+   33 AssignStatement: IDENTIFIER . EQ Expression
+
+    EQ  shift, and go to state 36
+
+
+state 12
+
+    0 $accept: Program . $end
+
+    $end  shift, and go to state 37
+
+
+state 13
+
+    1 Program: Statement . SEMICOLON Program
+    2        | Statement . SEMICOLON
+
+    SEMICOLON  shift, and go to state 38
+
+
+state 14
+
+    3 Statement: VarStatement .
+
+    $default  reduce using rule 3 (Statement)
+
+
+state 15
+
+    4 Statement: ArrStatement .
+
+    $default  reduce using rule 4 (Statement)
+
+
+state 16
+
+    5 Statement: AssignStatement .
+
+    $default  reduce using rule 5 (Statement)
+
+
+state 17
+
+    6 Statement: IfStatement .
+
+    $default  reduce using rule 6 (Statement)
+
+
+state 18
+
+    7 Statement: WhileStatement .
+
+    $default  reduce using rule 7 (Statement)
+
+
+state 19
+
+    8 Statement: ReturnStatement .
+
+    $default  reduce using rule 8 (Statement)
+
+
+state 20
+
+    9 Statement: FunctionCallStatement .
+
+    $default  reduce using rule 9 (Statement)
+
+
+state 21
+
+   46 FunctionCallStatement: FunctionName . OPEN ExpressionList CLOSE
+   47                      | FunctionName . OPEN CLOSE
+
+    OPEN  shift, and go to state 39
+
+
+state 22
+
+   30 ArrStatement: ARR LESS . INTCONSTANT BIGGER PureIdentifierList
+
+    INTCONSTANT  shift, and go to state 40
+
+
+state 23
+
+   13 MaybeEqualExpression: IDENTIFIER .
+   14                     | IDENTIFIER . EQ Expression
+
+    EQ  shift, and go to state 41
+
+    $default  reduce using rule 13 (MaybeEqualExpression)
+
+
+state 24
+
+   10 VarStatement: VAR IdentifierList .
+
+    $default  reduce using rule 10 (VarStatement)
+
+
+state 25
+
+   11 IdentifierList: MaybeEqualExpression .
+   12               | MaybeEqualExpression . COMMA IdentifierList
+
+    COMMA  shift, and go to state 42
+
+    $default  reduce using rule 11 (IdentifierList)
+
+
+state 26
+
+   34 IfStatement: IF OPEN . Condition CLOSE BRACKETOPEN Program BRACKETCLOSE
+   35            | IF OPEN . Condition CLOSE BRACKETOPEN Program BRACKETCLOSE ELSE BRACKETOPEN Program BRACKETCLOSE
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+
+    Expression             go to state 43
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    Condition              go to state 44
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 27
+
+   44 WhileStatement: WHILE OPEN . Condition CLOSE BRACKETOPEN Program BRACKETCLOSE
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+
+    Expression             go to state 43
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    Condition              go to state 45
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 28
+
+   23 IntExpression: IDENTIFIER .
+
+    $default  reduce using rule 23 (IntExpression)
+
+
+state 29
+
+   22 IntExpression: INTCONSTANT .
+
+    $default  reduce using rule 22 (IntExpression)
+
+
+state 30
+
+   27 StringExpression: STRINGCONSTANT .
+
+    $default  reduce using rule 27 (StringExpression)
+
+
+state 31
+
+   26 IntExpression: OPEN . IntExpression MathematicalOperator IntExpression CLOSE
+
+    PRINT        shift, and go to state 4
+    READINT      shift, and go to state 5
+    READSTRING   shift, and go to state 6
+    SETNTH       shift, and go to state 8
+    GETNTH       shift, and go to state 9
+    IDENTIFIER   shift, and go to state 28
+    INTCONSTANT  shift, and go to state 29
+    OPEN         shift, and go to state 31
+
+    IntExpression          go to state 46
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 32
+
+   45 ReturnStatement: RETURN Expression .
+
+    $default  reduce using rule 45 (ReturnStatement)
+
+
+state 33
+
+   15 Expression: IntExpression .
+   25 IntExpression: IntExpression . MathematicalOperator IntExpression
+
+    PLUS   shift, and go to state 47
+    MINUS  shift, and go to state 48
+    TIMES  shift, and go to state 49
+    DIV    shift, and go to state 50
+    MOD    shift, and go to state 51
+
+    $default  reduce using rule 15 (Expression)
+
+    MathematicalOperator  go to state 52
+
+
+state 34
+
+   16 Expression: StringExpression .
+
+    $default  reduce using rule 16 (Expression)
+
+
+state 35
+
+   24 IntExpression: FunctionCallStatement .
+
+    $default  reduce using rule 24 (IntExpression)
+
+
+state 36
+
+   33 AssignStatement: IDENTIFIER EQ . Expression
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+
+    Expression             go to state 53
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 37
+
+    0 $accept: Program $end .
+
+    $default  accept
+
+
+state 38
+
+    1 Program: Statement SEMICOLON . Program
+    2        | Statement SEMICOLON .
+
+    ARR         shift, and go to state 1
+    VAR         shift, and go to state 2
+    IF          shift, and go to state 3
+    PRINT       shift, and go to state 4
+    READINT     shift, and go to state 5
+    READSTRING  shift, and go to state 6
+    WHILE       shift, and go to state 7
+    SETNTH      shift, and go to state 8
+    GETNTH      shift, and go to state 9
+    RETURN      shift, and go to state 10
+    IDENTIFIER  shift, and go to state 11
+
+    $default  reduce using rule 2 (Program)
+
+    Program                go to state 54
+    Statement              go to state 13
+    VarStatement           go to state 14
+    ArrStatement           go to state 15
+    AssignStatement        go to state 16
+    IfStatement            go to state 17
+    WhileStatement         go to state 18
+    ReturnStatement        go to state 19
+    FunctionCallStatement  go to state 20
+    FunctionName           go to state 21
+
+
+state 39
+
+   46 FunctionCallStatement: FunctionName OPEN . ExpressionList CLOSE
+   47                      | FunctionName OPEN . CLOSE
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+    CLOSE           shift, and go to state 55
+
+    Expression             go to state 56
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    ExpressionList         go to state 57
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 40
+
+   30 ArrStatement: ARR LESS INTCONSTANT . BIGGER PureIdentifierList
+
+    BIGGER  shift, and go to state 58
+
+
+state 41
+
+   14 MaybeEqualExpression: IDENTIFIER EQ . Expression
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+
+    Expression             go to state 59
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 42
+
+   12 IdentifierList: MaybeEqualExpression COMMA . IdentifierList
+
+    IDENTIFIER  shift, and go to state 23
+
+    IdentifierList        go to state 60
+    MaybeEqualExpression  go to state 25
+
+
+state 43
+
+   41 Condition: Expression . RelationalOperator Expression
+   42          | Expression . RelationalOperator Expression AND Expression RelationalOperator Expression
+   43          | Expression . RelationalOperator Expression OR Expression RelationalOperator Expression
+
+    BIGGER    shift, and go to state 61
+    BIGGEREQ  shift, and go to state 62
+    LESS      shift, and go to state 63
+    LESSEQ    shift, and go to state 64
+    EQQ       shift, and go to state 65
+
+    RelationalOperator  go to state 66
+
+
+state 44
+
+   34 IfStatement: IF OPEN Condition . CLOSE BRACKETOPEN Program BRACKETCLOSE
+   35            | IF OPEN Condition . CLOSE BRACKETOPEN Program BRACKETCLOSE ELSE BRACKETOPEN Program BRACKETCLOSE
+
+    CLOSE  shift, and go to state 67
+
+
+state 45
+
+   44 WhileStatement: WHILE OPEN Condition . CLOSE BRACKETOPEN Program BRACKETCLOSE
+
+    CLOSE  shift, and go to state 68
+
+
+state 46
+
+   25 IntExpression: IntExpression . MathematicalOperator IntExpression
+   26              | OPEN IntExpression . MathematicalOperator IntExpression CLOSE
+
+    PLUS   shift, and go to state 47
+    MINUS  shift, and go to state 48
+    TIMES  shift, and go to state 49
+    DIV    shift, and go to state 50
+    MOD    shift, and go to state 51
+
+    MathematicalOperator  go to state 69
+
+
+state 47
+
+   17 MathematicalOperator: PLUS .
+
+    $default  reduce using rule 17 (MathematicalOperator)
+
+
+state 48
+
+   18 MathematicalOperator: MINUS .
+
+    $default  reduce using rule 18 (MathematicalOperator)
+
+
+state 49
+
+   19 MathematicalOperator: TIMES .
+
+    $default  reduce using rule 19 (MathematicalOperator)
+
+
+state 50
+
+   20 MathematicalOperator: DIV .
+
+    $default  reduce using rule 20 (MathematicalOperator)
+
+
+state 51
+
+   21 MathematicalOperator: MOD .
+
+    $default  reduce using rule 21 (MathematicalOperator)
+
+
+state 52
+
+   25 IntExpression: IntExpression MathematicalOperator . IntExpression
+
+    PRINT        shift, and go to state 4
+    READINT      shift, and go to state 5
+    READSTRING   shift, and go to state 6
+    SETNTH       shift, and go to state 8
+    GETNTH       shift, and go to state 9
+    IDENTIFIER   shift, and go to state 28
+    INTCONSTANT  shift, and go to state 29
+    OPEN         shift, and go to state 31
+
+    IntExpression          go to state 70
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 53
+
+   33 AssignStatement: IDENTIFIER EQ Expression .
+
+    $default  reduce using rule 33 (AssignStatement)
+
+
+state 54
+
+    1 Program: Statement SEMICOLON Program .
+
+    $default  reduce using rule 1 (Program)
+
+
+state 55
+
+   47 FunctionCallStatement: FunctionName OPEN CLOSE .
+
+    $default  reduce using rule 47 (FunctionCallStatement)
+
+
+state 56
+
+   28 ExpressionList: Expression .
+   29               | Expression . COMMA ExpressionList
+
+    COMMA  shift, and go to state 71
+
+    $default  reduce using rule 28 (ExpressionList)
+
+
+state 57
+
+   46 FunctionCallStatement: FunctionName OPEN ExpressionList . CLOSE
+
+    CLOSE  shift, and go to state 72
+
+
+state 58
+
+   30 ArrStatement: ARR LESS INTCONSTANT BIGGER . PureIdentifierList
+
+    IDENTIFIER  shift, and go to state 73
+
+    PureIdentifierList  go to state 74
+
+
+state 59
+
+   14 MaybeEqualExpression: IDENTIFIER EQ Expression .
+
+    $default  reduce using rule 14 (MaybeEqualExpression)
+
+
+state 60
+
+   12 IdentifierList: MaybeEqualExpression COMMA IdentifierList .
+
+    $default  reduce using rule 12 (IdentifierList)
+
+
+state 61
+
+   39 RelationalOperator: BIGGER .
+
+    $default  reduce using rule 39 (RelationalOperator)
+
+
+state 62
+
+   40 RelationalOperator: BIGGEREQ .
+
+    $default  reduce using rule 40 (RelationalOperator)
+
+
+state 63
+
+   37 RelationalOperator: LESS .
+
+    $default  reduce using rule 37 (RelationalOperator)
+
+
+state 64
+
+   38 RelationalOperator: LESSEQ .
+
+    $default  reduce using rule 38 (RelationalOperator)
+
+
+state 65
+
+   36 RelationalOperator: EQQ .
+
+    $default  reduce using rule 36 (RelationalOperator)
+
+
+state 66
+
+   41 Condition: Expression RelationalOperator . Expression
+   42          | Expression RelationalOperator . Expression AND Expression RelationalOperator Expression
+   43          | Expression RelationalOperator . Expression OR Expression RelationalOperator Expression
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+
+    Expression             go to state 75
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 67
+
+   34 IfStatement: IF OPEN Condition CLOSE . BRACKETOPEN Program BRACKETCLOSE
+   35            | IF OPEN Condition CLOSE . BRACKETOPEN Program BRACKETCLOSE ELSE BRACKETOPEN Program BRACKETCLOSE
+
+    BRACKETOPEN  shift, and go to state 76
+
+
+state 68
+
+   44 WhileStatement: WHILE OPEN Condition CLOSE . BRACKETOPEN Program BRACKETCLOSE
+
+    BRACKETOPEN  shift, and go to state 77
+
+
+state 69
+
+   25 IntExpression: IntExpression MathematicalOperator . IntExpression
+   26              | OPEN IntExpression MathematicalOperator . IntExpression CLOSE
+
+    PRINT        shift, and go to state 4
+    READINT      shift, and go to state 5
+    READSTRING   shift, and go to state 6
+    SETNTH       shift, and go to state 8
+    GETNTH       shift, and go to state 9
+    IDENTIFIER   shift, and go to state 28
+    INTCONSTANT  shift, and go to state 29
+    OPEN         shift, and go to state 31
+
+    IntExpression          go to state 78
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 70
+
+   25 IntExpression: IntExpression . MathematicalOperator IntExpression
+   25              | IntExpression MathematicalOperator IntExpression .
+
+    PLUS   shift, and go to state 47
+    MINUS  shift, and go to state 48
+    TIMES  shift, and go to state 49
+    DIV    shift, and go to state 50
+    MOD    shift, and go to state 51
+
+    PLUS      [reduce using rule 25 (IntExpression)]
+    MINUS     [reduce using rule 25 (IntExpression)]
+    TIMES     [reduce using rule 25 (IntExpression)]
+    DIV       [reduce using rule 25 (IntExpression)]
+    MOD       [reduce using rule 25 (IntExpression)]
+    $default  reduce using rule 25 (IntExpression)
+
+    MathematicalOperator  go to state 52
+
+
+state 71
+
+   29 ExpressionList: Expression COMMA . ExpressionList
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+
+    Expression             go to state 56
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    ExpressionList         go to state 79
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 72
+
+   46 FunctionCallStatement: FunctionName OPEN ExpressionList CLOSE .
+
+    $default  reduce using rule 46 (FunctionCallStatement)
+
+
+state 73
+
+   31 PureIdentifierList: IDENTIFIER .
+   32                   | IDENTIFIER . COMMA PureIdentifierList
+
+    COMMA  shift, and go to state 80
+
+    $default  reduce using rule 31 (PureIdentifierList)
+
+
+state 74
+
+   30 ArrStatement: ARR LESS INTCONSTANT BIGGER PureIdentifierList .
+
+    $default  reduce using rule 30 (ArrStatement)
+
+
+state 75
+
+   41 Condition: Expression RelationalOperator Expression .
+   42          | Expression RelationalOperator Expression . AND Expression RelationalOperator Expression
+   43          | Expression RelationalOperator Expression . OR Expression RelationalOperator Expression
+
+    AND  shift, and go to state 81
+    OR   shift, and go to state 82
+
+    $default  reduce using rule 41 (Condition)
+
+
+state 76
+
+   34 IfStatement: IF OPEN Condition CLOSE BRACKETOPEN . Program BRACKETCLOSE
+   35            | IF OPEN Condition CLOSE BRACKETOPEN . Program BRACKETCLOSE ELSE BRACKETOPEN Program BRACKETCLOSE
+
+    ARR         shift, and go to state 1
+    VAR         shift, and go to state 2
+    IF          shift, and go to state 3
+    PRINT       shift, and go to state 4
+    READINT     shift, and go to state 5
+    READSTRING  shift, and go to state 6
+    WHILE       shift, and go to state 7
+    SETNTH      shift, and go to state 8
+    GETNTH      shift, and go to state 9
+    RETURN      shift, and go to state 10
+    IDENTIFIER  shift, and go to state 11
+
+    Program                go to state 83
+    Statement              go to state 13
+    VarStatement           go to state 14
+    ArrStatement           go to state 15
+    AssignStatement        go to state 16
+    IfStatement            go to state 17
+    WhileStatement         go to state 18
+    ReturnStatement        go to state 19
+    FunctionCallStatement  go to state 20
+    FunctionName           go to state 21
+
+
+state 77
+
+   44 WhileStatement: WHILE OPEN Condition CLOSE BRACKETOPEN . Program BRACKETCLOSE
+
+    ARR         shift, and go to state 1
+    VAR         shift, and go to state 2
+    IF          shift, and go to state 3
+    PRINT       shift, and go to state 4
+    READINT     shift, and go to state 5
+    READSTRING  shift, and go to state 6
+    WHILE       shift, and go to state 7
+    SETNTH      shift, and go to state 8
+    GETNTH      shift, and go to state 9
+    RETURN      shift, and go to state 10
+    IDENTIFIER  shift, and go to state 11
+
+    Program                go to state 84
+    Statement              go to state 13
+    VarStatement           go to state 14
+    ArrStatement           go to state 15
+    AssignStatement        go to state 16
+    IfStatement            go to state 17
+    WhileStatement         go to state 18
+    ReturnStatement        go to state 19
+    FunctionCallStatement  go to state 20
+    FunctionName           go to state 21
+
+
+state 78
+
+   25 IntExpression: IntExpression . MathematicalOperator IntExpression
+   25              | IntExpression MathematicalOperator IntExpression .
+   26              | OPEN IntExpression MathematicalOperator IntExpression . CLOSE
+
+    PLUS   shift, and go to state 47
+    MINUS  shift, and go to state 48
+    TIMES  shift, and go to state 49
+    DIV    shift, and go to state 50
+    MOD    shift, and go to state 51
+    CLOSE  shift, and go to state 85
+
+    PLUS   [reduce using rule 25 (IntExpression)]
+    MINUS  [reduce using rule 25 (IntExpression)]
+    TIMES  [reduce using rule 25 (IntExpression)]
+    DIV    [reduce using rule 25 (IntExpression)]
+    MOD    [reduce using rule 25 (IntExpression)]
+
+    MathematicalOperator  go to state 52
+
+
+state 79
+
+   29 ExpressionList: Expression COMMA ExpressionList .
+
+    $default  reduce using rule 29 (ExpressionList)
+
+
+state 80
+
+   32 PureIdentifierList: IDENTIFIER COMMA . PureIdentifierList
+
+    IDENTIFIER  shift, and go to state 73
+
+    PureIdentifierList  go to state 86
+
+
+state 81
+
+   42 Condition: Expression RelationalOperator Expression AND . Expression RelationalOperator Expression
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+
+    Expression             go to state 87
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 82
+
+   43 Condition: Expression RelationalOperator Expression OR . Expression RelationalOperator Expression
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+
+    Expression             go to state 88
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 83
+
+   34 IfStatement: IF OPEN Condition CLOSE BRACKETOPEN Program . BRACKETCLOSE
+   35            | IF OPEN Condition CLOSE BRACKETOPEN Program . BRACKETCLOSE ELSE BRACKETOPEN Program BRACKETCLOSE
+
+    BRACKETCLOSE  shift, and go to state 89
+
+
+state 84
+
+   44 WhileStatement: WHILE OPEN Condition CLOSE BRACKETOPEN Program . BRACKETCLOSE
+
+    BRACKETCLOSE  shift, and go to state 90
+
+
+state 85
+
+   26 IntExpression: OPEN IntExpression MathematicalOperator IntExpression CLOSE .
+
+    $default  reduce using rule 26 (IntExpression)
+
+
+state 86
+
+   32 PureIdentifierList: IDENTIFIER COMMA PureIdentifierList .
+
+    $default  reduce using rule 32 (PureIdentifierList)
+
+
+state 87
+
+   42 Condition: Expression RelationalOperator Expression AND Expression . RelationalOperator Expression
+
+    BIGGER    shift, and go to state 61
+    BIGGEREQ  shift, and go to state 62
+    LESS      shift, and go to state 63
+    LESSEQ    shift, and go to state 64
+    EQQ       shift, and go to state 65
+
+    RelationalOperator  go to state 91
+
+
+state 88
+
+   43 Condition: Expression RelationalOperator Expression OR Expression . RelationalOperator Expression
+
+    BIGGER    shift, and go to state 61
+    BIGGEREQ  shift, and go to state 62
+    LESS      shift, and go to state 63
+    LESSEQ    shift, and go to state 64
+    EQQ       shift, and go to state 65
+
+    RelationalOperator  go to state 92
+
+
+state 89
+
+   34 IfStatement: IF OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE .
+   35            | IF OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE . ELSE BRACKETOPEN Program BRACKETCLOSE
+
+    ELSE  shift, and go to state 93
+
+    $default  reduce using rule 34 (IfStatement)
+
+
+state 90
+
+   44 WhileStatement: WHILE OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE .
+
+    $default  reduce using rule 44 (WhileStatement)
+
+
+state 91
+
+   42 Condition: Expression RelationalOperator Expression AND Expression RelationalOperator . Expression
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+
+    Expression             go to state 94
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 92
+
+   43 Condition: Expression RelationalOperator Expression OR Expression RelationalOperator . Expression
+
+    PRINT           shift, and go to state 4
+    READINT         shift, and go to state 5
+    READSTRING      shift, and go to state 6
+    SETNTH          shift, and go to state 8
+    GETNTH          shift, and go to state 9
+    IDENTIFIER      shift, and go to state 28
+    INTCONSTANT     shift, and go to state 29
+    STRINGCONSTANT  shift, and go to state 30
+    OPEN            shift, and go to state 31
+
+    Expression             go to state 95
+    IntExpression          go to state 33
+    StringExpression       go to state 34
+    FunctionCallStatement  go to state 35
+    FunctionName           go to state 21
+
+
+state 93
+
+   35 IfStatement: IF OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE ELSE . BRACKETOPEN Program BRACKETCLOSE
+
+    BRACKETOPEN  shift, and go to state 96
+
+
+state 94
+
+   42 Condition: Expression RelationalOperator Expression AND Expression RelationalOperator Expression .
+
+    $default  reduce using rule 42 (Condition)
+
+
+state 95
+
+   43 Condition: Expression RelationalOperator Expression OR Expression RelationalOperator Expression .
+
+    $default  reduce using rule 43 (Condition)
+
+
+state 96
+
+   35 IfStatement: IF OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE ELSE BRACKETOPEN . Program BRACKETCLOSE
+
+    ARR         shift, and go to state 1
+    VAR         shift, and go to state 2
+    IF          shift, and go to state 3
+    PRINT       shift, and go to state 4
+    READINT     shift, and go to state 5
+    READSTRING  shift, and go to state 6
+    WHILE       shift, and go to state 7
+    SETNTH      shift, and go to state 8
+    GETNTH      shift, and go to state 9
+    RETURN      shift, and go to state 10
+    IDENTIFIER  shift, and go to state 11
+
+    Program                go to state 97
+    Statement              go to state 13
+    VarStatement           go to state 14
+    ArrStatement           go to state 15
+    AssignStatement        go to state 16
+    IfStatement            go to state 17
+    WhileStatement         go to state 18
+    ReturnStatement        go to state 19
+    FunctionCallStatement  go to state 20
+    FunctionName           go to state 21
+
+
+state 97
+
+   35 IfStatement: IF OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE ELSE BRACKETOPEN Program . BRACKETCLOSE
+
+    BRACKETCLOSE  shift, and go to state 98
+
+
+state 98
+
+   35 IfStatement: IF OPEN Condition CLOSE BRACKETOPEN Program BRACKETCLOSE ELSE BRACKETOPEN Program BRACKETCLOSE .
+
+    $default  reduce using rule 35 (IfStatement)

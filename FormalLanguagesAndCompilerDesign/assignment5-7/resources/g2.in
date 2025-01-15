@@ -1,0 +1,23 @@
+program declaration_list statement_list declaration equal_expression built_in_type expression sign sign_and_expression term statement simple_statement compound_statement assignment_stmt io_statement if_statement else_statement while_statement condition relation
+; int float long unsigned char string = + - * / % read print ( ) { } " ' == != < > <= >= if else while identifier constant
+program
+program -> declaration_list statement_list
+declaration_list -> declaration declaration_list | epsilon
+declaration -> built_in_type identifier equal_expression ;
+equal_expression -> = expression | epsilon
+built_in_type -> int | float | long | unsigned | char | string
+expression -> term sign_and_expression
+sign_and_expression -> sign expression | epsilon
+sign -> + | - | * | / | %
+term -> identifier | constant
+statement_list -> statement statement_list | epsilon
+statement -> simple_statement | compound_statement
+simple_statement -> assignment_stmt | io_statement
+compound_statement -> if_statement | while_statement
+assignment_stmt -> identifier = expression ;
+io_statement -> read ( term ) ; | print ( term ) ;
+if_statement -> if ( condition ) { statement_list } else_statement
+else_statement -> else { statement_list } | epsilon
+while_statement -> while ( condition ) { statement_list }
+condition -> expression relation expression
+relation -> == | != | < | > | <= | >=

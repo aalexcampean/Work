@@ -1,0 +1,15 @@
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/bin/Debug/net6.0/lab-part-2
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/bin/Debug/net6.0/lab-part-2.deps.json
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/bin/Debug/net6.0/lab-part-2.runtimeconfig.json
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/bin/Debug/net6.0/lab-part-2.dll
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/bin/Debug/net6.0/lab-part-2.pdb
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/obj/Debug/net6.0/lab-part-2.csproj.AssemblyReference.cache
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/obj/Debug/net6.0/lab-part-2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/obj/Debug/net6.0/lab-part-2.AssemblyInfoInputs.cache
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/obj/Debug/net6.0/lab-part-2.AssemblyInfo.cs
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/obj/Debug/net6.0/lab-part-2.csproj.CoreCompileInputs.cache
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/obj/Debug/net6.0/lab-part-2.dll
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/obj/Debug/net6.0/refint/lab-part-2.dll
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/obj/Debug/net6.0/lab-part-2.pdb
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/obj/Debug/net6.0/lab-part-2.genruntimeconfig.cache
+/Users/alexcampean/Documents/university/sem_5/FLCD/labs/labsCode/assignment6-7/obj/Debug/net6.0/ref/lab-part-2.dll

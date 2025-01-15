@@ -1,0 +1,39 @@
+program statement expression int_expression string_expression operation relation condition conditional_statement while_statement declaration_statement ids_with_possible_assignments assign_value_to_id_statement array_statement assignment return_statement for_statement expressions method_call_statement method_name identifier letter non_zero_digit digit int_constant string_constant char type char_list optional_sign digit_list optional_else_statement optional_assignment positive_int_constant optional_new_expression statement_list
++ - * / % <= < == != >= > { } ( ) [ ] ; , " is var const if else print read_int read_string while for from to int string and or 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z _ a b c d e f g h i j k l m n o p q r s t u v w x y z epsilon array </ /> return
+program
+program -> epsilon | </ statement_list />
+statement_list -> epsilon | statement statement_list
+statement -> conditional_statement | while_statement | declaration_statement ; | assign_value_to_id_statement ; | return_statement ; | method_call_statement ; | for_statement
+expression -> int_expression | string_expression
+identifier -> letter char_list
+char -> letter | digit
+char_list -> epsilon | char char_list
+non_zero_digit -> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+digit -> 0 | non_zero_digit
+letter -> A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z
+optional_sign -> + | - | epsilon
+int_constant -> 0 | optional_sign positive_int_constant
+positive_int_constant -> non_zero_digit digit_list
+digit_list -> epsilon | digit digit_list
+string_constant -> " char_list "
+int_expression -> identifier | int_constant | int_expression operation int_expression | ( int_expression operation int_expression )
+operation -> + | - | * | / | %
+string_expression -> identifier | string_constant | string_expression + string_expression
+relation -> == | < | <= | > | >=
+condition -> expression relation expression
+conditional_statement -> if ( condition ) { statement_list } optional_else_statement
+optional_else_statement -> epsilon | else { statement_list }
+while_statement -> while ( condition ) { statement_list }
+declaration_statement -> var ids_with_possible_assignments | const ids_with_possible_assignments
+ids_with_possible_assignments -> identifier optional_assignment | identifier optional_assignment , ids_with_possible_assignments
+optional_assignment -> epsilon | is assignment
+assign_value_to_id_statement -> identifier is expression
+array_statement -> array < type > [ positive_int_constant ]
+type -> int | string
+assignment -> expression | array_statement
+return_statement -> return expression
+for_statement -> for ( identifier from int_constant to int_constant ) { statement_list }
+expressions -> epsilon | expression optional_new_expression
+optional_new_expression -> epsilon | , expression
+method_call_statement -> method_name ( expressions )
+method_name -> print | read_int | read_string
