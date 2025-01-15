@@ -1,0 +1,146 @@
+Started by user [8mha:////4Jikxv8wZWqGtCE/EHBJViYz1/q5Tns5Q8J+RCYjVWayAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL94pLSlNS8EgDnZMOBwgAAAA==[0mStudent
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/932_CampeanChereji_Job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/aalexcampean/SoftwareValidationLabs.git
+ > git init /var/jenkins_home/workspace/932_CampeanChereji_Job # timeout=10
+Fetching upstream changes from https://github.com/aalexcampean/SoftwareValidationLabs.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/aalexcampean/SoftwareValidationLabs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/aalexcampean/SoftwareValidationLabs.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision cba2831bb67e6593b7bedc3907989eebd8b17fe5 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cba2831bb67e6593b7bedc3907989eebd8b17fe5 # timeout=10
+Commit message: "Delete target directory"
+ > git rev-list --no-walk cba2831bb67e6593b7bedc3907989eebd8b17fe5 # timeout=10
+[932_CampeanChereji_Job] $ mvn compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for ssvv.example:lab1:jar:1.0-SNAPSHOT
+[[1;33mWARNING[m] 'dependencies.dependency.version' for org.junit.jupiter:junit-jupiter:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 31, column 16
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36mssvv.example:lab1[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding lab1 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mlab1[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mlab1[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 25 source files to /var/jenkins_home/workspace/932_CampeanChereji_Job/target/classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.451 s
+[[1;34mINFO[m] Finished at: 2023-04-02T18:46:52Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Preparing TestLink client API.
+Using TestLink URL: http://host.docker.internal:8090/lib/api/xmlrpc/v1/xmlrpc.php
+
+Found 1 automated test cases in TestLink.
+
+Sorting automated test cases by TestLink test plan execution order.
+
+Executing single Build Steps.
+
+Merging build environment variables with data retrieved from TestLink.
+
+[932_CampeanChereji_Job] $ mvn verify
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for ssvv.example:lab1:jar:1.0-SNAPSHOT
+[[1;33mWARNING[m] 'dependencies.dependency.version' for org.junit.jupiter:junit-jupiter:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 31, column 16
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36mssvv.example:lab1[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding lab1 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mlab1[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mlab1[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [1m(default-testResources)[m @ [36mlab1[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mlab1[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /var/jenkins_home/workspace/932_CampeanChereji_Job/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mlab1[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.0.2:jar[m [1m(default-jar)[m @ [36mlab1[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/jenkins_home/workspace/932_CampeanChereji_Job/target/lab1-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.433 s
+[[1;34mINFO[m] Finished at: 2023-04-02T18:46:58Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Merging build environment variables with data retrieved from TestLink.
+
+[932_CampeanChereji_Job] $ /bin/bash /tmp/jenkins4012020865068729871.sh
+mv: cannot stat './target/surefire-reports/TEST-.xml': No such file or directory
+Executing iterative Build Steps.
+
+Looking for the test results of TestLink test cases.
+
+Looking for test results in JUnit methods by its name.
+
+FATAL: hudson.AbortException: No test report files were found. Configuration error?
+hudson.plugins.testlink.result.ResultSeekerException: hudson.AbortException: No test report files were found. Configuration error?
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:112)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Caused by: hudson.AbortException: No test report files were found. Configuration error?
+	at hudson.tasks.junit.JUnitParser$ParseResultCallable.invoke(JUnitParser.java:184)
+	at hudson.FilePath.act(FilePath.java:1198)
+	at hudson.FilePath.act(FilePath.java:1181)
+	at hudson.tasks.junit.JUnitParser.parseResult(JUnitParser.java:118)
+	at hudson.tasks.junit.JUnitParser.parseResult(JUnitParser.java:111)
+	at hudson.tasks.junit.JUnitParser.parseResult(JUnitParser.java:50)
+	at hudson.tasks.test.TestResultParser.parse(TestResultParser.java:157)
+	at hudson.tasks.junit.JUnitParser.parse(JUnitParser.java:103)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:89)
+	... 10 more
+ERROR: An error occured while trying to retrieve the test results: hudson.AbortException: No test report files were found. Configuration error?
+Archiving artifacts
+Finished: FAILURE

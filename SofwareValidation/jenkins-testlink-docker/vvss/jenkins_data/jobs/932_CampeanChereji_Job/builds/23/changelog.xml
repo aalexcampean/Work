@@ -1,0 +1,30 @@
+commit e34c4f5619acbd6af702b2765eadd503cec41ddb
+tree b15fa6a9982e046fc2db4c1872a3347ef0ba03d7
+parent 5a2233fb2475fb286a23febbf0bc83e1480b0c1e
+author Chereji Iulia <72073380+912-Chereji-Iulia@users.noreply.github.com> 2023-05-05 21:47:43 +0300
+committer Chereji Iulia <72073380+912-Chereji-Iulia@users.noreply.github.com> 2023-05-05 21:47:43 +0300
+
+    mockito test
+
+
+:100644 100644 aaebda7e2231ea1d47cc8344590ae3b96d5f57eb bfe916bcce930f0ed952e724acf490995ac5a076 M	fisiere/Andrei Cupes.txt
+:100644 100644 7a9ca10e57f4e9bc0691fad71af91689721fe278 4b5a5fb94192b67c883f8a135ea8fa32e8a9493d M	pom.xml
+:100644 100644 8075467c0fd92bd76120efa5d91646b5eea604fa 95473fa654143c2bde1a6434eb37fc12f6d78641 M	src/test/java/ssvv/example/BigBangIntegrationTest.java
+:000000 100644 0000000000000000000000000000000000000000 ca2b025050c2d91cb102657651194051a5c76883 A	src/test/java/ssvv/example/MockitoTest.java
+:100644 100644 9f0cfc0c623f63f7e7b77083dc690a99df1788dd 6111288a265d8c03a27a80fb58f7d6cacfbfb76d M	target/test-classes/ssvv/example/BigBangIntegrationTest.class
+:000000 100644 0000000000000000000000000000000000000000 6a32d7cef3fdc995b24d875b2d5d4fe323f139ea A	target/test-classes/ssvv/example/MockitoTest.class
+commit 5a2233fb2475fb286a23febbf0bc83e1480b0c1e
+tree 89024f307939f23023f962cc85f4e20212d7fd76
+parent ce09faf8c635896a01354452587ead7ff7e79bb3
+author Alexandru Campean <alexc.campean@yahoo.com> 2023-04-24 09:31:23 +0300
+committer Alexandru Campean <alexc.campean@yahoo.com> 2023-04-24 09:31:23 +0300
+
+    Update
+
+
+:000000 100644 0000000000000000000000000000000000000000 aaebda7e2231ea1d47cc8344590ae3b96d5f57eb A	fisiere/Andrei Cupes.txt
+:100644 100644 3c9ff37329e1f0ecc3e02df8e20ae4d1edbff6db dca743a3392bf91348288e468130e78cb22227ce M	fisiere/Note.xml
+:100644 100644 d13a0909b0d027153562dd899c596832b0f4a4d6 206b47158811af9100e2efde96f571b2c7d6d58f M	fisiere/Studenti.xml
+:100644 100644 ffc7a9e812d802b7e48bc5b463d5dd15507d04cc 92a8c57d334f837412d24362b04d1df1a6e760e1 M	fisiere/Teme.xml
+:100644 100644 00443c44570cff9b28fd0ba19d6009b927eb8617 8075467c0fd92bd76120efa5d91646b5eea604fa M	src/test/java/ssvv/example/BigBangIntegrationTest.java
+:100644 100644 c5e14fed2316d2e11ac843942997463ecb638803 9f0cfc0c623f63f7e7b77083dc690a99df1788dd M	target/test-classes/ssvv/example/BigBangIntegrationTest.class

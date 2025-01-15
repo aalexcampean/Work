@@ -1,0 +1,11 @@
+commit ec3571dc35bb8a773bc3244062918e45cbadc664
+tree 3cfcfdf7fb928bddddaf52efe342d790b7d64174
+parent f5ea2cebe9f02cd49f358b56ef19e190ac732671
+author Alexandru Campean <alexc.campean@yahoo.com> 2023-04-03 09:00:12 +0300
+committer Alexandru Campean <alexc.campean@yahoo.com> 2023-04-03 09:00:12 +0300
+
+    Lab3IC-AddAssignmentUpdate
+
+
+:100644 100644 39ee20b2c26d0c22c75dfd510f423776d9a758d9 1a1432baae7d901d4643b318352488d01f60ae53 M	src/test/java/ssvv/example/ServiceTest.java
+:100644 100644 827a5a99e90e3ba3a6213e2c00f601f6d7579ecb 070dc74134c3d570c96c536974cbc007af2d15be M	src/test/java/ssvv/example/WBTAddAssignment.java

@@ -1,0 +1,247 @@
+Started by user [8mha:////4Jikxv8wZWqGtCE/EHBJViYz1/q5Tns5Q8J+RCYjVWayAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL94pLSlNS8EgDnZMOBwgAAAA==[0mStudent
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/932_CampeanChereji_Job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/932_CampeanChereji_Job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/aalexcampean/SSVV.git # timeout=10
+Fetching upstream changes from https://github.com/aalexcampean/SSVV.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/aalexcampean/SSVV.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 23d24c7f6088437df2706293a28626e18f0e2503 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 23d24c7f6088437df2706293a28626e18f0e2503 # timeout=10
+Commit message: "lab1"
+ > git rev-list --no-walk 85cfe78ad7c7ee53ac3ef8be94b730dc2aa5fde7 # timeout=10
+[932_CampeanChereji_Job] $ mvn compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mssvv.example:SSVVLabs[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding SSVVLabs 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.054 s
+[[1;34mINFO[m] Finished at: 2023-04-02T19:36:49Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Preparing TestLink client API.
+Using TestLink URL: http://host.docker.internal:8090/lib/api/xmlrpc/v1/xmlrpc.php
+
+Found 7 automated test cases in TestLink.
+
+Sorting automated test cases by TestLink test plan execution order.
+
+Executing single Build Steps.
+
+Merging build environment variables with data retrieved from TestLink.
+
+[932_CampeanChereji_Job] $ mvn verify
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mssvv.example:SSVVLabs[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding SSVVLabs 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [1m(default-testResources)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /var/jenkins_home/workspace/932_CampeanChereji_Job/target/test-classes
+[[1;34mINFO[m] /var/jenkins_home/workspace/932_CampeanChereji_Job/src/test/java/ssvv/example/ServiceTest.java: /var/jenkins_home/workspace/932_CampeanChereji_Job/src/test/java/ssvv/example/ServiceTest.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /var/jenkins_home/workspace/932_CampeanChereji_Job/src/test/java/ssvv/example/ServiceTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running ssvv.example.[1mServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.606 s - in ssvv.example.[1mServiceTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 7, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.0.2:jar[m [1m(default-jar)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.706 s
+[[1;34mINFO[m] Finished at: 2023-04-02T19:36:55Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Merging build environment variables with data retrieved from TestLink.
+
+[932_CampeanChereji_Job] $ /bin/bash /tmp/jenkins14374832820658724650.sh
+mv: cannot stat './target/surefire-reports/TEST-.xml': No such file or directory
+Executing iterative Build Steps.
+
+Looking for the test results of TestLink test cases.
+
+Looking for test results in JUnit methods by its name.
+
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Found 7 test result(s).
+
+Build step 'Invoke TestLink' changed build result to UNSTABLE
+Archiving artifacts
+Finished: UNSTABLE

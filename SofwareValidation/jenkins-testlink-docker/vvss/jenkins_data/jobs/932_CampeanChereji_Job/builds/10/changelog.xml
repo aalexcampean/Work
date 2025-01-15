@@ -1,0 +1,10 @@
+commit 85cfe78ad7c7ee53ac3ef8be94b730dc2aa5fde7
+tree 52d01204f972cb13892863ca869f6c2a3a1b7c0c
+parent 4b0c60b3c8fe1b53da283ee7b56934a8230e698e
+author Alexandru Campean <alexc.campean@yahoo.com> 2023-04-02 22:27:55 +0300
+committer Alexandru Campean <alexc.campean@yahoo.com> 2023-04-02 22:27:55 +0300
+
+    lab1
+
+
+:100644 100644 9d836d98545245dd37497b8e035a1c98c783bf9d b551f5aba57e8e8f8832166ec188988bc3ea17e3 M	src/test/java/ssvv/example/ServiceTest.java

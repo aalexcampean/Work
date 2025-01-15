@@ -1,0 +1,13 @@
+commit 50e13513cc41a00b8d6181d4da97b7338e4157db
+tree a0b3f6b0a8e6677aa15013e3338be25ac6c9e051
+parent d8686e8add37b8b7f72b3dc84307f7e474ae0e54
+author Alexandru Campean <alexc.campean@yahoo.com> 2023-04-23 23:39:04 +0300
+committer Alexandru Campean <alexc.campean@yahoo.com> 2023-04-23 23:39:04 +0300
+
+    Update
+
+
+:000000 100644 0000000000000000000000000000000000000000 966d5f56a99523a01d4ba0a48fa95c4a881d44ac A	.idea/jpa-buddy.xml
+:100644 100644 4ae1957e609450e9945877921b4b89b109f20f73 fd5620a9e947a1454cdcb7810d29d583570c5a93 M	src/test/java/ssvv/example/ServiceTest.java
+:100644 000000 ca00b12ee6f0119ee780092d1fb66ead96da16b2 0000000000000000000000000000000000000000 D	target/test-classes/ssvv/example/AssignmentsTest.class
+:100644 100644 3058164add818bdff05a55f48a0476b536c5948b fd75c440181759e9616ae49b655e0dbfe5f234d1 M	target/test-classes/ssvv/example/ServiceTest.class

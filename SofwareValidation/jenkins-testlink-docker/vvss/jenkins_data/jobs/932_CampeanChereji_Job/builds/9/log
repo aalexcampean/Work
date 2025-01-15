@@ -1,0 +1,181 @@
+Started by user [8mha:////4Jikxv8wZWqGtCE/EHBJViYz1/q5Tns5Q8J+RCYjVWayAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL94pLSlNS8EgDnZMOBwgAAAA==[0mStudent
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/932_CampeanChereji_Job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/932_CampeanChereji_Job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/aalexcampean/SSVV.git # timeout=10
+Fetching upstream changes from https://github.com/aalexcampean/SSVV.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/aalexcampean/SSVV.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 4b0c60b3c8fe1b53da283ee7b56934a8230e698e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4b0c60b3c8fe1b53da283ee7b56934a8230e698e # timeout=10
+Commit message: "lab1"
+ > git rev-list --no-walk d58b37a1a4048b694f975858dfca1bce1a3bf651 # timeout=10
+[932_CampeanChereji_Job] $ mvn compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mssvv.example:SSVVLabs[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding SSVVLabs 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.556 s
+[[1;34mINFO[m] Finished at: 2023-04-02T19:20:18Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Preparing TestLink client API.
+Using TestLink URL: http://host.docker.internal:8090/lib/api/xmlrpc/v1/xmlrpc.php
+
+Found 1 automated test cases in TestLink.
+
+Sorting automated test cases by TestLink test plan execution order.
+
+Executing single Build Steps.
+
+Merging build environment variables with data retrieved from TestLink.
+
+[932_CampeanChereji_Job] $ mvn verify
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mssvv.example:SSVVLabs[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding SSVVLabs 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [1m(default-testResources)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running ssvv.example.[1mServiceTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m7[m, Failures: 0, [1;31mErrors: [0;1;31m7[m, Skipped: 0, Time elapsed: 0.608 s[1;31m <<< FAILURE![m - in ssvv.example.[1mServiceTest[m
+[[1;31mERROR[m] addStudent_givenInvalidEmail(ssvv.example.ServiceTest)  Time elapsed: 0.136 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/function/Executable
+	at ssvv.example.ServiceTest.addStudent_givenInvalidEmail(ServiceTest.java:79)
+Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.function.Executable
+	at ssvv.example.ServiceTest.addStudent_givenInvalidEmail(ServiceTest.java:79)
+
+[[1;31mERROR[m] addStudent_givenInvalidGroup(ssvv.example.ServiceTest)  Time elapsed: 0.027 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/function/Executable
+	at ssvv.example.ServiceTest.addStudent_givenInvalidGroup(ServiceTest.java:70)
+Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.function.Executable
+	at ssvv.example.ServiceTest.addStudent_givenInvalidGroup(ServiceTest.java:70)
+
+[[1;31mERROR[m] addStudent_givenNonExistingId(ssvv.example.ServiceTest)  Time elapsed: 0.155 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at ssvv.example.ServiceTest.addStudent_givenNonExistingId(ServiceTest.java:102)
+Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.Assertions
+	at ssvv.example.ServiceTest.addStudent_givenNonExistingId(ServiceTest.java:102)
+
+[[1;31mERROR[m] addStudent_givenInvalidId(ssvv.example.ServiceTest)  Time elapsed: 0.024 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/function/Executable
+	at ssvv.example.ServiceTest.addStudent_givenInvalidId(ServiceTest.java:51)
+Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.function.Executable
+	at ssvv.example.ServiceTest.addStudent_givenInvalidId(ServiceTest.java:51)
+
+[[1;31mERROR[m] addStudent_givenInvalidName(ssvv.example.ServiceTest)  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/function/Executable
+	at ssvv.example.ServiceTest.addStudent_givenInvalidName(ServiceTest.java:61)
+Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.function.Executable
+	at ssvv.example.ServiceTest.addStudent_givenInvalidName(ServiceTest.java:61)
+
+[[1;31mERROR[m] addStudent_givenValidStudent(ssvv.example.ServiceTest)  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at ssvv.example.ServiceTest.addStudent_givenValidStudent(ServiceTest.java:42)
+
+[[1;31mERROR[m] addStudent_givenExistingId(ssvv.example.ServiceTest)  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at ssvv.example.ServiceTest.addStudent_givenExistingId(ServiceTest.java:91)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mErrors: [m
+[[1;31mERROR[m] [1;31m  ServiceTest.addStudent_givenExistingId:91 NoClassDefFound org/junit/jupiter/ap...[m
+[[1;31mERROR[m] [1;31m  ServiceTest.addStudent_givenInvalidEmail:79 NoClassDefFound org/junit/jupiter/...[m
+[[1;31mERROR[m] [1;31m  ServiceTest.addStudent_givenInvalidGroup:70 NoClassDefFound org/junit/jupiter/...[m
+[[1;31mERROR[m] [1;31m  ServiceTest.addStudent_givenInvalidId:51 NoClassDefFound org/junit/jupiter/api...[m
+[[1;31mERROR[m] [1;31m  ServiceTest.addStudent_givenInvalidName:61 NoClassDefFound org/junit/jupiter/a...[m
+[[1;31mERROR[m] [1;31m  ServiceTest.addStudent_givenNonExistingId:102 NoClassDefFound org/junit/jupite...[m
+[[1;31mERROR[m] [1;31m  ServiceTest.addStudent_givenValidStudent:42 NoClassDefFound org/junit/jupiter/...[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 7, Failures: 0, Errors: 7, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.322 s
+[[1;34mINFO[m] Finished at: 2023-04-02T19:20:23Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.22.1:test[m [1m(default-test)[m on project [36mSSVVLabs[m: [1;31mThere are test failures.[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mPlease refer to /var/jenkins_home/workspace/932_CampeanChereji_Job/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] [1;31mPlease refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Merging build environment variables with data retrieved from TestLink.
+
+[932_CampeanChereji_Job] $ /bin/bash /tmp/jenkins7908737756546254397.sh
+mv: cannot stat './target/surefire-reports/TEST-.xml': No such file or directory
+Executing iterative Build Steps.
+
+Looking for the test results of TestLink test cases.
+
+Looking for test results in JUnit methods by its name.
+
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Found 1 test result(s).
+
+There are failed tests, setting the build result as UNSTABLE.
+Build step 'Invoke TestLink' changed build result to UNSTABLE
+Archiving artifacts
+Finished: UNSTABLE

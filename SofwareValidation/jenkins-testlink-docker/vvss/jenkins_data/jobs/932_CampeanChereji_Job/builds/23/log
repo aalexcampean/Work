@@ -1,0 +1,512 @@
+Started by user [8mha:////4Jikxv8wZWqGtCE/EHBJViYz1/q5Tns5Q8J+RCYjVWayAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL94pLSlNS8EgDnZMOBwgAAAA==[0mStudent
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/932_CampeanChereji_Job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/932_CampeanChereji_Job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/aalexcampean/SSVV.git # timeout=10
+Fetching upstream changes from https://github.com/aalexcampean/SSVV.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/aalexcampean/SSVV.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision e34c4f5619acbd6af702b2765eadd503cec41ddb (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e34c4f5619acbd6af702b2765eadd503cec41ddb # timeout=10
+Commit message: "mockito test"
+ > git rev-list --no-walk ce09faf8c635896a01354452587ead7ff7e79bb3 # timeout=10
+[932_CampeanChereji_Job] $ mvn compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mssvv.example:SSVVLabs[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding SSVVLabs 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.2.0/mockito-core-5.2.0.pom
+Progress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.2.0/mockito-core-5.2.0.pom (2.5 kB at 5.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.1/byte-buddy-1.14.1.pom
+Progress (1): 2.7/16 kBProgress (1): 5.5/16 kBProgress (1): 8.2/16 kBProgress (1): 11/16 kB Progress (1): 14/16 kBProgress (1): 16 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.1/byte-buddy-1.14.1.pom (16 kB at 104 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.1/byte-buddy-parent-1.14.1.pom
+Progress (1): 4.1/58 kBProgress (1): 8.2/58 kBProgress (1): 12/58 kB Progress (1): 16/58 kBProgress (1): 20/58 kBProgress (1): 25/58 kBProgress (1): 29/58 kBProgress (1): 33/58 kBProgress (1): 37/58 kBProgress (1): 41/58 kBProgress (1): 45/58 kBProgress (1): 49/58 kBProgress (1): 53/58 kBProgress (1): 57/58 kBProgress (1): 58 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.14.1/byte-buddy-parent-1.14.1.pom (58 kB at 396 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.1/byte-buddy-agent-1.14.1.pom
+Progress (1): 4.1/10 kBProgress (1): 8.2/10 kBProgress (1): 10 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.1/byte-buddy-agent-1.14.1.pom (10 kB at 80 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.pom
+Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.pom (3.0 kB at 25 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom
+Progress (1): 4.1/19 kBProgress (1): 8.2/19 kBProgress (1): 12/19 kB Progress (1): 16/19 kBProgress (1): 19 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/3.3/objenesis-parent-3.3.pom (19 kB at 160 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.025 s
+[[1;34mINFO[m] Finished at: 2023-05-05T18:57:01Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Preparing TestLink client API.
+Using TestLink URL: http://host.docker.internal:8090/lib/api/xmlrpc/v1/xmlrpc.php
+
+Found 19 automated test cases in TestLink.
+
+Sorting automated test cases by TestLink test plan execution order.
+
+Executing single Build Steps.
+
+Merging build environment variables with data retrieved from TestLink.
+
+[932_CampeanChereji_Job] $ mvn verify
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mssvv.example:SSVVLabs[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding SSVVLabs 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.2.0/mockito-core-5.2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.1/byte-buddy-1.14.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.1/byte-buddy-agent-1.14.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.jar
+Progress (1): 2.7/49 kBProgress (2): 2.7/49 kB | 2.7/687 kBProgress (3): 2.7/49 kB | 2.7/687 kB | 0/4.2 MBProgress (4): 2.7/49 kB | 2.7/687 kB | 0/4.2 MB | 2.7/257 kBProgress (4): 5.5/49 kB | 2.7/687 kB | 0/4.2 MB | 2.7/257 kBProgress (4): 5.5/49 kB | 5.5/687 kB | 0/4.2 MB | 2.7/257 kBProgress (4): 5.5/49 kB | 8.2/687 kB | 0/4.2 MB | 2.7/257 kBProgress (4): 5.5/49 kB | 8.2/687 kB | 0/4.2 MB | 5.5/257 kBProgress (4): 8.2/49 kB | 8.2/687 kB | 0/4.2 MB | 5.5/257 kBProgress (4): 8.2/49 kB | 11/687 kB | 0/4.2 MB | 5.5/257 kB Progress (4): 8.2/49 kB | 14/687 kB | 0/4.2 MB | 5.5/257 kBProgress (4): 8.2/49 kB | 14/687 kB | 0/4.2 MB | 8.2/257 kBProgress (4): 11/49 kB | 14/687 kB | 0/4.2 MB | 8.2/257 kB Progress (4): 11/49 kB | 16/687 kB | 0/4.2 MB | 8.2/257 kBProgress (4): 14/49 kB | 16/687 kB | 0/4.2 MB | 8.2/257 kBProgress (4): 14/49 kB | 16/687 kB | 0/4.2 MB | 11/257 kB Progress (4): 14/49 kB | 20/687 kB | 0/4.2 MB | 11/257 kBProgress (4): 14/49 kB | 20/687 kB | 0/4.2 MB | 11/257 kBProgress (4): 16/49 kB | 20/687 kB | 0/4.2 MB | 11/257 kBProgress (4): 16/49 kB | 24/687 kB | 0/4.2 MB | 11/257 kBProgress (4): 16/49 kB | 24/687 kB | 0/4.2 MB | 14/257 kBProgress (4): 19/49 kB | 24/687 kB | 0/4.2 MB | 14/257 kBProgress (4): 19/49 kB | 28/687 kB | 0/4.2 MB | 14/257 kBProgress (4): 19/49 kB | 28/687 kB | 0/4.2 MB | 16/257 kBProgress (4): 19/49 kB | 28/687 kB | 0.1/4.2 MB | 16/257 kBProgress (4): 22/49 kB | 28/687 kB | 0.1/4.2 MB | 16/257 kBProgress (4): 22/49 kB | 32/687 kB | 0.1/4.2 MB | 16/257 kBProgress (4): 22/49 kB | 32/687 kB | 0.1/4.2 MB | 20/257 kBProgress (4): 25/49 kB | 32/687 kB | 0.1/4.2 MB | 20/257 kBProgress (4): 25/49 kB | 32/687 kB | 0.1/4.2 MB | 24/257 kBProgress (4): 25/49 kB | 36/687 kB | 0.1/4.2 MB | 24/257 kBProgress (4): 27/49 kB | 36/687 kB | 0.1/4.2 MB | 24/257 kBProgress (4): 27/49 kB | 40/687 kB | 0.1/4.2 MB | 24/257 kBProgress (4): 30/49 kB | 40/687 kB | 0.1/4.2 MB | 24/257 kBProgress (4): 30/49 kB | 40/687 kB | 0.1/4.2 MB | 28/257 kBProgress (4): 30/49 kB | 44/687 kB | 0.1/4.2 MB | 28/257 kBProgress (4): 30/49 kB | 44/687 kB | 0.1/4.2 MB | 28/257 kBProgress (4): 33/49 kB | 44/687 kB | 0.1/4.2 MB | 28/257 kBProgress (4): 33/49 kB | 44/687 kB | 0.1/4.2 MB | 32/257 kBProgress (4): 33/49 kB | 49/687 kB | 0.1/4.2 MB | 32/257 kBProgress (4): 36/49 kB | 49/687 kB | 0.1/4.2 MB | 32/257 kBProgress (4): 36/49 kB | 49/687 kB | 0.1/4.2 MB | 32/257 kBProgress (4): 36/49 kB | 49/687 kB | 0.1/4.2 MB | 36/257 kBProgress (4): 38/49 kB | 49/687 kB | 0.1/4.2 MB | 36/257 kBProgress (4): 38/49 kB | 53/687 kB | 0.1/4.2 MB | 36/257 kBProgress (4): 38/49 kB | 53/687 kB | 0.1/4.2 MB | 40/257 kBProgress (4): 38/49 kB | 57/687 kB | 0.1/4.2 MB | 40/257 kBProgress (4): 41/49 kB | 57/687 kB | 0.1/4.2 MB | 40/257 kBProgress (4): 41/49 kB | 57/687 kB | 0.1/4.2 MB | 44/257 kBProgress (4): 41/49 kB | 57/687 kB | 0.1/4.2 MB | 44/257 kBProgress (4): 41/49 kB | 61/687 kB | 0.1/4.2 MB | 44/257 kBProgress (4): 44/49 kB | 61/687 kB | 0.1/4.2 MB | 44/257 kBProgress (4): 44/49 kB | 61/687 kB | 0.1/4.2 MB | 49/257 kBProgress (4): 44/49 kB | 61/687 kB | 0.2/4.2 MB | 49/257 kBProgress (4): 44/49 kB | 65/687 kB | 0.2/4.2 MB | 49/257 kBProgress (4): 44/49 kB | 65/687 kB | 0.2/4.2 MB | 53/257 kBProgress (4): 47/49 kB | 65/687 kB | 0.2/4.2 MB | 53/257 kBProgress (4): 47/49 kB | 65/687 kB | 0.2/4.2 MB | 53/257 kBProgress (4): 47/49 kB | 65/687 kB | 0.2/4.2 MB | 57/257 kBProgress (4): 49/49 kB | 65/687 kB | 0.2/4.2 MB | 57/257 kBProgress (4): 49/49 kB | 69/687 kB | 0.2/4.2 MB | 57/257 kBProgress (4): 49/49 kB | 69/687 kB | 0.2/4.2 MB | 57/257 kBProgress (4): 49/49 kB | 69/687 kB | 0.2/4.2 MB | 61/257 kBProgress (4): 49/49 kB | 73/687 kB | 0.2/4.2 MB | 61/257 kBProgress (4): 49 kB | 73/687 kB | 0.2/4.2 MB | 61/257 kB   Progress (4): 49 kB | 77/687 kB | 0.2/4.2 MB | 61/257 kBProgress (4): 49 kB | 77/687 kB | 0.2/4.2 MB | 65/257 kBProgress (4): 49 kB | 81/687 kB | 0.2/4.2 MB | 65/257 kBProgress (4): 49 kB | 81/687 kB | 0.2/4.2 MB | 65/257 kBProgress (4): 49 kB | 81/687 kB | 0.2/4.2 MB | 69/257 kBProgress (4): 49 kB | 81/687 kB | 0.3/4.2 MB | 69/257 kBProgress (4): 49 kB | 85/687 kB | 0.3/4.2 MB | 69/257 kBProgress (4): 49 kB | 85/687 kB | 0.3/4.2 MB | 73/257 kBProgress (4): 49 kB | 85/687 kB | 0.3/4.2 MB | 73/257 kBProgress (4): 49 kB | 90/687 kB | 0.3/4.2 MB | 73/257 kBProgress (4): 49 kB | 90/687 kB | 0.3/4.2 MB | 77/257 kBProgress (4): 49 kB | 94/687 kB | 0.3/4.2 MB | 77/257 kBProgress (4): 49 kB | 94/687 kB | 0.3/4.2 MB | 77/257 kBProgress (4): 49 kB | 98/687 kB | 0.3/4.2 MB | 77/257 kBProgress (4): 49 kB | 98/687 kB | 0.3/4.2 MB | 77/257 kBProgress (4): 49 kB | 98/687 kB | 0.3/4.2 MB | 81/257 kBProgress (4): 49 kB | 102/687 kB | 0.3/4.2 MB | 81/257 kBProgress (4): 49 kB | 106/687 kB | 0.3/4.2 MB | 81/257 kBProgress (4): 49 kB | 106/687 kB | 0.3/4.2 MB | 85/257 kBProgress (4): 49 kB | 106/687 kB | 0.4/4.2 MB | 85/257 kBProgress (4): 49 kB | 106/687 kB | 0.4/4.2 MB | 90/257 kBProgress (4): 49 kB | 106/687 kB | 0.4/4.2 MB | 90/257 kBProgress (4): 49 kB | 106/687 kB | 0.4/4.2 MB | 94/257 kBProgress (4): 49 kB | 110/687 kB | 0.4/4.2 MB | 94/257 kBProgress (4): 49 kB | 110/687 kB | 0.4/4.2 MB | 94/257 kBProgress (4): 49 kB | 110/687 kB | 0.4/4.2 MB | 98/257 kBProgress (4): 49 kB | 114/687 kB | 0.4/4.2 MB | 98/257 kBProgress (4): 49 kB | 118/687 kB | 0.4/4.2 MB | 98/257 kBProgress (4): 49 kB | 118/687 kB | 0.4/4.2 MB | 102/257 kBProgress (4): 49 kB | 118/687 kB | 0.4/4.2 MB | 102/257 kBProgress (4): 49 kB | 122/687 kB | 0.4/4.2 MB | 102/257 kBProgress (4): 49 kB | 122/687 kB | 0.4/4.2 MB | 106/257 kBProgress (4): 49 kB | 122/687 kB | 0.5/4.2 MB | 106/257 kBProgress (4): 49 kB | 126/687 kB | 0.5/4.2 MB | 106/257 kBProgress (4): 49 kB | 126/687 kB | 0.5/4.2 MB | 110/257 kBProgress (4): 49 kB | 131/687 kB | 0.5/4.2 MB | 110/257 kBProgress (4): 49 kB | 131/687 kB | 0.5/4.2 MB | 110/257 kBProgress (4): 49 kB | 131/687 kB | 0.5/4.2 MB | 114/257 kBProgress (4): 49 kB | 135/687 kB | 0.5/4.2 MB | 114/257 kBProgress (4): 49 kB | 135/687 kB | 0.5/4.2 MB | 114/257 kBProgress (4): 49 kB | 135/687 kB | 0.5/4.2 MB | 118/257 kBProgress (4): 49 kB | 139/687 kB | 0.5/4.2 MB | 118/257 kBProgress (4): 49 kB | 139/687 kB | 0.5/4.2 MB | 122/257 kBProgress (4): 49 kB | 139/687 kB | 0.5/4.2 MB | 122/257 kBProgress (4): 49 kB | 143/687 kB | 0.5/4.2 MB | 122/257 kBProgress (4): 49 kB | 147/687 kB | 0.5/4.2 MB | 122/257 kBProgress (4): 49 kB | 147/687 kB | 0.5/4.2 MB | 126/257 kBProgress (4): 49 kB | 147/687 kB | 0.6/4.2 MB | 126/257 kBProgress (4): 49 kB | 151/687 kB | 0.6/4.2 MB | 126/257 kBProgress (4): 49 kB | 151/687 kB | 0.6/4.2 MB | 126/257 kBProgress (4): 49 kB | 151/687 kB | 0.6/4.2 MB | 131/257 kBProgress (4): 49 kB | 155/687 kB | 0.6/4.2 MB | 131/257 kBProgress (4): 49 kB | 155/687 kB | 0.6/4.2 MB | 135/257 kBProgress (4): 49 kB | 155/687 kB | 0.6/4.2 MB | 135/257 kBProgress (4): 49 kB | 155/687 kB | 0.6/4.2 MB | 139/257 kBProgress (4): 49 kB | 159/687 kB | 0.6/4.2 MB | 139/257 kBProgress (4): 49 kB | 159/687 kB | 0.6/4.2 MB | 139/257 kBProgress (4): 49 kB | 159/687 kB | 0.6/4.2 MB | 143/257 kB                                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.3/objenesis-3.3.jar (49 kB at 96 kB/s)
+Progress (3): 163/687 kB | 0.6/4.2 MB | 143/257 kBProgress (3): 163/687 kB | 0.7/4.2 MB | 143/257 kBProgress (3): 163/687 kB | 0.7/4.2 MB | 147/257 kBProgress (3): 163/687 kB | 0.7/4.2 MB | 147/257 kBProgress (3): 167/687 kB | 0.7/4.2 MB | 147/257 kBProgress (3): 167/687 kB | 0.7/4.2 MB | 151/257 kBProgress (3): 167/687 kB | 0.7/4.2 MB | 151/257 kBProgress (3): 167/687 kB | 0.7/4.2 MB | 155/257 kBProgress (3): 171/687 kB | 0.7/4.2 MB | 155/257 kBProgress (3): 171/687 kB | 0.7/4.2 MB | 155/257 kBProgress (3): 171/687 kB | 0.7/4.2 MB | 159/257 kBProgress (3): 176/687 kB | 0.7/4.2 MB | 159/257 kBProgress (3): 176/687 kB | 0.7/4.2 MB | 163/257 kBProgress (3): 180/687 kB | 0.7/4.2 MB | 163/257 kBProgress (3): 180/687 kB | 0.8/4.2 MB | 163/257 kBProgress (3): 180/687 kB | 0.8/4.2 MB | 167/257 kBProgress (3): 184/687 kB | 0.8/4.2 MB | 167/257 kBProgress (3): 184/687 kB | 0.8/4.2 MB | 167/257 kBProgress (3): 184/687 kB | 0.8/4.2 MB | 171/257 kBProgress (3): 188/687 kB | 0.8/4.2 MB | 171/257 kBProgress (3): 188/687 kB | 0.8/4.2 MB | 176/257 kBProgress (3): 188/687 kB | 0.8/4.2 MB | 176/257 kBProgress (3): 192/687 kB | 0.8/4.2 MB | 176/257 kBProgress (3): 192/687 kB | 0.8/4.2 MB | 180/257 kBProgress (3): 196/687 kB | 0.8/4.2 MB | 180/257 kBProgress (3): 196/687 kB | 0.8/4.2 MB | 180/257 kBProgress (3): 196/687 kB | 0.8/4.2 MB | 184/257 kBProgress (3): 200/687 kB | 0.8/4.2 MB | 184/257 kBProgress (3): 200/687 kB | 0.8/4.2 MB | 188/257 kBProgress (3): 204/687 kB | 0.8/4.2 MB | 188/257 kBProgress (3): 204/687 kB | 0.9/4.2 MB | 188/257 kBProgress (3): 204/687 kB | 0.9/4.2 MB | 192/257 kBProgress (3): 208/687 kB | 0.9/4.2 MB | 192/257 kBProgress (3): 208/687 kB | 0.9/4.2 MB | 196/257 kBProgress (3): 212/687 kB | 0.9/4.2 MB | 196/257 kBProgress (3): 217/687 kB | 0.9/4.2 MB | 196/257 kBProgress (3): 217/687 kB | 0.9/4.2 MB | 200/257 kBProgress (3): 217/687 kB | 0.9/4.2 MB | 200/257 kBProgress (3): 217/687 kB | 0.9/4.2 MB | 204/257 kBProgress (3): 221/687 kB | 0.9/4.2 MB | 204/257 kBProgress (3): 225/687 kB | 0.9/4.2 MB | 204/257 kBProgress (3): 225/687 kB | 0.9/4.2 MB | 204/257 kBProgress (3): 225/687 kB | 0.9/4.2 MB | 208/257 kBProgress (3): 225/687 kB | 0.9/4.2 MB | 212/257 kBProgress (3): 229/687 kB | 0.9/4.2 MB | 212/257 kBProgress (3): 229/687 kB | 0.9/4.2 MB | 212/257 kBProgress (3): 229/687 kB | 0.9/4.2 MB | 217/257 kBProgress (3): 233/687 kB | 0.9/4.2 MB | 217/257 kBProgress (3): 233/687 kB | 0.9/4.2 MB | 221/257 kBProgress (3): 237/687 kB | 0.9/4.2 MB | 221/257 kBProgress (3): 237/687 kB | 0.9/4.2 MB | 221/257 kBProgress (3): 237/687 kB | 0.9/4.2 MB | 225/257 kBProgress (3): 241/687 kB | 0.9/4.2 MB | 225/257 kBProgress (3): 241/687 kB | 0.9/4.2 MB | 229/257 kBProgress (3): 241/687 kB | 1.0/4.2 MB | 229/257 kBProgress (3): 245/687 kB | 1.0/4.2 MB | 229/257 kBProgress (3): 245/687 kB | 1.0/4.2 MB | 233/257 kBProgress (3): 249/687 kB | 1.0/4.2 MB | 233/257 kBProgress (3): 249/687 kB | 1.0/4.2 MB | 233/257 kBProgress (3): 253/687 kB | 1.0/4.2 MB | 233/257 kBProgress (3): 253/687 kB | 1.0/4.2 MB | 237/257 kBProgress (3): 253/687 kB | 1.0/4.2 MB | 237/257 kBProgress (3): 257/687 kB | 1.0/4.2 MB | 237/257 kBProgress (3): 257/687 kB | 1.0/4.2 MB | 241/257 kBProgress (3): 257/687 kB | 1.0/4.2 MB | 241/257 kBProgress (3): 262/687 kB | 1.0/4.2 MB | 241/257 kBProgress (3): 262/687 kB | 1.0/4.2 MB | 245/257 kBProgress (3): 266/687 kB | 1.0/4.2 MB | 245/257 kBProgress (3): 266/687 kB | 1.1/4.2 MB | 245/257 kBProgress (3): 266/687 kB | 1.1/4.2 MB | 249/257 kBProgress (3): 270/687 kB | 1.1/4.2 MB | 249/257 kBProgress (3): 270/687 kB | 1.1/4.2 MB | 249/257 kBProgress (3): 270/687 kB | 1.1/4.2 MB | 253/257 kBProgress (3): 274/687 kB | 1.1/4.2 MB | 253/257 kBProgress (3): 274/687 kB | 1.1/4.2 MB | 253/257 kBProgress (3): 274/687 kB | 1.1/4.2 MB | 257 kB    Progress (3): 278/687 kB | 1.1/4.2 MB | 257 kBProgress (3): 278/687 kB | 1.1/4.2 MB | 257 kBProgress (3): 282/687 kB | 1.1/4.2 MB | 257 kBProgress (3): 282/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 286/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 286/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 290/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 294/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 294/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 298/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 303/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 307/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 311/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 311/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 315/687 kB | 1.2/4.2 MB | 257 kBProgress (3): 315/687 kB | 1.3/4.2 MB | 257 kBProgress (3): 319/687 kB | 1.3/4.2 MB | 257 kBProgress (3): 319/687 kB | 1.3/4.2 MB | 257 kBProgress (3): 323/687 kB | 1.3/4.2 MB | 257 kBProgress (3): 327/687 kB | 1.3/4.2 MB | 257 kBProgress (3): 327/687 kB | 1.3/4.2 MB | 257 kBProgress (3): 327/687 kB | 1.3/4.2 MB | 257 kBProgress (3): 331/687 kB | 1.3/4.2 MB | 257 kBProgress (3): 335/687 kB | 1.3/4.2 MB | 257 kBProgress (3): 335/687 kB | 1.4/4.2 MB | 257 kBProgress (3): 339/687 kB | 1.4/4.2 MB | 257 kBProgress (3): 339/687 kB | 1.4/4.2 MB | 257 kBProgress (3): 344/687 kB | 1.4/4.2 MB | 257 kBProgress (3): 344/687 kB | 1.4/4.2 MB | 257 kBProgress (3): 348/687 kB | 1.4/4.2 MB | 257 kBProgress (3): 352/687 kB | 1.4/4.2 MB | 257 kBProgress (3): 352/687 kB | 1.4/4.2 MB | 257 kBProgress (3): 356/687 kB | 1.4/4.2 MB | 257 kBProgress (3): 360/687 kB | 1.4/4.2 MB | 257 kBProgress (3): 360/687 kB | 1.5/4.2 MB | 257 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.14.1/byte-buddy-agent-1.14.1.jar (257 kB at 376 kB/s)
+Progress (2): 360/687 kB | 1.5/4.2 MBProgress (2): 364/687 kB | 1.5/4.2 MBProgress (2): 368/687 kB | 1.5/4.2 MBProgress (2): 368/687 kB | 1.5/4.2 MBProgress (2): 372/687 kB | 1.5/4.2 MBProgress (2): 372/687 kB | 1.5/4.2 MBProgress (2): 376/687 kB | 1.5/4.2 MBProgress (2): 376/687 kB | 1.6/4.2 MBProgress (2): 380/687 kB | 1.6/4.2 MBProgress (2): 380/687 kB | 1.6/4.2 MBProgress (2): 384/687 kB | 1.6/4.2 MBProgress (2): 384/687 kB | 1.6/4.2 MBProgress (2): 389/687 kB | 1.6/4.2 MBProgress (2): 393/687 kB | 1.6/4.2 MBProgress (2): 393/687 kB | 1.6/4.2 MBProgress (2): 397/687 kB | 1.6/4.2 MBProgress (2): 397/687 kB | 1.7/4.2 MBProgress (2): 401/687 kB | 1.7/4.2 MBProgress (2): 401/687 kB | 1.7/4.2 MBProgress (2): 405/687 kB | 1.7/4.2 MBProgress (2): 409/687 kB | 1.7/4.2 MBProgress (2): 413/687 kB | 1.7/4.2 MBProgress (2): 413/687 kB | 1.7/4.2 MBProgress (2): 417/687 kB | 1.7/4.2 MBProgress (2): 417/687 kB | 1.7/4.2 MBProgress (2): 421/687 kB | 1.7/4.2 MBProgress (2): 421/687 kB | 1.8/4.2 MBProgress (2): 425/687 kB | 1.8/4.2 MBProgress (2): 425/687 kB | 1.8/4.2 MBProgress (2): 430/687 kB | 1.8/4.2 MBProgress (2): 430/687 kB | 1.8/4.2 MBProgress (2): 434/687 kB | 1.8/4.2 MBProgress (2): 434/687 kB | 1.8/4.2 MBProgress (2): 438/687 kB | 1.8/4.2 MBProgress (2): 442/687 kB | 1.8/4.2 MBProgress (2): 442/687 kB | 1.9/4.2 MBProgress (2): 446/687 kB | 1.9/4.2 MBProgress (2): 446/687 kB | 1.9/4.2 MBProgress (2): 450/687 kB | 1.9/4.2 MBProgress (2): 450/687 kB | 1.9/4.2 MBProgress (2): 454/687 kB | 1.9/4.2 MBProgress (2): 454/687 kB | 1.9/4.2 MBProgress (2): 458/687 kB | 1.9/4.2 MBProgress (2): 458/687 kB | 2.0/4.2 MBProgress (2): 462/687 kB | 2.0/4.2 MBProgress (2): 462/687 kB | 2.0/4.2 MBProgress (2): 466/687 kB | 2.0/4.2 MBProgress (2): 466/687 kB | 2.0/4.2 MBProgress (2): 470/687 kB | 2.0/4.2 MBProgress (2): 470/687 kB | 2.0/4.2 MBProgress (2): 475/687 kB | 2.0/4.2 MBProgress (2): 475/687 kB | 2.1/4.2 MBProgress (2): 479/687 kB | 2.1/4.2 MBProgress (2): 479/687 kB | 2.1/4.2 MBProgress (2): 483/687 kB | 2.1/4.2 MBProgress (2): 487/687 kB | 2.1/4.2 MBProgress (2): 487/687 kB | 2.1/4.2 MBProgress (2): 491/687 kB | 2.1/4.2 MBProgress (2): 495/687 kB | 2.1/4.2 MBProgress (2): 495/687 kB | 2.1/4.2 MBProgress (2): 499/687 kB | 2.1/4.2 MBProgress (2): 503/687 kB | 2.1/4.2 MBProgress (2): 503/687 kB | 2.2/4.2 MBProgress (2): 507/687 kB | 2.2/4.2 MBProgress (2): 507/687 kB | 2.2/4.2 MBProgress (2): 511/687 kB | 2.2/4.2 MBProgress (2): 516/687 kB | 2.2/4.2 MBProgress (2): 516/687 kB | 2.2/4.2 MBProgress (2): 520/687 kB | 2.2/4.2 MBProgress (2): 520/687 kB | 2.2/4.2 MBProgress (2): 524/687 kB | 2.2/4.2 MBProgress (2): 524/687 kB | 2.3/4.2 MBProgress (2): 528/687 kB | 2.3/4.2 MBProgress (2): 528/687 kB | 2.3/4.2 MBProgress (2): 532/687 kB | 2.3/4.2 MBProgress (2): 532/687 kB | 2.3/4.2 MBProgress (2): 536/687 kB | 2.3/4.2 MBProgress (2): 540/687 kB | 2.3/4.2 MBProgress (2): 540/687 kB | 2.3/4.2 MBProgress (2): 544/687 kB | 2.3/4.2 MBProgress (2): 548/687 kB | 2.3/4.2 MBProgress (2): 548/687 kB | 2.3/4.2 MBProgress (2): 552/687 kB | 2.3/4.2 MBProgress (2): 552/687 kB | 2.4/4.2 MBProgress (2): 556/687 kB | 2.4/4.2 MBProgress (2): 556/687 kB | 2.4/4.2 MBProgress (2): 561/687 kB | 2.4/4.2 MBProgress (2): 561/687 kB | 2.4/4.2 MBProgress (2): 565/687 kB | 2.4/4.2 MBProgress (2): 569/687 kB | 2.4/4.2 MBProgress (2): 569/687 kB | 2.4/4.2 MBProgress (2): 573/687 kB | 2.4/4.2 MBProgress (2): 573/687 kB | 2.5/4.2 MBProgress (2): 577/687 kB | 2.5/4.2 MBProgress (2): 577/687 kB | 2.5/4.2 MBProgress (2): 581/687 kB | 2.5/4.2 MBProgress (2): 581/687 kB | 2.5/4.2 MBProgress (2): 585/687 kB | 2.5/4.2 MBProgress (2): 589/687 kB | 2.5/4.2 MBProgress (2): 589/687 kB | 2.5/4.2 MBProgress (2): 593/687 kB | 2.5/4.2 MBProgress (2): 593/687 kB | 2.6/4.2 MBProgress (2): 597/687 kB | 2.6/4.2 MBProgress (2): 602/687 kB | 2.6/4.2 MBProgress (2): 602/687 kB | 2.6/4.2 MBProgress (2): 606/687 kB | 2.6/4.2 MBProgress (2): 606/687 kB | 2.6/4.2 MBProgress (2): 610/687 kB | 2.6/4.2 MBProgress (2): 610/687 kB | 2.6/4.2 MBProgress (2): 614/687 kB | 2.6/4.2 MBProgress (2): 614/687 kB | 2.7/4.2 MBProgress (2): 618/687 kB | 2.7/4.2 MBProgress (2): 618/687 kB | 2.7/4.2 MBProgress (2): 622/687 kB | 2.7/4.2 MBProgress (2): 622/687 kB | 2.7/4.2 MBProgress (2): 626/687 kB | 2.7/4.2 MBProgress (2): 630/687 kB | 2.7/4.2 MBProgress (2): 630/687 kB | 2.7/4.2 MBProgress (2): 634/687 kB | 2.7/4.2 MBProgress (2): 634/687 kB | 2.8/4.2 MBProgress (2): 638/687 kB | 2.8/4.2 MBProgress (2): 638/687 kB | 2.8/4.2 MBProgress (2): 643/687 kB | 2.8/4.2 MBProgress (2): 643/687 kB | 2.8/4.2 MBProgress (2): 647/687 kB | 2.8/4.2 MBProgress (2): 647/687 kB | 2.8/4.2 MBProgress (2): 651/687 kB | 2.8/4.2 MBProgress (2): 651/687 kB | 2.9/4.2 MBProgress (2): 655/687 kB | 2.9/4.2 MBProgress (2): 658/687 kB | 2.9/4.2 MBProgress (2): 658/687 kB | 2.9/4.2 MBProgress (2): 658/687 kB | 2.9/4.2 MBProgress (2): 662/687 kB | 2.9/4.2 MBProgress (2): 662/687 kB | 2.9/4.2 MBProgress (2): 666/687 kB | 2.9/4.2 MBProgress (2): 666/687 kB | 3.0/4.2 MBProgress (2): 670/687 kB | 3.0/4.2 MBProgress (2): 674/687 kB | 3.0/4.2 MBProgress (2): 674/687 kB | 3.0/4.2 MBProgress (2): 678/687 kB | 3.0/4.2 MBProgress (2): 678/687 kB | 3.0/4.2 MBProgress (2): 682/687 kB | 3.0/4.2 MBProgress (2): 682/687 kB | 3.0/4.2 MBProgress (2): 686/687 kB | 3.0/4.2 MBProgress (2): 686/687 kB | 3.1/4.2 MBProgress (2): 687 kB | 3.1/4.2 MB    Progress (2): 687 kB | 3.1/4.2 MBProgress (2): 687 kB | 3.1/4.2 MBProgress (2): 687 kB | 3.1/4.2 MBProgress (2): 687 kB | 3.2/4.2 MBProgress (2): 687 kB | 3.2/4.2 MBProgress (2): 687 kB | 3.2/4.2 MBProgress (2): 687 kB | 3.2/4.2 MBProgress (2): 687 kB | 3.3/4.2 MBProgress (2): 687 kB | 3.3/4.2 MBProgress (2): 687 kB | 3.3/4.2 MBProgress (2): 687 kB | 3.3/4.2 MBProgress (2): 687 kB | 3.4/4.2 MBProgress (2): 687 kB | 3.4/4.2 MBProgress (2): 687 kB | 3.4/4.2 MBProgress (2): 687 kB | 3.4/4.2 MBProgress (2): 687 kB | 3.5/4.2 MBProgress (2): 687 kB | 3.5/4.2 MBProgress (2): 687 kB | 3.5/4.2 MB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/5.2.0/mockito-core-5.2.0.jar (687 kB at 702 kB/s)
+Progress (1): 3.5/4.2 MBProgress (1): 3.6/4.2 MBProgress (1): 3.6/4.2 MBProgress (1): 3.6/4.2 MBProgress (1): 3.6/4.2 MBProgress (1): 3.7/4.2 MBProgress (1): 3.7/4.2 MBProgress (1): 3.7/4.2 MBProgress (1): 3.7/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.8/4.2 MBProgress (1): 3.9/4.2 MBProgress (1): 3.9/4.2 MBProgress (1): 3.9/4.2 MBProgress (1): 3.9/4.2 MBProgress (1): 4.0/4.2 MBProgress (1): 4.0/4.2 MBProgress (1): 4.0/4.2 MBProgress (1): 4.0/4.2 MBProgress (1): 4.1/4.2 MBProgress (1): 4.1/4.2 MBProgress (1): 4.1/4.2 MBProgress (1): 4.1/4.2 MBProgress (1): 4.2/4.2 MBProgress (1): 4.2 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.1/byte-buddy-1.14.1.jar (4.2 MB at 3.8 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [1m(default-testResources)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/932_CampeanChereji_Job/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /var/jenkins_home/workspace/932_CampeanChereji_Job/target/test-classes
+[[1;34mINFO[m] /var/jenkins_home/workspace/932_CampeanChereji_Job/src/test/java/ssvv/example/WBTAddAssignment.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /var/jenkins_home/workspace/932_CampeanChereji_Job/src/test/java/ssvv/example/WBTAddAssignment.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running ssvv.example.[1mBigBangIntegrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.567 s - in ssvv.example.[1mBigBangIntegrationTest[m
+[[1;34mINFO[m] Running ssvv.example.[1mMockitoTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.551 s - in ssvv.example.[1mMockitoTest[m
+[[1;34mINFO[m] Running ssvv.example.[1mServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.333 s - in ssvv.example.[1mServiceTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 19, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.0.2:jar[m [1m(default-jar)[m @ [36mSSVVLabs[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/jenkins_home/workspace/932_CampeanChereji_Job/target/SSVVLabs-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  11.268 s
+[[1;34mINFO[m] Finished at: 2023-05-05T18:57:17Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Merging build environment variables with data retrieved from TestLink.
+
+[932_CampeanChereji_Job] $ /bin/bash /tmp/jenkins12352642695082778325.sh
+mv: cannot stat './target/surefire-reports/TEST-.xml': No such file or directory
+Executing iterative Build Steps.
+
+Looking for the test results of TestLink test cases.
+
+Looking for test results in JUnit methods by its name.
+
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Updating TestLink test cases.
+
+br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException: (uploadExecutionAttachment) - Error inserting attachment on DB
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.checkResponseError(BaseService.java:105)
+	at br.eti.kinoshita.testlinkjavaapi.BaseService.executeXmlRpcCall(BaseService.java:84)
+	at br.eti.kinoshita.testlinkjavaapi.TestCaseService.uploadExecutionAttachment(TestCaseService.java:537)
+	at br.eti.kinoshita.testlinkjavaapi.TestLinkAPI.uploadExecutionAttachment(TestLinkAPI.java:968)
+	at hudson.plugins.testlink.TestLinkSite.uploadAttachment(TestLinkSite.java:246)
+	at hudson.plugins.testlink.result.AbstractJUnitResultSeeker.handleResult(AbstractJUnitResultSeeker.java:106)
+	at hudson.plugins.testlink.result.JUnitMethodNameResultSeeker.seek(JUnitMethodNameResultSeeker.java:105)
+	at hudson.plugins.testlink.TestLinkBuilder.perform(TestLinkBuilder.java:260)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Found 19 test result(s).
+
+Build step 'Invoke TestLink' changed build result to UNSTABLE
+Archiving artifacts
+Finished: UNSTABLE

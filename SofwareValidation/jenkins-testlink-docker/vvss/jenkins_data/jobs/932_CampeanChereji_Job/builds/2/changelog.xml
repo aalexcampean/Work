@@ -1,0 +1,25 @@
+commit 5da2f80e3e91531f5da88189e81ef08b5bebf19c
+tree 06fe150cb71be406bdd1f6bd52ed74160c0e30a2
+parent 3dc22c65a748b1fbaf8a3899cd2ca4ac25467201
+author Alexandru Campean <alexc.campean@yahoo.com> 2023-03-28 15:08:56 +0300
+committer Alexandru Campean <alexc.campean@yahoo.com> 2023-03-28 15:08:56 +0300
+
+    Fixing test
+
+
+:100644 100644 b3c13bc9909d7ab735cd3e7dc44882d58898fa52 d13a0909b0d027153562dd899c596832b0f4a4d6 M	fisiere/Studenti.xml
+:100644 100644 08683440d5a4811458121cfbfc11e22348cca3ef ee676bfe2b3d243feafc7faf934a1ca12cb88be8 M	src/test/java/ssvv/example/ServiceTest.java
+:100644 100644 e2fe37f6777df6de8ffeda6591aab24f572e6d9c ae00e1fa1c4a2f7ed26c00c0c938794be49e8eec M	target/test-classes/ssvv/example/ServiceTest.class
+commit 3dc22c65a748b1fbaf8a3899cd2ca4ac25467201
+tree 4a58eeb0bfa4960febba483e68a90e813cda7762
+parent b5000d614eb503c04bd62ae2a3156610f14bbb63
+author Alexandru Campean <alexc.campean@yahoo.com> 2023-03-28 14:57:48 +0300
+committer Alexandru Campean <alexc.campean@yahoo.com> 2023-03-28 14:57:48 +0300
+
+    Refactoring
+
+
+:100644 100644 d6ebd4805981b8400db3e3291c74a743fef9a824 c7a32c73b9f8d31a4e74e9726f28291c38330800 M	.idea/SoftwareValidationLabs.iml
+:100644 100644 d9a5748fb6c89de4a7ff9f79df4ba3382006e47b 7338c1fbcac14907be5fcd1e3f8f4cc5500a3864 M	.idea/compiler.xml
+:100644 100644 4ef3ac3b10d61dcefb4678341f18bfa35c14c805 808bdc478da83936974a15533e0753b29b058db7 M	.idea/encodings.xml
+:100644 100644 a5f24fd7d305638267a58f6671d95db0950e8df8 4bb553b9794ec352fcd05e9028014972e89a5100 M	.idea/misc.xml

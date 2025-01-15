@@ -1,0 +1,12 @@
+commit c69829b49c7c126ebedb7a6e580f9cb6a02676c4
+tree 8cbc6cf1b6105003bae9a2a2cdc86f513fd75dbb
+parent 5da2f80e3e91531f5da88189e81ef08b5bebf19c
+author Alexandru Campean <alexc.campean@yahoo.com> 2023-04-02 21:25:45 +0300
+committer Alexandru Campean <alexc.campean@yahoo.com> 2023-04-02 21:25:45 +0300
+
+    update
+
+
+:100644 000000 64fd768911c347b5b0175710a48ef6f328442390 0000000000000000000000000000000000000000 D	src/test/java/ssvv/example/AppTest.java
+:100644 100644 ee676bfe2b3d243feafc7faf934a1ca12cb88be8 7024533c9abea43e16eece703c0669fbdd7f5127 M	src/test/java/ssvv/example/ServiceTest.java
+:100644 100644 ae00e1fa1c4a2f7ed26c00c0c938794be49e8eec 53b7cf85fda93517438e903abe3f8cb78556cb3c M	target/test-classes/ssvv/example/ServiceTest.class

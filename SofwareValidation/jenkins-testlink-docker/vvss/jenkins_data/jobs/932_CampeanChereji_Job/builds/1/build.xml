@@ -1,0 +1,133 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>student</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.0.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@4.1.0">
+              <sha1>b5000d614eb503c04bd62ae2a3156610f14bbb63</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/aalexcampean/SoftwareValidationLabs.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.plugins.testlink.TestLinkBuilder_-1 plugin="testlink@3.16">
+      <val_-iterativeEnvVars serialization="custom">
+        <unserializable-parents/>
+        <tree-map>
+          <default>
+            <comparator class="java.lang.String$CaseInsensitiveComparator"/>
+          </default>
+          <int>4</int>
+          <string>TESTLINK_BUILD_NAME</string>
+          <string>build_1</string>
+          <string>TESTLINK_TESTCASE_TOTAL</string>
+          <string>1</string>
+          <string>TESTLINK_TESTPLAN_NAME</string>
+          <string>932_CampeanChereji_TestPlan</string>
+          <string>TESTLINK_TESTPROJECT_NAME</string>
+          <string>Project_CampeanChereji</string>
+        </tree-map>
+      </val_-iterativeEnvVars>
+      <outer-class>
+        <testLinkName>localhost</testLinkName>
+        <testProjectName>Project_CampeanChereji</testProjectName>
+        <testPlanName>932_CampeanChereji_TestPlan</testPlanName>
+        <buildName>build_$BUILD_ID</buildName>
+        <platformName></platformName>
+        <customFields>JavaClassName,JavaTestMethodName</customFields>
+        <testPlanCustomFields></testPlanCustomFields>
+        <singleBuildSteps>
+          <hudson.tasks.Maven>
+            <targets>verify</targets>
+            <usePrivateRepository>false</usePrivateRepository>
+            <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+            <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+            <injectBuildVariables>false</injectBuildVariables>
+          </hudson.tasks.Maven>
+          <hudson.tasks.Shell>
+            <command>#!/bin/bash
+mv ./target/surefire-reports/TEST-$TESTLINK_TESTCASE_JAVACLASSNAME.xml ./target/surefire-reports/TEST-$TESTLINK_TESTCASE_JAVACLASSNAME.$TESTLINK_TESTCASE_ID.xml</command>
+            <configuredLocalRules/>
+          </hudson.tasks.Shell>
+        </singleBuildSteps>
+        <transactional>false</transactional>
+        <failedTestsMarkBuildAsFailure>false</failedTestsMarkBuildAsFailure>
+        <failIfNoResults>false</failIfNoResults>
+        <failOnNotRun>false</failOnNotRun>
+        <executionOrderComparator/>
+        <failure>true</failure>
+        <resultSeekers>
+          <hudson.plugins.testlink.result.JUnitMethodNameResultSeeker>
+            <includePattern>**/TEST-*.xml</includePattern>
+            <keyCustomField>JavaTestMethodName</keyCustomField>
+            <includeNotes>true</includeNotes>
+            <attachJUnitXML>true</attachJUnitXML>
+          </hudson.plugins.testlink.result.JUnitMethodNameResultSeeker>
+        </resultSeekers>
+      </outer-class>
+    </hudson.plugins.testlink.TestLinkBuilder_-1>
+    <hudson.plugins.testlink.TestLinkBuilder_-1 plugin="testlink@3.16">
+      <val_-iterativeEnvVars serialization="custom">
+        <unserializable-parents/>
+        <tree-map>
+          <default>
+            <comparator class="java.lang.String$CaseInsensitiveComparator" reference="../../../../../hudson.plugins.testlink.TestLinkBuilder_-1/val_-iterativeEnvVars/tree-map/default/comparator"/>
+          </default>
+          <int>4</int>
+          <string>TESTLINK_BUILD_NAME</string>
+          <string>build_1</string>
+          <string>TESTLINK_TESTCASE_TOTAL</string>
+          <string>1</string>
+          <string>TESTLINK_TESTPLAN_NAME</string>
+          <string>932_CampeanChereji_TestPlan</string>
+          <string>TESTLINK_TESTPROJECT_NAME</string>
+          <string>Project_CampeanChereji</string>
+        </tree-map>
+      </val_-iterativeEnvVars>
+      <outer-class reference="../../hudson.plugins.testlink.TestLinkBuilder_-1/outer-class"/>
+    </hudson.plugins.testlink.TestLinkBuilder_-1>
+  </actions>
+  <queueId>13</queueId>
+  <timestamp>1680004307678</timestamp>
+  <startTime>1680004307711</startTime>
+  <result>FAILURE</result>
+  <duration>19187</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/932_CampeanChereji_Job</workspace>
+  <hudsonVersion>2.387.1</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.0.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>
